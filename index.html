@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cercador de Cursos CBB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Cursos de Biblioteques</h1>
+                <p class="subtitle">Descobreix totes les activitats i clubs de lectura de la teva biblioteca.</p>
+
+                <div class="search-panel glass-panel">
+                    <div class="filter-group">
+                        <label for="library-filter">Biblioteca</label>
+                        <select id="library-filter">
+                            <option value="">Totes les biblioteques</option>
+                            <!-- Options rendered dynamically -->
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="course-filter">Nom del Curs</label>
+                        <input type="text" id="course-filter" placeholder="Cerca per paraula clau...">
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="date-filter">Data / Dia</label>
+                        <input type="text" id="date-filter" placeholder="Ex: Dimarts, octubre...">
+                    </div>
+                </div>
+            </div>
+            <div class="stats" id="results-stats">
+                Carregant cursos...
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div id="loading" class="loading-state">
+                <div class="spinner"></div>
+                <p>Carregant dades...</p>
+            </div>
+
+            <div id="no-results" class="no-results hidden">
+                <h3>Cap curs trobat</h3>
+                <p>No hi ha cursos que coincideixin amb els filtres seleccionats.</p>
+                <button id="clear-filters-btn" class="btn">Netejar Filtres</button>
+            </div>
+
+            <div id="courses-grid" class="courses-grid hidden">
+                <!-- Course cards rendered dynamically -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal per mostrar tots els cursos d'una biblioteca -->
+    <div id="library-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-library-name">Nom de la Biblioteca</h2>
+                <button id="close-modal-btn" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-courses-list" class="modal-courses-list">
+                    <!-- Dynamic courses injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/courses.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
