@@ -8,3 +8,11 @@ username =
 password = 
 use_tls = False
 use_ssl = False
+
+[Telegram]
+# Configure your Telegram Bot details here
+# To get a bot token, talk to @BotFather on Telegram.
+# The user_chat_id is the unique integer ID of the user you want to message.
+bot_token = 
+user_chat_id = 
+

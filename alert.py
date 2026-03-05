@@ -5,6 +5,7 @@ import sys
 import argparse
 import smtplib
 import configparser
+import requests
 from email.message import EmailMessage
 
 if sys.stdout.encoding != 'utf-8':
@@ -73,10 +74,64 @@ def send_email(to_email, subject, body):
     except Exception as e:
         print(f"Failed to send email to {to_email}. Error: {e}")
 
+def send_telegram(body, token_override=None, chat_id_override=None):
+    config = configparser.ConfigParser()
+    config_file = "alert.cfg"
+    
+    bot_token = ""
+    user_chat_id = ""
+    
+    # Check config file first
+    if os.path.exists(config_file):
+        config.read(config_file)
+        if 'Telegram' in config:
+            bot_token = config['Telegram'].get('bot_token', bot_token)
+            user_chat_id = config['Telegram'].get('user_chat_id', user_chat_id)
+            
+    # Override with CLI parameters if provided
+    if token_override:
+        bot_token = token_override
+    if chat_id_override:
+        user_chat_id = chat_id_override
+            
+    if not bot_token or not user_chat_id:
+        print("Failed to send Telegram message: bot_token or user_chat_id is missing. Provide them in alert.cfg or via CLI parameters.")
+        return
+
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+    
+    # Telegram messages are limited to 4096 characters.
+    max_len = 4000
+    if len(body) > max_len:
+        body = body[:max_len] + "\n...[Report Truncated due to Telegram limits]"
+
+    payload = {
+        "chat_id": user_chat_id,
+        "text": body,
+        "parse_mode": "HTML"  # Optional: Allows for some basic HTML tags if you format the report
+    }
+    
+    try:
+        response = requests.post(url, json=payload)
+        response.raise_for_status()
+        print("Telegram message sent successfully.")
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to send Telegram message. Error: {e}")
+        if e.response is not None:
+            print(f"Response details: {e.response.text}")
+
 def main():
     parser = argparse.ArgumentParser(description="Compare courses.json with its backups.")
     parser.add_argument('-mail', type=str, help="Email address to send the report to")
+    parser.add_argument('-telegram', action='store_true', help="Send the report via Telegram (requires alert.cfg setup or CLI parameters)")
+    parser.add_argument('-bot_token', type=str, help="Telegram bot token (only if -telegram is used)")
+    parser.add_argument('-user_chat_id', type=str, help="Telegram user chat ID (only if -telegram is used)")
     args = parser.parse_args()
+    
+    if (args.bot_token or args.user_chat_id) and not args.telegram:
+        print("Error: -bot_token and -user_chat_id can only be used when -telegram is specified.")
+        parser.print_help()
+        return
 
     courses_dir = "courses"
     current_file = os.path.join(courses_dir, "courses.json")
@@ -184,23 +239,23 @@ def main():
         if report_new_libs:
             report_lines_output.append("[NEW LIBRARIES]")
             for r in report_new_libs:
-                report_lines_output.append(r)
+                report_lines_output.append(r) # type: ignore
         if report_new_courses:
             report_lines_output.append("[NEW COURSES]")
             for r in report_new_courses:
-                report_lines_output.append(r)
+                report_lines_output.append(r) # type: ignore
         if report_changed_courses:
             report_lines_output.append("[CHANGED COURSES]")
             for r in report_changed_courses:
-                report_lines_output.append(r)
+                report_lines_output.append(r) # type: ignore
         if report_removed_courses:
             report_lines_output.append("[REMOVED COURSES]")
             for r in report_removed_courses:
-                report_lines_output.append(r)
+                report_lines_output.append(r) # type: ignore
         if report_removed_libs:
             report_lines_output.append("[REMOVED LIBRARIES]")
             for r in report_removed_libs:
-                report_lines_output.append(r)
+                report_lines_output.append(r) # type: ignore
                 
         report_lines_output.append("End of report.")
 
@@ -211,6 +266,12 @@ def main():
         print("\nAttempting to send email report...")
         subject = "BiblioScraper: Course Differences Report"
         send_email(args.mail, subject, final_report)
+        
+    if args.telegram:
+        print("\nAttempting to send Telegram report...")
+        # Optional basic formatting for Telegram
+        tg_report = f"<b>BiblioScraper: Course Differences Report</b>\n\n<pre>{final_report}</pre>"
+        send_telegram(tg_report, args.bot_token, args.user_chat_id)
 
 if __name__ == "__main__":
     main()

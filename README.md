@@ -92,16 +92,26 @@ Pots rebre aquest informe directament al teu correu si hi adjuntes el paràmetre
 python alert.py -mail el_teu_correu@exemple.com
 ```
 
-### Configuració del Servidor Correu (SMTP):
-Perquè l'enviament de correus funcioni més enllà del teu ordinador local, necessites establir les dades de connexió amb un servidor de correu real (com Gmail, Outlook, etc.).
+### Tramesa per Telegram:
+Pots rebre aquest informe directament per Telegram si hi adjuntes el paràmetre `-telegram`:
+```bash
+python alert.py -telegram
+```
+Perquè això funcioni, necessites proporcionar els detalls del teu bot. Pots fer-ho de dues maneres:
+1. Utilitzant els paràmetres explícits per línia de comandes (passen per sobre de qualsevol configuració desada):
+```bash
+python alert.py -telegram -bot_token EL_TEU_TOKEN -user_chat_id EL_TEU_ID
+```
+2. Desant els residus al fitxer `alert.cfg` (explicat més avall) per no haver d'escriure'ls cada vegada.
+
+### Configuració (Email i Telegram):
+Perquè l'enviament de correus o missatges de Telegram funcioni, necessites establir les dades de connexió pertinents.
 
 1. Busca el fitxer **`alert.cfg.template`** a l'arrel del projecte.
 2. **Reanomena aquest fitxer** (o fes-ne una còpia i canvia el nom) perquè es digui exactament **`alert.cfg`**.
 3. Obre `alert.cfg` amb un editor de text.
-4. Omple els camps amb la teva informació SMTP real:
-   - `server`: Adreça del servidor SMTP (ex. *smtp.gmail.com*).
-   - `port`: Port SMTP (normalment *465* o *587*).
-   - `username`, `password`: Credencials del teu compte.
-   - `use_tls` o `use_ssl`: Especifica com a `True` depenent de la connexió que requereixi el teu proveïdor.
+4. Omple els camps amb la teva informació:
+   - **[SMTP]**: `server`, `port`, `username`, `password`, `use_tls`, `use_ssl`.
+   - **[Telegram]**: `bot_token`, `user_chat_id`. (Pots parlar amb @BotFather a Telegram per crear un bot i aconseguir un token).
    
-*__Nota de seguretat__*: El fitxer `alert.cfg` s'ignora automàticament al control de versions (Git), de manera que les vostres contrasenyes i correus electrònics no es penjaran públicament.
+*__Nota de seguretat__*: El fitxer `alert.cfg` s'ignora automàticament al control de versions (Git), de manera que les vostres contrasenyes i dades privades no es penjaran públicament.

@@ -32,7 +32,7 @@
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -69,10 +69,6 @@
             {
                 "title": "Lletra Petita - Llibres a escena: El llapis màgic (+4 anys)",
                 "date": "Dimecres 18 de març (17:30-18:30 h)"
-            },
-			{
-                "title": "Lletra Petita - Martina",
-                "date": "Dissabte 19 de març (17:30-18:30 h)"
             }
         ]
     },
@@ -136,7 +132,7 @@
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -153,10 +149,6 @@
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Ciència i dona (9-12 anys)",
-                "date": "Dimarts 3 de març (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Lenergia és vida (6-8 anys)",
@@ -488,7 +480,7 @@
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -509,13 +501,17 @@
             {
                 "title": "EstàsOn. Les bases de la programació (9 a 12 anys)",
                 "date": "Dissabte 21 de març (10:00-12:00 h)"
+            },
+            {
+                "title": "BCN POESIA. Taller familiar. Operacions sobre el paper (+6 anys).",
+                "date": "Dimarts 19 de maig (17:30-19:00 h)"
             }
         ]
     },
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -524,10 +520,6 @@
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 15 d'octubre (18:00-19:30 h) | Dimecres 19 de novembre (18:00-19:30 h) | Dimecres 17 de desembre (18:00-19:30 h) | Dimecres 18 de febrer (18:00-19:30 h) | Dimecres 18 de març (18:00-19:30 h) | Dimecres 15 d'abril (18:00-19:30 h) | Dimecres 20 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Club de lectura. Cos, terra, escola.",
-                "date": "Dimecres 4 de març (18:00-19:30 h) | Dimecres 8 d'abril (18:00-19:30 h) | Dimecres 6 de maig (18:00-19:30 h)"
             }
         ]
     },
@@ -696,7 +688,7 @@
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -717,10 +709,6 @@
             {
                 "title": "Club de lectura jove.",
                 "date": "Divendres 17 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 16 de gener (18:00-19:30 h) | Divendres 20 de febrer (18:00-19:30 h) | Divendres 20 de març (18:00-19:30 h) | Divendres 17 d'abril (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Ciència i dona (9-12 anys)",
-                "date": "Dimarts 3 de març (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Lenergia és vida (6-8 anys)",
@@ -789,7 +777,7 @@
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -798,6 +786,10 @@
             {
                 "title": "Club de lectura de novel·la negra",
                 "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 21 d'abril (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Memòria històrica del franquisme. \"I després de Franco, què? (1965-1975)\".",
+                "date": "Dimecres 29 d'abril (18:00-20:00 h) | Dimecres 27 de maig (18:00-20:00 h) | Dimecres 17 de juny (18:00-20:00 h) | Dimecres 1 de juliol (18:00-20:00 h)"
             }
         ]
     },
@@ -869,7 +861,7 @@
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -882,10 +874,6 @@
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 10 d'octubre (11:00-12:30 h) | Divendres 14 de novembre (11:00-12:30 h) | Divendres 12 de desembre (11:00-12:30 h) | Divendres 9 de gener (11:00-12:30 h) | Divendres 13 de febrer (11:00-12:30 h) | Divendres 13 de març (11:00-12:30 h) | Divendres 10 d'abril (11:00-12:30 h) | Divendres 8 de maig (11:00-12:30 h) | Divendres 12 de juny (11:00-12:30 h)"
-            },
-            {
-                "title": "EstàsON. Entrena el pensament computacional (6-8 anys)",
-                "date": "Dimecres 4 de març (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Lenergia és vida (6-8 anys)",
@@ -958,7 +946,7 @@
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -971,10 +959,6 @@
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 15 d'octubre (10:00-12:00 h) | Dimecres 19 de novembre (10:00-12:00 h) | Dimecres 17 de desembre (10:00-12:00 h) | Dimecres 21 de gener (10:00-12:00 h) | Dimecres 18 de febrer (10:00-12:00 h) | Dimecres 18 de març (10:00-12:00 h) | Dimecres 15 d'abril (10:00-12:00 h) | Dimecres 20 de maig (10:00-12:00 h) | Dimecres 17 de juny (10:00-12:00 h)"
-            },
-            {
-                "title": "EstàsON. Ciència i dona (9-12 anys)",
-                "date": "Dimarts 3 de març (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Lenergia és vida (6-8 anys)",
