@@ -1,0 +1,10 @@
+[SMTP]
+# Configure your SMTP server details here
+# Rename this file to alert.cfg to use these settings.
+server = localhost
+port = 25
+sender = noreply@biblioscraper.local
+username = 
+password = 
+use_tls = False
+use_ssl = False

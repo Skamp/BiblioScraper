@@ -8,6 +8,8 @@ El projecte es divideix en dues parts principals:
 
 ## Estructura de l'Arxiu
 - `scraper.py`: Codi Python que realitza l'extracció de les dades.
+- `alert.py`: Nou script que compara l'última extracció amb còpies de seguretat anteriors per generar un informe de cursos nous, modificats o eliminats.
+- `alert.cfg.template`: Plantilla de configuració per la funcionalitat d'enviament d'emails a l'script d'alertes.
 - `index.html`, `style.css`, `script.js`: Codi de l'aplicació web.
 - `courses.json`: Dades en brut (`RAW JSON`) generades per l'scraper.
 - `courses.js`: Dades exportades com a variable global de JavaScript per permetre la càrrega local de l'HTML sense necessitat d'aixecar un servidor web per restriccions CORS.
@@ -65,3 +67,41 @@ No et cal cap instal·lació, ni cap configuració especial.
 - **Filtre per Data:** Troba cursos al teu mes o dia preferit (ex: "Dimarts").
 - **Filtre per Biblioteca:** Escull la biblioteca des del menú desplegable per veure només la seva oferta.
 - **Detalls Complet:** Fent clic sobre el nom de qualsevol biblioteca (etiqueta blava/groga) s'obrirà una finestra modal interactiva on podràs consultar immediatament *tots* els cursos que ofereix en format llista.
+
+---
+
+## 3. Com utilitzar l'script d'Alertes (alert.py)
+
+Aquest nou script permet comparar l'última extracció de cursos (fitxer `courses/courses.json`) amb la còpia de seguretat més recent (`courses\_backup_YYYYMMDD_HHMMSS.json`) generada per l'scraper.
+
+### Funcionalitats:
+Aquesta comparació genera un informe net i estructurat per la consola o per email indicant:
+- **[NEW COURSES]**: Nous cursos (o biblioteques completes) que anteriorment no hi eren.
+- **[CHANGED COURSES]**: Cursos que han modificat la data/horari.
+- **[REMOVED COURSES]**: Cursos que han sigut esborrats de l'oferta.
+
+### Execució Bàsica:
+Per veure l'informe de canvis per consola, executa:
+```bash
+python alert.py
+```
+
+### Tramesa d'email:
+Pots rebre aquest informe directament al teu correu si hi adjuntes el paràmetre `-mail`:
+```bash
+python alert.py -mail el_teu_correu@exemple.com
+```
+
+### Configuració del Servidor Correu (SMTP):
+Perquè l'enviament de correus funcioni més enllà del teu ordinador local, necessites establir les dades de connexió amb un servidor de correu real (com Gmail, Outlook, etc.).
+
+1. Busca el fitxer **`alert.cfg.template`** a l'arrel del projecte.
+2. **Reanomena aquest fitxer** (o fes-ne una còpia i canvia el nom) perquè es digui exactament **`alert.cfg`**.
+3. Obre `alert.cfg` amb un editor de text.
+4. Omple els camps amb la teva informació SMTP real:
+   - `server`: Adreça del servidor SMTP (ex. *smtp.gmail.com*).
+   - `port`: Port SMTP (normalment *465* o *587*).
+   - `username`, `password`: Credencials del teu compte.
+   - `use_tls` o `use_ssl`: Especifica com a `True` depenent de la connexió que requereixi el teu proveïdor.
+   
+*__Nota de seguretat__*: El fitxer `alert.cfg` s'ignora automàticament al control de versions (Git), de manera que les vostres contrasenyes i correus electrònics no es penjaran públicament.
