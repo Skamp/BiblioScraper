@@ -1,3 +1,4 @@
+const scrapeTimestamp = '2026-03-06T23:21:00.515123';
 const coursesData = [
     {
         "library_id": "1",
@@ -923,7 +924,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -940,6 +941,10 @@ const coursesData = [
             {
                 "title": "Club de lectura infantil 'Pim Pam Pum Contes\"",
                 "date": "Dimecres 25 de març (17:30-18:00 h)"
+            },
+            {
+                "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
+                "date": "Dimecres 8 d'abril (17:30-18:30 h)"
             }
         ]
     },

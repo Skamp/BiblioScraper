@@ -4,8 +4,16 @@ import urllib3
 import json
 import time
 import os
+import sys
 from datetime import datetime
 import argparse
+import sqlite3
+
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except AttributeError:
+        pass
 
 urllib3.disable_warnings()
 
@@ -76,29 +84,46 @@ def scrape_courses(center_id):
         print(f"Error scraping courses for center {center_id}: {e}")
         return "Error", []
 
-def backup_existing_data(file_path):
-    """Creates a timestamped backup of the existing courses JSON if it exists."""
-    if os.path.exists(file_path):
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
-        # Split extension and filename to insert timestamp
-        base, ext = os.path.splitext(file_path)
-        backup_path = f"{base}_backup_{timestamp}{ext}"
-        
-        try:
-            # Simple file copy
-            with open(file_path, 'r', encoding='utf-8') as src:
-                content = src.read()
-            with open(backup_path, 'w', encoding='utf-8') as dst:
-                dst.write(content)
-            print(f"Created backup of previous data at: {backup_path}")
-        except Exception as e:
-            print(f"Warning: Failed to create backup: {e}")
+def init_db(db_path):
+    """Initializes the SQLite database with necessary tables."""
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS scrapes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp TEXT NOT NULL
+        )
+    ''')
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS scraped_libraries (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            scrape_id INTEGER NOT NULL,
+            library_id TEXT NOT NULL,
+            library_name TEXT NOT NULL,
+            FOREIGN KEY(scrape_id) REFERENCES scrapes(id)
+        )
+    ''')
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS scraped_courses (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            scrape_id INTEGER NOT NULL,
+            library_id TEXT NOT NULL,
+            title TEXT NOT NULL,
+            date TEXT NOT NULL,
+            FOREIGN KEY(scrape_id) REFERENCES scrapes(id)
+        )
+    ''')
+    
+    conn.commit()
+    return conn
 
 def main():
     parser = argparse.ArgumentParser(description="BiblioScrapper: Scrape and export library courses.")
-    parser.add_argument("-scrap", action="store_true", help="Scrape library courses and save to courses/courses.json")
-    parser.add_argument("-export", action="store_true", help="Export courses.json to js/courses.js for the web UI")
+    parser.add_argument("-scrap", action="store_true", help="Scrape library courses and save to courses/database.db")
+    parser.add_argument("-export", action="store_true", help="Export latest scrape from database to js/courses.js for the web UI")
     args = parser.parse_args()
 
     if not args.scrap and not args.export:
@@ -133,35 +158,85 @@ def main():
             
         output_dir = "courses"
         os.makedirs(output_dir, exist_ok=True)
+        db_path = os.path.join(output_dir, "database.db")
         
-        output_file = os.path.join(output_dir, "courses.json")
+        conn = init_db(db_path)
+        cursor = conn.cursor()
         
-        # Backup the existing file before overwriting it
-        backup_existing_data(output_file)
+        timestamp = datetime.now().isoformat()
+        cursor.execute("INSERT INTO scrapes (timestamp) VALUES (?)", (timestamp,))
+        scrape_id = cursor.lastrowid
         
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(all_data, f, ensure_ascii=False, indent=4)
+        for lib_data in all_data:
+            cursor.execute('''
+                INSERT INTO scraped_libraries (scrape_id, library_id, library_name)
+                VALUES (?, ?, ?)
+            ''', (scrape_id, lib_data['library_id'], lib_data['library_name']))
             
-        print(f"\nScraping complete. Data saved to {output_file}")
+            for course in lib_data['courses']:
+                cursor.execute('''
+                    INSERT INTO scraped_courses (scrape_id, library_id, title, date)
+                    VALUES (?, ?, ?, ?)
+                ''', (scrape_id, lib_data['library_id'], course['title'], course['date']))
+                
+        conn.commit()
+        conn.close()
+            
+        print(f"\nScraping complete. Data saved to {db_path}")
 
     if args.export:
         print("\nStarting export process...")
-        input_file = os.path.join("courses", "courses.json")
-        if not os.path.exists(input_file):
-            print(f"Error: Could not find '{input_file}' to export. Please run with -scrap first.")
+        db_path = os.path.join("courses", "database.db")
+        if not os.path.exists(db_path):
+            print(f"Error: Could not find '{db_path}' to export. Please run with -scrap first.")
         else:
             try:
-                with open(input_file, 'r', encoding='utf-8') as f:
-                    all_data = json.load(f)
-                    
-                js_dir = "js"
-                os.makedirs(js_dir, exist_ok=True)
-                js_file = os.path.join(js_dir, "courses.js")
+                conn = sqlite3.connect(db_path)
+                conn.row_factory = sqlite3.Row
+                cursor = conn.cursor()
                 
-                with open(js_file, 'w', encoding='utf-8') as f:
-                    f.write(f"const coursesData = {json.dumps(all_data, ensure_ascii=False, indent=4)};")
+                # Get latest scrape_id and timestamp
+                cursor.execute("SELECT id, timestamp FROM scrapes ORDER BY id DESC LIMIT 1")
+                row = cursor.fetchone()
+                
+                export_data = []
+                
+                if not row:
+                    print("Error: No scraping data found in database.")
+                else:
+                    scrape_id = row['id']
                     
-                print(f"Export complete. Data saved to {js_file}")
+                    cursor.execute("SELECT library_id, library_name FROM scraped_libraries WHERE scrape_id = ?", (scrape_id,))
+                    libraries = cursor.fetchall()
+                    
+                    for lib in libraries:
+                        lib_id = lib['library_id']
+                        lib_name = lib['library_name']
+                        
+                        cursor.execute("SELECT title, date FROM scraped_courses WHERE scrape_id = ? AND library_id = ?", (scrape_id, lib_id))
+                        courses = [dict(c) for c in cursor.fetchall()]
+                        
+                        export_data.append({
+                            "library_id": lib_id,
+                            "library_name": lib_name,
+                            "courses_found": len(courses),
+                            "courses": courses
+                        })
+                        
+                conn.close()
+                
+                if export_data:
+                    # Update all_data for summary reporting
+                    all_data = export_data 
+                    js_dir = "js"
+                    os.makedirs(js_dir, exist_ok=True)
+                    js_file = os.path.join(js_dir, "courses.js")
+                    
+                    with open(js_file, 'w', encoding='utf-8') as f:
+                        f.write(f"const scrapeTimestamp = '{row['timestamp']}';\n")
+                        f.write(f"const coursesData = {json.dumps(export_data, ensure_ascii=False, indent=4)};")
+                        
+                    print(f"Export complete. Data saved to {js_file}")
             except Exception as e:
                 print(f"Error reading or writing data for export: {e}")
 
@@ -182,4 +257,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

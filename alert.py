@@ -1,6 +1,6 @@
 import os
 import json
-import glob
+import sqlite3
 import sys
 import argparse
 import smtplib
@@ -14,14 +14,6 @@ if sys.stdout.encoding != 'utf-8':
     except AttributeError:
         pass
 
-
-def load_json(filepath):
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading {filepath}: {e}")
-        return None
 
 def send_email(to_email, subject, body):
     config = configparser.ConfigParser()
@@ -121,7 +113,7 @@ def send_telegram(body, token_override=None, chat_id_override=None):
             print(f"Response details: {e.response.text}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Compare courses.json with its backups.")
+    parser = argparse.ArgumentParser(description="Compare latest two scrapes in the database.")
     parser.add_argument('-mail', type=str, help="Email address to send the report to")
     parser.add_argument('-telegram', action='store_true', help="Send the report via Telegram (requires alert.cfg setup or CLI parameters)")
     parser.add_argument('-bot_token', type=str, help="Telegram bot token (only if -telegram is used)")
@@ -133,26 +125,60 @@ def main():
         parser.print_help()
         return
 
-    courses_dir = "courses"
-    current_file = os.path.join(courses_dir, "courses.json")
+    db_path = os.path.join("courses", "database.db")
     
-    if not os.path.exists(current_file):
-        print(f"Error: Current courses file not found at {current_file}")
+    if not os.path.exists(db_path):
+        print(f"Error: Database not found at {db_path}")
         return
 
-    # Find the most recent backup
-    backup_files = glob.glob(os.path.join(courses_dir, "courses_backup_*.json"))
-    if not backup_files:
-        print("No backup files found for comparison.")
-        return
+    try:
+        conn = sqlite3.connect(db_path)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
         
-    # Sort files by name (which includes the timestamp) to get the latest
-    latest_backup = sorted(backup_files)[-1]
-    
-    report_lines_output = [f"Comparing current {current_file} with backup {latest_backup}\n"]
-    
-    current_data = load_json(current_file)
-    backup_data = load_json(latest_backup)
+        # Get the two most recent scrape IDs
+        cursor.execute("SELECT id, timestamp FROM scrapes ORDER BY id DESC LIMIT 2")
+        rows = cursor.fetchall()
+        
+        if len(rows) < 2:
+            print("Not enough scrape history for comparison. Need at least 2 scrapes in the database.")
+            conn.close()
+            return
+            
+        current_scrape_id = rows[0]['id']
+        current_timestamp = rows[0]['timestamp']
+        backup_scrape_id = rows[1]['id']
+        backup_timestamp = rows[1]['timestamp']
+        
+        report_lines_output = [f"Comparing current scrape (ID: {current_scrape_id}, Time: {current_timestamp}) with previous scrape (ID: {backup_scrape_id}, Time: {backup_timestamp})\n"]
+        
+        def get_scrape_data(scrape_id):
+            cursor.execute("SELECT library_id, library_name FROM scraped_libraries WHERE scrape_id = ?", (scrape_id,))
+            libraries = cursor.fetchall()
+            
+            data = []
+            for lib in libraries:
+                lib_id = lib['library_id']
+                lib_name = lib['library_name']
+                
+                cursor.execute("SELECT title, date FROM scraped_courses WHERE scrape_id = ? AND library_id = ?", (scrape_id, lib_id))
+                courses = [dict(c) for c in cursor.fetchall()]
+                
+                data.append({
+                    "library_id": lib_id,
+                    "library_name": lib_name,
+                    "courses": courses
+                })
+            return data
+            
+        current_data = get_scrape_data(current_scrape_id)
+        backup_data = get_scrape_data(backup_scrape_id)
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Database error: {e}")
+        return
     
     if not isinstance(current_data, list) or not isinstance(backup_data, list):
         print("Data is missing or invalid.")
