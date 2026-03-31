@@ -112,6 +112,21 @@ Perquè l'enviament de correus o missatges de Telegram funcioni, necessites esta
 3. Obre `alert.cfg` amb un editor de text.
 4. Omple els camps amb la teva informació:
    - **[SMTP]**: `server`, `port`, `username`, `password`, `use_tls`, `use_ssl`.
-   - **[Telegram]**: `bot_token`, `user_chat_id`. (Pots parlar amb @BotFather a Telegram per crear un bot i aconseguir un token).
+   - **[Telegram]**: `bot_token`, `user_chat_id`. 
+     - *Bot Token*: Pots parlar amb **@BotFather** a Telegram per crear un bot i aconseguir el token.
+     - *Chat ID*: Busca el bot **@userinfobot** a Telegram i envia-li un missatge. Et respondrà amb el teu "Id" numèric, que correspon al teu `user_chat_id` personal. *Nota:* Has d'enviar el primer missatge (`/start`) al teu propi bot perquè Telegram li permeti parlar-te!
    
 *__Nota de seguretat__*: El fitxer `alert.cfg` s'ignora automàticament al control de versions (Git), de manera que les vostres contrasenyes i dades privades no es penjaran públicament.
+
+---
+
+## 4. Automatització amb GitHub Actions
+
+Aquest projecte ve preparat amb un *workflow* automatitzat (`.github/workflows/scraper.yml`). Un cop configurat, s'encarregarà d'executar l'scraper cada dia, buscar canvis, enviar-te un avís per Telegram amb un enllaç directe, i actualitzar el web automàticament via GitHub Pages.
+
+**Passos per activar l'automatització:**
+1. Al repositori de GitHub, ves a **Settings > Secrets and variables > Actions**.
+2. Fes clic a **New repository secret** i crea les dues següents variables guardant-hi els valors explicats prèviament:
+   - `TELEGRAM_BOT_TOKEN`: El token del teu bot entregat per @BotFather.
+   - `TELEGRAM_CHAT_ID`: El teu codi numèric d'@userinfobot.
+3. Al menú de l'esquerra, dins de **Settings**, ves a **Actions > General**. A la secció inferior **Workflow permissions**, assegura't que tens l'opció **Read and write permissions** marcada (Això permet a l'action guardar els canvis de la nova base de dades a GitHub).
