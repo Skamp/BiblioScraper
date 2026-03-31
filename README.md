@@ -11,8 +11,8 @@ El projecte es divideix en dues parts principals:
 - `alert.py`: Nou script que compara l'última extracció amb còpies de seguretat anteriors per generar un informe de cursos nous, modificats o eliminats.
 - `alert.cfg.template`: Plantilla de configuració per la funcionalitat d'enviament d'emails a l'script d'alertes.
 - `index.html`, `style.css`, `script.js`: Codi de l'aplicació web.
-- `courses.json`: Dades en brut (`RAW JSON`) generades per l'scraper.
-- `courses.js`: Dades exportades com a variable global de JavaScript per permetre la càrrega local de l'HTML sense necessitat d'aixecar un servidor web per restriccions CORS.
+- `courses/database.db`: Base de dades SQLite on es guarden totes les extraccions històriques i les dades en brut de l'scraper.
+- `courses.js`: Dades exportades des de la base de dades com a variable global de JavaScript per permetre la càrrega local de l'HTML sense necessitat d'aixecar un servidor web per restriccions CORS.
 
 ---
 
@@ -37,18 +37,18 @@ python scraper.py -scrap -export
 *(Nota per a usuaris de Windows Powerhsell: El primer comandament assegura que els caràcters especials del català s'imprimeixen correctament a la consola sense provocar un error `UnicodeEncodeError`).*
 
 Aquest comandament s'encarregarà de:
-- Extreure la informació actualitzada i guardar-la novament a `courses/courses.json`.
-- Crear automàticament una còpia de seguretat de les dades anteriors (si n'hi ha) dins la carpeta `courses/`.
+- Extreure la informació actualitzada i guardar-la a la base de dades SQLite `courses/database.db`.
+- Afegir una nova entrada a l'historial de la base de dades sense eliminar ni sobreescriure les extraccions anteriors.
 - Auto-generar el document `js/courses.js` transparentment per a la interfície web utilitzant les dades recents.
 - Mostrar per pantalla un **resum del temps d'execució** juntament amb el recompte total de **biblioteques** i **cursos trobats**.
 
 **2. Opcions individuals (Avançat)**
-Si només vols extreure el JSON sense generar l'arxiu per la pàgina web:
+Si només vols realitzar l'extracció a la base de dades SQLite sense generar l'arxiu per la pàgina web:
 ```bash
 python scraper.py -scrap
 ```
 
-Si ja tens un fitxer `.json` descarregat i simplement vols transformar-ho manualment per incrustar-lo a la interfície web `js/courses.js`:
+Si ja has realitzat l'extracció prèviament i simplement vols exportar les dades de la base de dades manualment per incrustar-les a la interfície web `js/courses.js`:
 ```bash
 python scraper.py -export
 ```
@@ -72,7 +72,7 @@ No et cal cap instal·lació, ni cap configuració especial.
 
 ## 3. Com utilitzar l'script d'Alertes (alert.py)
 
-Aquest nou script permet comparar l'última extracció de cursos (fitxer `courses/courses.json`) amb la còpia de seguretat més recent (`courses\_backup_YYYYMMDD_HHMMSS.json`) generada per l'scraper.
+Aquest nou script permet comparar l'última extracció de cursos amb l'extracció completada just abans (consultant l'historial directament a `courses/database.db`) generada per l'scraper.
 
 ### Funcionalitats:
 Aquesta comparació genera un informe net i estructurat per la consola o per email indicant:

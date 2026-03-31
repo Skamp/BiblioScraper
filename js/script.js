@@ -90,7 +90,10 @@ function renderCourses(courses) {
 
     coursesGrid.classList.remove('hidden');
     noResultsState.classList.add('hidden');
-    resultsStats.textContent = `Mostrant ${courses.length} curs${courses.length !== 1 ? 'os' : ''}`;
+
+    // Add timestamp info if available
+    const timeSuffix = (typeof scrapeTimestamp !== 'undefined') ? ` recuperats el ${scrapeTimestamp}` : '';
+    resultsStats.textContent = `Mostrant ${courses.length} curs${courses.length !== 1 ? 'os' : ''}${timeSuffix}`;
 
     // Create fragments for better performance
     const fragment = document.createDocumentFragment();
