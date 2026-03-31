@@ -118,6 +118,7 @@ def main():
     parser.add_argument('-telegram', action='store_true', help="Send the report via Telegram (requires alert.cfg setup or CLI parameters)")
     parser.add_argument('-bot_token', type=str, help="Telegram bot token (only if -telegram is used)")
     parser.add_argument('-user_chat_id', type=str, help="Telegram user chat ID (only if -telegram is used)")
+    parser.add_argument('-url', type=str, help="Add a link to the updated website in the report")
     args = parser.parse_args()
     
     if (args.bot_token or args.user_chat_id) and not args.telegram:
@@ -291,12 +292,17 @@ def main():
     if args.mail:
         print("\nAttempting to send email report...")
         subject = "BiblioScraper: Course Differences Report"
-        send_email(args.mail, subject, final_report)
+        email_report = final_report
+        if args.url:
+            email_report += f"\n\nAccess the updated courses here: {args.url}"
+        send_email(args.mail, subject, email_report)
         
     if args.telegram:
         print("\nAttempting to send Telegram report...")
         # Optional basic formatting for Telegram
         tg_report = f"<b>BiblioScraper: Course Differences Report</b>\n\n<pre>{final_report}</pre>"
+        if args.url:
+            tg_report += f"\n👉 <a href='{args.url}'>View the complete update here</a>"
         send_telegram(tg_report, args.bot_token, args.user_chat_id)
 
 if __name__ == "__main__":
