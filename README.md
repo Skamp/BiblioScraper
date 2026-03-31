@@ -130,3 +130,4 @@ Aquest projecte ve preparat amb un *workflow* automatitzat (`.github/workflows/s
    - `TELEGRAM_BOT_TOKEN`: El token del teu bot entregat per @BotFather.
    - `TELEGRAM_CHAT_ID`: El teu codi numèric d'@userinfobot.
 3. Al menú de l'esquerra, dins de **Settings**, ves a **Actions > General**. A la secció inferior **Workflow permissions**, assegura't que tens l'opció **Read and write permissions** marcada (Això permet a l'action guardar els canvis de la nova base de dades a GitHub).
+4. Activa **GitHub Pages** per poder visualitzar la interfície `index.html` com una pàgina web real i no com a codi font: Al menú de l'esquerra, ves a **Settings > Pages**. A l'apartat *Build and deployment*, assegura't que l'origen és *Deploy from a branch* i escull la branca `main` com a font. Després d'uns minuts, el teu visor web s'activarà i el link que t'arribarà per Telegram serà funcional.
