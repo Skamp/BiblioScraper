@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scrape-and-update
+  cancel-in-progress: false
+  
 jobs:
   scrape_and_alert:
     runs-on: ubuntu-latest
@@ -52,6 +56,15 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update course data"
-            git pull --rebase origin main
-            git push origin main
+            
+            # Fetch latest changes and rebase
+            git fetch origin main
+            git rebase origin/main || {
+              echo "Rebase failed, aborting..."
+              git rebase --abort
+              exit 1
+            }
+            
+            # Push with lease to prevent accidental overwrites
+            git push --force-with-lease origin main
           fi
