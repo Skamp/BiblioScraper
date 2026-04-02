@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-01T08:56:50.624779';
+const scrapeTimestamp = '2026-04-02T08:48:36.471818';
 const coursesData = [
     {
         "library_id": "1",
@@ -187,7 +187,7 @@ const coursesData = [
     {
         "library_id": "30",
         "library_name": "Biblioteca Esquerra de l'Eixample-Agustí Centelles",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Literatura i Salut Mental",
@@ -212,10 +212,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Històries que acompanyen: Cures i final de vida.",
                 "date": "Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Experimentem amb la densitat (6 a 8 anys)",
-                "date": "Dimecres 1 d'abril (10:00-12:00 h)"
             },
             {
                 "title": "EstàsON. Robots en acció (9 a 12 anys)",
@@ -361,7 +357,7 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -374,10 +370,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 10 d'octubre (10:00-11:00 h) | Divendres 14 de novembre (10:00-11:00 h) | Divendres 12 de desembre (10:00-11:00 h) | Divendres 9 de gener (10:00-11:00 h) | Divendres 13 de febrer (10:00-11:00 h) | Divendres 13 de març (10:00-11:00 h) | Divendres 10 d'abril (10:00-11:00 h) | Divendres 8 de maig (10:00-11:00 h) | Divendres 12 de juny (10:00-11:00 h)"
-            },
-            {
-                "title": "EstàsON. Experimentem amb la densitat (6 a 8 anys)",
-                "date": "Dimecres 1 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Robots en acció (9 a 12 anys)",
@@ -403,7 +395,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura d'anime i manga",
@@ -436,10 +428,6 @@ const coursesData = [
             {
                 "title": "Taller de reminiscència. Vols treballar la memòria?",
                 "date": "Dilluns 13 d'abril (11:00-12:30 h)"
-            },
-            {
-                "title": "EstàsON. Robots en acció (9 a 12 anys)",
-                "date": "Dimecres 1 d'abril (11:00-13:00 h)"
             }
         ]
     },
@@ -635,7 +623,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -664,10 +652,6 @@ const coursesData = [
             {
                 "title": "Lletra Petita  Llibres a escena. Petit o gran? (De 6 mesos a 3 anys)",
                 "date": "Dimecres 29 d'abril (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsON. Experimentem amb la densitat (6 a 8 anys)",
-                "date": "Dimecres 1 d'abril (11:00-13:00 h)"
             },
             {
                 "title": "EstàsON. Robots en acció (9 a 12 anys)",
@@ -793,7 +777,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua italiana",
@@ -814,10 +798,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dissabte 21 de febrer (11:30-12:30 h) | Dissabte 21 de març (11:30-12:30 h) | Dissabte 18 d'abril (11:30-12:30 h)"
-            },
-            {
-                "title": "EstàsON. Robots en acció (9 a 12 anys)",
-                "date": "Dimecres 1 d'abril (11:00-13:00 h)"
             },
             {
                 "title": "EstàsON. Dibuixem amb bolígrafs 3D (9-12 anys)",
@@ -1027,7 +1007,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1052,10 +1032,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Robots en acció (9 a 12 anys)",
-                "date": "Dimecres 1 d'abril (17:30-19:30 h)"
             }
         ]
     },
