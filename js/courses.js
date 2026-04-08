@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-07T08:55:16.942666';
+const scrapeTimestamp = '2026-04-08T08:54:55.589553';
 const coursesData = [
     {
         "library_id": "1",
@@ -245,7 +245,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 4,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -262,6 +262,14 @@ const coursesData = [
             {
                 "title": "Lletra petita - El racó dels pares. Primeres passes:\"El tren de les emocions\"",
                 "date": "Dimecres 15 d'abril (17:30-18:30 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
+                "date": "Divendres 8 de maig (17:00-19:00 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
+                "date": "Dissabte 13 de juny (10:30-12:30 h)"
             }
         ]
     },
@@ -334,7 +342,7 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -347,6 +355,10 @@ const coursesData = [
             {
                 "title": "Club de lectura d'òpera. LiceuBIB",
                 "date": "Dimecres 15 d'octubre (18:00-20:00 h) | Dimecres 12 de novembre (18:00-20:00 h) | Dimecres 19 de novembre (18:00-20:00 h) | Dimecres 14 de gener (18:00-20:00 h) | Dimecres 4 de febrer (18:00-20:00 h) | Dilluns 9 de febrer (18:00-20:00 h) | Dimecres 11 de març (18:00-20:00 h) | Dimecres 8 d'abril (18:00-20:00 h) | Dilluns 27 d'abril (18:00-20:00 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. Territorio Méndez",
+                "date": "Divendres 5 de juny (17:00-19:00 h)"
             }
         ]
     },
@@ -746,7 +758,7 @@ const coursesData = [
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -759,13 +771,17 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Memòria històrica del franquisme. \"I després de Franco, què? (1965-1975)\".",
                 "date": "Dimecres 29 d'abril (18:00-20:00 h) | Dimecres 27 de maig (18:00-20:00 h) | Dimecres 17 de juny (18:00-20:00 h) | Dimecres 1 de juliol (18:00-20:00 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. Darrere les persianes.",
+                "date": "Divendres 26 de juny (17:00-19:00 h)"
             }
         ]
     },
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua italiana",
@@ -786,13 +802,17 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dissabte 21 de febrer (11:30-12:30 h) | Dissabte 21 de març (11:30-12:30 h) | Dissabte 18 d'abril (11:30-12:30 h)"
+            },
+            {
+                "title": "Club de lectura puntual Teatre Lliure. L'autora",
+                "date": "Dimecres 3 de juny (18:30-20:00 h) | Dimecres 10 de juny (18:30-20:00 h)"
             }
         ]
     },
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 2,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -801,6 +821,14 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Palestina: històries que persisteixen.",
                 "date": "Dijous 5 de febrer (18:30-20:00 h) | Dijous 5 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. Llegir Barcelona. Testimonis escrits que expliquen la ciutat",
+                "date": "Divendres 15 de maig (17:00-19:00 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. Barcelona viscuda i escrita en francès.",
+                "date": "Dijous 21 de maig (17:00-19:00 h)"
             }
         ]
     },
@@ -829,16 +857,16 @@ const coursesData = [
         "courses_found": 4,
         "courses": [
             {
-                "title": "Club de lectura de novel·la històrica",
-                "date": "Dimecres 8 d'octubre (11:00-12:30 h) | Dimecres 12 de novembre (11:00-12:30 h) | Dimecres 10 de desembre (11:00-12:30 h) | Dimecres 14 de gener (11:00-12:30 h) | Dimecres 11 de febrer (11:00-12:30 h) | Dimecres 11 de març (11:00-12:30 h) | Dimecres 8 d'abril (11:00-12:30 h)"
-            },
-            {
                 "title": "Club de lectura general",
                 "date": "Dimarts 14 d'octubre (11:00-12:30 h) | Dimarts 11 de novembre (11:00-12:30 h) | Dimarts 9 de desembre (11:00-12:30 h) | Dimarts 13 de gener (11:00-12:30 h) | Dimarts 10 de febrer (11:00-12:30 h) | Dimarts 10 de març (11:00-12:30 h) | Dimarts 14 d'abril (11:00-12:30 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 10 d'octubre (11:00-12:30 h) | Divendres 14 de novembre (11:00-12:30 h) | Divendres 12 de desembre (11:00-12:30 h) | Divendres 9 de gener (11:00-12:30 h) | Divendres 13 de febrer (11:00-12:30 h) | Divendres 13 de març (11:00-12:30 h) | Divendres 10 d'abril (11:00-12:30 h) | Divendres 8 de maig (11:00-12:30 h) | Divendres 12 de juny (11:00-12:30 h)"
+            },
+            {
+                "title": "Itineraris per Barcelona. Literatura i Cultura Italiana a Barcelona",
+                "date": "Dimecres 29 d'abril (17:00-19:00 h)"
             },
             {
                 "title": "Itineraris per Barcelona. LEixample menys conegut",
