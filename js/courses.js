@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-08T08:54:55.589553';
+const scrapeTimestamp = '2026-04-09T09:00:54.398946';
 const coursesData = [
     {
         "library_id": "1",
@@ -627,7 +627,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -648,10 +648,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de lletra gran",
                 "date": "Dimarts 9 de setembre (18:00-19:30 h) | Dimarts 7 d'octubre (18:00-19:30 h) | Dimarts 4 de novembre (18:00-19:30 h) | Dimarts 2 de desembre (18:00-19:30 h) | Dimarts 13 de gener (18:00-19:30 h) | Dimarts 3 de febrer (18:00-19:30 h) | Dimarts 3 de març (18:00-19:30 h) | Dimarts 7 d'abril (18:00-19:30 h) | Dimarts 5 de maig (18:00-19:30 h) | Dimarts 2 de juny (18:00-19:30 h)"
-            },
-            {
-                "title": "Lletra Petita. Primeres passes. Moixaines (6 mesos a 3 anys)",
-                "date": "Dimecres 8 d'abril (11:00-12:00 h)"
             },
             {
                 "title": "Lletra Petita  Llibres a escena. Petit o gran? (De 6 mesos a 3 anys)",
@@ -812,15 +808,11 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:00-19:30 h) | Dimecres 12 de novembre (18:00-19:30 h) | Dimecres 10 de desembre (18:00-19:30 h) | Dimecres 11 de febrer (18:00-19:30 h) | Dimecres 11 de març (18:00-19:30 h) | Dimecres 8 d'abril (18:00-19:30 h) | Dimecres 13 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Palestina: històries que persisteixen.",
-                "date": "Dijous 5 de febrer (18:30-20:00 h) | Dijous 5 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Itineraris per Barcelona. Llegir Barcelona. Testimonis escrits que expliquen la ciutat",
