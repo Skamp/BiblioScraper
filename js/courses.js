@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-09T09:00:54.398946';
+const scrapeTimestamp = '2026-04-10T09:01:59.675525';
 const coursesData = [
     {
         "library_id": "1",
@@ -76,15 +76,11 @@ const coursesData = [
     {
         "library_id": "16",
         "library_name": "Biblioteca Canyelles - M. Àngels Rivas",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 14 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. La mirada negra de Pasolini.",
-                "date": "Divendres 6 de febrer (18:30-20:00 h) | Divendres 6 de març (18:30-20:00 h) | Divendres 10 d'abril (18:30-20:00 h)"
             }
         ]
     },
@@ -245,7 +241,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -270,6 +266,10 @@ const coursesData = [
             {
                 "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
                 "date": "Dissabte 13 de juny (10:30-12:30 h)"
+            },
+            {
+                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
+                "date": "Dilluns 29 de juny (9:30-13:30 h) | Dimarts 30 de juny (9:30-13:30 h) | Dimecres 1 de juliol (9:30-13:30 h) | Dijous 2 de juliol (9:30-13:30 h) | Divendres 3 de juliol (9:30-13:30 h)"
             }
         ]
     },
