@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-10T09:01:59.675525';
+const scrapeTimestamp = '2026-04-11T08:34:47.280212';
 const coursesData = [
     {
         "library_id": "1",
@@ -896,7 +896,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -917,13 +917,17 @@ const coursesData = [
             {
                 "title": "Obrador. Taller descriptura autobiogràfica.",
                 "date": "Dijous 7 de maig (18:00-20:00 h) | Dijous 14 de maig (18:00-20:00 h) | Dijous 21 de maig (18:00-20:00 h) | Dijous 28 de maig (18:00-20:00 h)"
+            },
+            {
+                "title": "Club de lectura infantil 'Pim Pam Pum Contes\"",
+                "date": "Dimecres 29 d'abril (17:30-18:00 h)"
             }
         ]
     },
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -936,6 +940,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 15 d'octubre (10:00-12:00 h) | Dimecres 19 de novembre (10:00-12:00 h) | Dimecres 17 de desembre (10:00-12:00 h) | Dimecres 21 de gener (10:00-12:00 h) | Dimecres 18 de febrer (10:00-12:00 h) | Dimecres 18 de març (10:00-12:00 h) | Dimecres 15 d'abril (10:00-12:00 h) | Dimecres 20 de maig (10:00-12:00 h) | Dimecres 17 de juny (10:00-12:00 h)"
+            },
+            {
+                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
+                "date": "Dilluns 6 de juliol (9:30-13:30 h) | Dimarts 7 de juliol (9:30-13:30 h) | Dimecres 8 de juliol (9:30-13:30 h) | Dijous 9 de juliol (9:30-13:30 h) | Divendres 10 de juliol (9:30-13:30 h)"
             }
         ]
     },
