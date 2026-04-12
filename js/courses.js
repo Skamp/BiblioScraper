@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-11T08:34:47.280212';
+const scrapeTimestamp = '2026-04-12T08:39:40.968004';
 const coursesData = [
     {
         "library_id": "1",
@@ -708,15 +708,11 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 16 de desembre (18:30-19:30 h) | Dimarts 20 de gener (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Itineraris per Barcelona. Dones de Barcelona: del Portal de l'Àngel a la Catedral.",
-                "date": "Dissabte 11 d'abril (10:30-12:00 h)"
             }
         ]
     },
