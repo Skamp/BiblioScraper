@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-12T08:39:40.968004';
+const scrapeTimestamp = '2026-04-13T09:30:44.528178';
 const coursesData = [
     {
         "library_id": "1",
@@ -946,7 +946,7 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -967,10 +967,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Punt i a part: lectures sobre el divorci",
                 "date": "Dimecres 4 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Literatura africana",
-                "date": "Dilluns 2 de febrer (18:30-20:00 h) | Dilluns 2 de març (18:30-20:00 h) | Dilluns 13 d'abril (18:30-20:00 h)"
             }
         ]
     },
