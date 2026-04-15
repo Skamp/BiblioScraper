@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-14T09:11:22.215451';
+const scrapeTimestamp = '2026-04-15T09:12:16.645558';
 const coursesData = [
     {
         "library_id": "1",
@@ -311,7 +311,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -344,6 +344,10 @@ const coursesData = [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
                 "date": "Dissabte 11 d'abril (18:00-19:30 h) | Dissabte 9 de maig (18:00-19:30 h) | Dissabte 13 de juny (18:00-19:30 h) | Dissabte 11 de juliol (18:00-19:30 h) | Dissabte 19 de setembre (18:00-19:30 h) | Dissabte 17 d'octubre (18:00-19:30 h) | Dissabte 14 de novembre (18:00-19:30 h)"
+            },
+            {
+                "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
+                "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "Visions de la Ciència. Quan la por emmalalteix: diferències de sexe en els mecanismes cerebrals",
@@ -647,7 +651,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 6,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -672,13 +676,25 @@ const coursesData = [
             {
                 "title": "Lletra Petita  Llibres a escena. Petit o gran? (De 6 mesos a 3 anys)",
                 "date": "Dimecres 29 d'abril (17:30-18:30 h)"
+            },
+            {
+                "title": "Lletra petita. Sac de rondalles. Contes desexplicats (+ 3 anys)",
+                "date": "Dimecres 13 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "Lletra petita. Betu el pallasso",
+                "date": "Divendres 15 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "Lletra petita  Tallers de descoberta. Guarniment de primavera (de 4 a 9 anys)",
+                "date": "Dijous 14 de maig (17:30-18:30 h)"
             }
         ]
     },
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -695,6 +711,10 @@ const coursesData = [
             {
                 "title": "Cartes des de labsència",
                 "date": "Dijous 9 d'abril (18:30-20:00 h) | Dimarts 5 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
+                "date": "Dilluns 13 de juliol (9:30-13:30 h) | Dimarts 14 de juliol (9:30-13:30 h) | Dimecres 15 de juliol (9:30-13:30 h) | Dijous 16 de juliol (9:30-13:30 h) | Divendres 17 de juliol (9:30-13:30 h)"
             }
         ]
     },
@@ -779,7 +799,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -808,6 +828,10 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
                 "date": "Dilluns 20 d'abril (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dilluns 27 d'abril (17:30-19:30 h)"
             }
         ]
     },
@@ -995,7 +1019,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 10,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1036,6 +1060,22 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
                 "date": "Dimarts 16 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
+                "date": "Dimarts 5 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dimarts 26 de maig (17:30-20:30 h)"
+            },
+            {
+                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
+                "date": "Dimarts 2 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Dimarts 30 de juny (17:30-19:30 h)"
             }
         ]
     },
@@ -1092,11 +1132,15 @@ const coursesData = [
     {
         "library_id": "23",
         "library_name": "Biblioteca Xavier Benguerel",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de cinema i novel·la",
                 "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 20 de gener (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 21 d'abril (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Sant Martí, barri a barri. La Vila Olímpica: quan Barcelona es va trobar amb la mar",
+                "date": "Dissabte 23 de maig (10:00-13:00 h)"
             }
         ]
     },
