@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-15T09:12:16.645558';
+const scrapeTimestamp = '2026-04-16T09:11:45.076478';
 const coursesData = [
     {
         "library_id": "1",
@@ -249,7 +249,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -262,10 +262,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dimarts 4 de novembre (17:30-18:30 h) | Dimarts 2 de desembre (17:30-18:30 h) | Dimarts 13 de gener (17:30-18:30 h) | Dimarts 3 de febrer (17:30-18:30 h) | Dimarts 3 de març (17:30-18:30 h) | Dimarts 14 d'abril (17:30-18:30 h) | Dimarts 5 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "Lletra petita - El racó dels pares. Primeres passes:\"El tren de les emocions\"",
-                "date": "Dimecres 15 d'abril (17:30-18:30 h)"
             },
             {
                 "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
@@ -788,18 +784,22 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 16 de desembre (18:30-19:30 h) | Dimarts 20 de gener (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Sant Martí, barri a barri. El Besòs i el Maresme: de la lluita veïnal a lúltima transformació del litoral",
+                "date": "Dissabte 6 de juny (10:00-13:00 h)"
             }
         ]
     },
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 8,
+        "courses_found": 16,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -818,12 +818,16 @@ const coursesData = [
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 5 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 4 de febrer (18:30-19:30 h) | Dimecres 4 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 6 de maig (18:30-19:30 h) | Dimecres 3 de juny (18:30-19:30 h)"
             },
             {
+                "title": "Tardes de ciència. Vigilants de la calor",
+                "date": "Dilluns 27 d'abril (18:30-20:00 h)"
+            },
+            {
                 "title": "Visions de la Ciència. Neurodiàleg en clau de sol",
                 "date": "Dilluns 18 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Ciència en família. Els estats de la matèria, sòlid, líquid i gas (6 a 9 anys)",
-                "date": "Dimecres 15 d'abril (17:30-19:00 h)"
+                "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
+                "date": "Dilluns 15 de juny (17:30-19:30 h)"
             },
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
@@ -832,6 +836,34 @@ const coursesData = [
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dilluns 27 d'abril (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
+                "date": "Dilluns 4 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
+                "date": "Dilluns 11 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
+                "date": "Dilluns 18 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Dilluns 1 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
+                "date": "Dilluns 8 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
+                "date": "Dilluns 22 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Ciència en família. Diferència entre física i química. Els eclipsis solars. (6 a 9 anys)",
+                "date": "Dimecres 13 de maig (17:30-19:00 h)"
             }
         ]
     },
@@ -911,7 +943,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -924,10 +956,6 @@ const coursesData = [
             {
                 "title": "Gaming Club",
                 "date": "Dissabte 18 d'abril (11:00-12:30 h) | Dissabte 25 d'abril (11:00-12:30 h) | Dissabte 2 de maig (11:00-12:30 h) | Dissabte 9 de maig (11:00-12:30 h) | Dissabte 16 de maig (11:00-12:30 h) | Dissabte 23 de maig (11:00-12:30 h) | Dissabte 30 de maig (11:00-12:30 h)"
-            },
-            {
-                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
-                "date": "Dijous 23 d'abril (17:30-19:30 h)"
             }
         ]
     },
@@ -988,7 +1016,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -997,10 +1025,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 26 de novembre (18:30-19:30 h) | Dimecres 28 de gener (18:30-19:30 h) | Dimecres 25 de febrer (18:30-19:30 h) | Dimecres 25 de març (18:30-19:30 h) | Dimecres 22 d'abril (18:30-19:30 h) | Dimecres 27 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "BiblioArt - Art en la música i el cinema",
-                "date": "Dimecres 15 d'abril (17:30-18:30 h)"
             },
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
