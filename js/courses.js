@@ -1,17 +1,13 @@
-const scrapeTimestamp = '2026-04-16T09:11:45.076478';
+const scrapeTimestamp = '2026-04-17T09:11:01.521178';
 const coursesData = [
     {
         "library_id": "1",
         "library_name": "Biblioteca Barceloneta-La Fraternitat",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de literatura i gastronomia. La primera foguera.",
                 "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura  Teatre Lliure: «Watusi»",
-                "date": "Divendres 6 de febrer (18:30-20:00 h) | Divendres 6 de març (18:30-20:00 h) | Divendres 17 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Lany que va desaparèixer la sorra.",
@@ -33,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -74,6 +70,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dissabte 25 d'abril (11:00-13:00 h)"
+            },
+            {
+                "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
+                "date": "Dissabte 14 de novembre (10:00-13:00 h)"
             }
         ]
     },
@@ -280,7 +280,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
@@ -289,10 +289,6 @@ const coursesData = [
             {
                 "title": "Club de lectura Assaig feminista",
                 "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 17 de novembre (18:00-19:30 h) | Dilluns 19 de gener (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 16 de març (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 18 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Llegim-les: Emily Brontë i Cims borrascosos",
-                "date": "Dijous 16 d'abril (18:30-20:00 h) | Dijous 21 de maig (18:30-20:00 h) | Dijous 18 de juny (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura especial: \"Emma Goldman: la revolució com a forma de vida\" de Vivian Gornick",
@@ -943,15 +939,11 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 13 de novembre (18:30-20:00 h) | Dijous 11 de desembre (18:30-20:00 h) | Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Atreveix-te amb els llibres (6 a 8 anys)",
-                "date": "Divendres 14 de novembre (18:00-19:00 h) | Divendres 12 de desembre (18:00-19:00 h) | Divendres 16 de gener (18:00-19:00 h) | Divendres 13 de febrer (18:00-19:00 h) | Divendres 13 de març (18:00-19:00 h) | Divendres 17 d'abril (18:00-19:00 h)"
             },
             {
                 "title": "Gaming Club",
@@ -985,7 +977,7 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1002,10 +994,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Desmuntant Desigualtats.",
                 "date": "Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Gaming Club",
-                "date": "Divendres 30 de gener (17:30-19:00 h) | Divendres 6 de febrer (17:30-19:00 h) | Divendres 13 de febrer (17:30-19:00 h) | Divendres 20 de febrer (17:30-19:00 h) | Divendres 27 de febrer (17:30-19:00 h) | Divendres 6 de març (17:30-19:00 h) | Divendres 13 de març (17:30-19:00 h) | Divendres 20 de març (17:30-19:00 h) | Divendres 27 de març (17:30-19:00 h) | Divendres 10 d'abril (17:30-19:00 h) | Divendres 17 d'abril (17:30-19:00 h)"
             },
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
