@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-17T09:11:01.521178';
+const scrapeTimestamp = '2026-04-18T08:41:17.796841';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 11,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -64,16 +64,32 @@ const coursesData = [
                 "date": "Dimecres 6 de maig (17:30-18:30 h)"
             },
             {
-                "title": "Taller Llibre Drac (+6 anys)",
-                "date": "Divendres 17 d'abril (17:30-19:00 h)"
-            },
-            {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dissabte 25 d'abril (11:00-13:00 h)"
             },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
+            },
+            {
+                "title": "FM Taller de sargit visible",
+                "date": "Dimecres 29 d'abril (17:30-19:00 h)"
+            },
+            {
+                "title": "FM Taller de costura Azuma-Bukuro",
+                "date": "Dijous 30 d'abril (17:30-19:00 h)"
+            },
+            {
+                "title": "FM Taller de collage tèxtil",
+                "date": "Dimarts 5 de maig (11:00-12:30 h)"
+            },
+            {
+                "title": "FM Taller de collage tèxtil",
+                "date": "Dimarts 5 de maig (17:30-19:00 h)"
+            },
+            {
+                "title": "FM Taller de codisseny d'un kit bàsic de costura",
+                "date": "Dijous 7 de maig (17:30-19:00 h)"
             }
         ]
     },
@@ -133,7 +149,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -150,10 +166,6 @@ const coursesData = [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
-                "date": "Dimarts 21 d'abril (17:30-19:30 h)"
             }
         ]
     },
@@ -523,7 +535,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -552,6 +564,10 @@ const coursesData = [
             {
                 "title": "Creacions: Taller 'Urban Sketching Les Corts'",
                 "date": "Divendres 8 de maig (17:00-20:00 h) | Divendres 15 de maig (17:00-20:00 h) | Divendres 22 de maig (17:00-20:00 h) | Divendres 29 de maig (17:00-20:00 h) | Divendres 5 de juny (17:00-20:00 h) | Divendres 12 de juny (17:00-20:00 h) | Divendres 19 de juny (17:00-20:00 h)"
+            },
+            {
+                "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
+                "date": "Dissabte 6 de juny (11:00-12:30 h)"
             }
         ]
     },
@@ -592,7 +608,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 11,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -637,6 +653,10 @@ const coursesData = [
             {
                 "title": "Obrador. Paraules en joc.",
                 "date": "Dimarts 5 de maig (18:00-19:30 h) | Dimarts 12 de maig (18:00-19:30 h) | Dimarts 19 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
+                "date": "Dissabte 6 de juny (11:00-12:30 h)"
             }
         ]
     },
@@ -889,7 +909,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua italiana",
@@ -906,10 +926,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 17 d'octubre (10:00-11:30 h) | Divendres 21 de novembre (10:00-11:30 h) | Divendres 19 de desembre (10:00-11:30 h) | Divendres 16 de gener (10:00-11:30 h) | Divendres 20 de febrer (10:00-11:30 h) | Divendres 20 de març (10:00-11:30 h) | Divendres 17 d'abril (10:00-11:30 h) | Divendres 15 de maig (10:00-11:30 h) | Divendres 19 de juny (10:00-11:30 h)"
-            },
-            {
-                "title": "Atreveix-te amb els llibres (8 a 10 anys)",
-                "date": "Dissabte 21 de febrer (11:30-12:30 h) | Dissabte 21 de març (11:30-12:30 h) | Dissabte 18 d'abril (11:30-12:30 h)"
             },
             {
                 "title": "Club de lectura puntual Teatre Lliure. L'autora",
