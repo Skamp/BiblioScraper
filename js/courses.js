@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-18T08:41:17.796841';
+const scrapeTimestamp = '2026-04-19T08:44:50.529910';
 const coursesData = [
     {
         "library_id": "1",
@@ -485,7 +485,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -506,10 +506,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dissabte 9 de maig (10:00-12:00 h)"
-            },
-            {
-                "title": "EstàsOn. Les bases de la programació (9 a 12 anys)",
-                "date": "Dissabte 18 d'abril (10:00-12:00 h)"
             }
         ]
     },
@@ -955,15 +951,11 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 13 de novembre (18:30-20:00 h) | Dijous 11 de desembre (18:30-20:00 h) | Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Gaming Club",
-                "date": "Dissabte 18 d'abril (11:00-12:30 h) | Dissabte 25 d'abril (11:00-12:30 h) | Dissabte 2 de maig (11:00-12:30 h) | Dissabte 9 de maig (11:00-12:30 h) | Dissabte 16 de maig (11:00-12:30 h) | Dissabte 23 de maig (11:00-12:30 h) | Dissabte 30 de maig (11:00-12:30 h)"
             }
         ]
     },
