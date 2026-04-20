@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-19T08:44:50.529910';
+const scrapeTimestamp = '2026-04-20T09:52:20.327139';
 const coursesData = [
     {
         "library_id": "1",
@@ -604,7 +604,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -625,10 +625,6 @@ const coursesData = [
             {
                 "title": "Club Maker",
                 "date": "Dimecres 24 de setembre (17:30-19:30 h) | Dimecres 1 d'octubre (17:30-19:30 h) | Dimecres 8 d'octubre (17:30-19:30 h) | Dimecres 15 d'octubre (17:30-19:30 h) | Dimecres 22 d'octubre (15:30-16:30 h) | Dimecres 29 d'octubre (17:30-19:30 h) | Dimecres 5 de novembre (17:30-19:30 h) | Dimecres 12 de novembre (17:30-19:30 h) | Dimecres 19 de novembre (17:30-19:30 h) | Dimecres 26 de novembre (15:30-16:30 h) | Dimecres 3 de desembre (17:30-19:30 h) | Dimecres 10 de desembre (17:30-19:30 h) | Dimecres 17 de desembre (17:30-19:30 h) | Dimecres 24 de desembre (17:30-19:30 h) | Dimecres 31 de desembre (17:30-19:30 h) | Dimecres 7 de gener (17:30-19:30 h) | Dimecres 14 de gener (17:30-19:30 h) | Dimecres 21 de gener (17:30-19:30 h) | Dimecres 28 de gener (15:30-16:30 h) | Dimecres 4 de febrer (17:30-19:30 h) | Dimecres 11 de febrer (17:30-19:30 h) | Dimecres 18 de febrer (17:30-19:30 h) | Dimecres 25 de febrer (15:30-16:30 h) | Dimecres 4 de març (17:30-19:30 h) | Dimecres 11 de març (17:30-19:30 h) | Dimecres 18 de març (17:30-19:30 h) | Dimecres 25 de març (15:30-16:30 h) | Dimecres 1 d'abril (17:30-19:30 h) | Dimecres 8 d'abril (17:30-19:30 h) | Dimecres 15 d'abril (17:30-19:30 h) | Dimecres 22 d'abril (15:30-16:30 h) | Dimecres 29 d'abril (17:30-19:30 h) | Dimecres 6 de maig (17:30-19:30 h) | Dimecres 13 de maig (17:30-19:30 h) | Dimecres 20 de maig (17:30-19:30 h) | Dimecres 27 de maig (17:30-16:30 h) | Dimecres 3 de juny (17:30-19:30 h) | Dimecres 10 de juny (17:30-19:30 h) | Dimecres 17 de juny (17:30-19:30 h) | Dimecres 24 de juny (17:30-19:30 h) | Dimecres 1 de juliol (17:30-19:30 h) | Dimecres 8 de juliol (17:30-19:30 h) | Dimecres 15 de juliol (17:30-19:30 h) | Dimecres 22 de juliol (17:30-19:30 h) | Dimecres 29 de juliol (17:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Dames de la ciència ficció.",
-                "date": "Dilluns 2 de febrer (18:30-20:00 h) | Dilluns 23 de febrer (18:30-20:00 h) | Dilluns 16 de març (18:30-20:00 h) | Dilluns 20 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
