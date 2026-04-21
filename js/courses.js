@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-20T09:52:20.327139';
+const scrapeTimestamp = '2026-04-21T09:19:48.720235';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -50,10 +50,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dijous 9 d'octubre (12:00-13:00 h) | Dijous 13 de novembre (12:00-13:00 h) | Dijous 11 de desembre (12:00-13:00 h) | Dijous 8 de gener (12:00-13:00 h) | Dijous 12 de febrer (12:00-13:00 h) | Dijous 12 de març (12:00-13:00 h) | Dijous 9 d'abril (12:00-13:00 h) | Dijous 14 de maig (12:00-13:00 h) | Dijous 11 de juny (12:00-13:00 h)"
-            },
-            {
-                "title": "Visions de la Ciència. Canvis cerebrals, hormonals i psicològics en lembaràs i la maternitat",
-                "date": "Dilluns 20 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Visions de la Ciència. Com afecta el nostre estat dànim al nostre cos?",
@@ -419,7 +415,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 7,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura d'anime i manga",
@@ -428,14 +424,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dimecres 22 d'octubre (18:30-20:30 h) | Dimecres 19 de novembre (18:30-20:30 h) | Dimecres 17 de desembre (18:30-20:30 h) | Dimecres 21 de gener (18:30-20:30 h) | Dimecres 18 de febrer (18:30-20:30 h) | Dimecres 15 d'abril (18:30-20:30 h) | Dimecres 20 de maig (18:30-20:30 h)"
-            },
-            {
-                "title": "Atrapallibres. Club de lectura infantil",
-                "date": "Dimarts 7 d'octubre (17:30-18:30 h) | Dimarts 4 de novembre (17:30-18:30 h) | Dimarts 13 de gener (17:30-18:30 h) | Dimarts 3 de febrer (17:30-18:30 h) | Dimarts 3 de març (17:30-18:30 h) | Dimarts 21 d'abril (17:30-18:30 h)"
-            },
-            {
-                "title": "Club de lectura protagonista jove.",
-                "date": "Dimarts 7 d'octubre (18:30-19:30 h) | Dimarts 4 de novembre (18:30-19:30 h) | Dimarts 13 de gener (18:30-19:30 h) | Dimarts 3 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura de llengua francesa",
@@ -807,7 +795,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 16,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -836,10 +824,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dilluns 20 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
@@ -981,7 +965,7 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -998,10 +982,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Desmuntant Desigualtats.",
                 "date": "Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dilluns 20 d'abril (17:30-19:30 h)"
             }
         ]
     },
