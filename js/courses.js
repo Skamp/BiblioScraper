@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-21T09:19:48.720235';
+const scrapeTimestamp = '2026-04-22T09:13:58.953473';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 14,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -86,6 +86,10 @@ const coursesData = [
             {
                 "title": "FM Taller de codisseny d'un kit bàsic de costura",
                 "date": "Dijous 7 de maig (17:30-19:00 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dissabte 2 de maig (11:00-13:00 h)"
             }
         ]
     },
@@ -145,7 +149,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 4,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -162,6 +166,14 @@ const coursesData = [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "EstàsOn. Els reptes de lSTEAM (6-8 anys)",
+                "date": "Dimarts 28 d'abril (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
+                "date": "Dimarts 5 de maig (17:30-19:30 h)"
             }
         ]
     },
@@ -288,7 +300,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
@@ -305,6 +317,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dissabte 25 d'abril (11:00-13:00 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dissabte 2 de maig (11:00-13:00 h)"
             }
         ]
     },
@@ -686,15 +702,11 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dilluns 20 d'octubre (18:30-20:00 h) | Dilluns 24 de novembre (18:30-20:00 h) | Dilluns 26 de gener (18:30-20:00 h) | Dilluns 23 de febrer (18:30-20:00 h) | Dilluns 23 de març (18:30-20:00 h) | Dilluns 27 d'abril (18:30-20:00 h) | Dilluns 18 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura infantil i juvenil",
-                "date": "Dimecres 15 d'octubre (18:00-19:00 h) | Dimecres 19 de novembre (18:00-19:00 h) | Dimecres 17 de desembre (18:00-19:00 h) | Dimecres 18 de febrer (18:00-19:00 h) | Dimecres 18 de març (18:00-19:00 h) | Dimecres 22 d'abril (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura feminista: Horror domèstic.",
@@ -713,7 +725,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -734,10 +746,6 @@ const coursesData = [
             {
                 "title": "Club de lectura jove.",
                 "date": "Divendres 17 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 16 de gener (18:00-19:30 h) | Divendres 20 de febrer (18:00-19:30 h) | Divendres 20 de març (18:00-19:30 h) | Divendres 17 d'abril (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
-                "date": "Dimarts 21 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn. Els reptes de l'STEAM (taller per a nenes i nens de 6 a 8 anys)",
@@ -1015,7 +1023,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1032,10 +1040,6 @@ const coursesData = [
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
                 "date": "Dilluns 6 de juliol (9:30-13:30 h) | Dimarts 7 de juliol (9:30-13:30 h) | Dimecres 8 de juliol (9:30-13:30 h) | Dijous 9 de juliol (9:30-13:30 h) | Divendres 10 de juliol (9:30-13:30 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dimarts 21 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn. Els reptes de lSTEAM (6-8 anys)",
