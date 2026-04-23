@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-22T09:13:58.953473';
+const scrapeTimestamp = '2026-04-23T09:20:50.876495';
 const coursesData = [
     {
         "library_id": "1",
@@ -939,11 +939,31 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 1,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 13 de novembre (18:30-20:00 h) | Dijous 11 de desembre (18:30-20:00 h) | Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Gaming Club",
+                "date": "Divendres 8 de maig (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h) | Divendres 22 de maig (18:00-19:30 h) | Divendres 29 de maig (18:00-19:30 h) | Divendres 5 de juny (18:00-19:30 h) | Divendres 12 de juny (18:00-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
+                "date": "Dijous 21 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
+                "date": "Dijous 28 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dijous 4 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dijous 11 de juny (17:30-19:30 h)"
             }
         ]
     },
