@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-23T09:20:50.876495';
+const scrapeTimestamp = '2026-04-24T09:24:59.413479';
 const coursesData = [
     {
         "library_id": "1",
@@ -725,7 +725,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 14,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -782,6 +782,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
                 "date": "Dimarts 30 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Sant Martí, barri a barri. El Poblenou: el Manchester català",
+                "date": "Dissabte 17 d'octubre (10:00-13:00 h)"
             }
         ]
     },
