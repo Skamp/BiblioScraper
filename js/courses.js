@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-24T09:24:59.413479';
+const scrapeTimestamp = '2026-04-25T08:44:23.804106';
 const coursesData = [
     {
         "library_id": "1",
@@ -327,7 +327,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -348,10 +348,6 @@ const coursesData = [
             {
                 "title": "Ficció en joc (de 8 a 12 anys)",
                 "date": "Dissabte 8 de novembre (11:00-12:00 h) | Dissabte 31 de gener (11:00-12:00 h) | Dissabte 14 de març (11:00-12:00 h) | Dissabte 16 de maig (11:00-12:00 h)"
-            },
-            {
-                "title": "Ficció en joc (12 a 16 anys)",
-                "date": "Dissabte 18 d'octubre (11:00-12:00 h) | Dissabte 20 de desembre (11:00-12:00 h) | Dissabte 21 de febrer (11:00-12:00 h) | Dissabte 25 d'abril (11:00-12:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Crònica literària: veritat i emoció",
@@ -589,7 +585,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -598,10 +594,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:30-20:00 h) | Dimecres 12 de novembre (18:30-20:00 h) | Dimecres 10 de desembre (18:30-20:00 h) | Dimecres 11 de febrer (18:30-20:00 h) | Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Divendres 24 d'abril (17:30-19:30 h)"
             }
         ]
     },
@@ -943,7 +935,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -968,6 +960,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dijous 11 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Descobrim Thomas Mann: Josep i els seus germans",
+                "date": "Dijous 18 de juny (18:30-20:00 h) | Dijous 23 de juliol (18:30-20:00 h) | Dijous 1 d'octubre (18:30-20:00 h)"
             }
         ]
     },
@@ -1171,7 +1167,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1196,10 +1192,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
-                "date": "Divendres 24 d'abril (17:30-19:30 h)"
             }
         ]
     },
