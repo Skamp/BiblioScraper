@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-25T08:44:23.804106';
+const scrapeTimestamp = '2026-04-26T08:52:20.419381';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -58,10 +58,6 @@ const coursesData = [
             {
                 "title": "Lletra petita El racó dels pares. Primeres passes. Històries i cançons animals (de 6 mesos a 3 anys)",
                 "date": "Dimecres 6 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dissabte 25 d'abril (11:00-13:00 h)"
             },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -300,7 +296,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
@@ -313,10 +309,6 @@ const coursesData = [
             {
                 "title": "Club de lectura especial: \"Emma Goldman: la revolució com a forma de vida\" de Vivian Gornick",
                 "date": "Dimecres 20 de maig (18:00-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dissabte 25 d'abril (11:00-13:00 h)"
             },
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
@@ -600,7 +592,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -625,10 +617,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
                 "date": "Dimarts 6 d'octubre (18:00-20:00 h)"
-            },
-            {
-                "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Pedralbes I: Del Romànic al món dels Güell",
-                "date": "Dissabte 25 d'abril (11:00-12:30 h)"
             },
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Del món dels Güells al Barraquisme",
