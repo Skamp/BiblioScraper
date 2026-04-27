@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-26T08:52:20.419381';
+const scrapeTimestamp = '2026-04-27T10:09:10.715747';
 const coursesData = [
     {
         "library_id": "1",
@@ -787,7 +787,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 15,
+        "courses_found": 16,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -848,6 +848,10 @@ const coursesData = [
             {
                 "title": "Ciència en família. Diferència entre física i química. Els eclipsis solars. (6 a 9 anys)",
                 "date": "Dimecres 13 de maig (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \"Les Invisibles\". Marie Curie i l'slime radioactiu (5 a 10 anys)",
+                "date": "Dijous 21 de maig (17:30-19:00 h)"
             }
         ]
     },
