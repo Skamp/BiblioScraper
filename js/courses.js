@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-27T10:09:10.715747';
+const scrapeTimestamp = '2026-04-28T10:08:09.287999';
 const coursesData = [
     {
         "library_id": "1",
@@ -176,7 +176,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura llegir el teatre",
@@ -193,10 +193,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 22 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Visions de la Ciència. De la ciència-ficció a la realitat: com la neurotecnologia connecta el nostre cervell amb les màquines?",
-                "date": "Dilluns 27 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -362,7 +358,7 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -379,6 +375,10 @@ const coursesData = [
             {
                 "title": "Itineraris per Barcelona. Territorio Méndez",
                 "date": "Divendres 5 de juny (17:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. GREC 2026: El retrat de Dorian Gray, d'Oscar Wilde.",
+                "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 16 de juliol (18:30-20:00 h)"
             }
         ]
     },
@@ -419,7 +419,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura d'anime i manga",
@@ -440,6 +440,10 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Llibres prohibits als EUA.",
                 "date": "Dimecres 4 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
+                "date": "Dimecres 8 de juliol (18:30-20:00 h)"
             }
         ]
     },
@@ -477,7 +481,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -498,6 +502,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dissabte 9 de maig (10:00-12:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. GREC 2026: Lòpera de tres rals, de Bertolt Brecht.",
+                "date": "Diumenge 28 de juny (18:30-20:00 h) | Dimecres 8 de juliol (18:30-20:00 h)"
             }
         ]
     },
@@ -577,7 +585,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -586,6 +594,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:30-20:00 h) | Dimecres 12 de novembre (18:30-20:00 h) | Dimecres 10 de desembre (18:30-20:00 h) | Dimecres 11 de febrer (18:30-20:00 h) | Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. 25 anys de Booket",
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -787,7 +799,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 16,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -806,20 +818,12 @@ const coursesData = [
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 5 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 4 de febrer (18:30-19:30 h) | Dimecres 4 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 6 de maig (18:30-19:30 h) | Dimecres 3 de juny (18:30-19:30 h)"
             },
             {
-                "title": "Tardes de ciència. Vigilants de la calor",
-                "date": "Dilluns 27 d'abril (18:30-20:00 h)"
-            },
-            {
                 "title": "Visions de la Ciència. Neurodiàleg en clau de sol",
                 "date": "Dilluns 18 de maig (18:30-20:00 h)"
             },
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dilluns 27 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
