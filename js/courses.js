@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-28T10:08:09.287999';
+const scrapeTimestamp = '2026-04-29T09:59:58.611234';
 const coursesData = [
     {
         "library_id": "1",
@@ -122,15 +122,11 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
                 "date": "Dissabte 11 d'octubre (11:00-13:00 h) | Dissabte 8 de novembre (11:00-13:00 h) | Dissabte 10 de gener (11:00-13:00 h) | Dissabte 7 de febrer (11:00-13:00 h) | Dissabte 7 de març (11:00-13:00 h) | Dissabte 18 d'abril (11:00-13:00 h) | Dissabte 9 de maig (11:00-13:00 h)"
-            },
-            {
-                "title": "Club de lectura a mida: Collserola a fons.",
-                "date": "Dimecres 29 d'octubre (18:30-20:00 h) | Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Itinerari: Casino de la Rabassada.",
@@ -145,7 +141,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -162,10 +158,6 @@ const coursesData = [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn. Els reptes de lSTEAM (6-8 anys)",
-                "date": "Dimarts 28 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
@@ -203,7 +195,7 @@ const coursesData = [
     {
         "library_id": "30",
         "library_name": "Biblioteca Esquerra de l'Eixample-Agustí Centelles",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura Literatura i Salut Mental",
@@ -224,10 +216,6 @@ const coursesData = [
             {
                 "title": "Club de lectura sobre literatura basca (Euskal Etxea)",
                 "date": "Dimarts 21 d'octubre (18:00-19:30 h) | Dimarts 18 de novembre (18:00-19:30 h) | Dimarts 20 de gener (18:00-19:30 h) | Dimarts 17 de febrer (18:00-19:30 h) | Dimarts 17 de març (18:00-19:30 h) | Dimarts 21 d'abril (18:00-19:30 h) | Dimarts 19 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Històries que acompanyen: Cures i final de vida.",
-                "date": "Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h)"
             }
         ]
     },
@@ -450,7 +438,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de literatura fantàstica i ciència-ficció",
@@ -459,10 +447,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dilluns 6 d'octubre (18:30-19:30 h) | Dilluns 3 de novembre (18:30-19:30 h) | Dilluns 1 de desembre (18:30-19:30 h) | Dilluns 2 de febrer (18:30-19:30 h) | Dilluns 2 de març (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 4 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Europa en construcció: veus per entendre el present.",
-                "date": "Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Lectures de Japó i Corea",
@@ -717,7 +701,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -738,10 +722,6 @@ const coursesData = [
             {
                 "title": "Club de lectura jove.",
                 "date": "Divendres 17 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 16 de gener (18:00-19:30 h) | Divendres 20 de febrer (18:00-19:30 h) | Divendres 20 de març (18:00-19:30 h) | Divendres 17 d'abril (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "EstàsOn. Els reptes de l'STEAM (taller per a nenes i nens de 6 a 8 anys)",
-                "date": "Dimarts 28 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
@@ -1039,7 +1019,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1056,10 +1036,6 @@ const coursesData = [
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
                 "date": "Dilluns 6 de juliol (9:30-13:30 h) | Dimarts 7 de juliol (9:30-13:30 h) | Dimecres 8 de juliol (9:30-13:30 h) | Dijous 9 de juliol (9:30-13:30 h) | Divendres 10 de juliol (9:30-13:30 h)"
-            },
-            {
-                "title": "EstàsOn. Els reptes de lSTEAM (6-8 anys)",
-                "date": "Dimarts 28 d'abril (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
