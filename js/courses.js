@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-29T09:59:58.611234';
+const scrapeTimestamp = '2026-04-30T10:00:46.603244';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -62,10 +62,6 @@ const coursesData = [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller de sargit visible",
-                "date": "Dimecres 29 d'abril (17:30-19:00 h)"
             },
             {
                 "title": "FM Taller de costura Azuma-Bukuro",
@@ -141,7 +137,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 5,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -162,6 +158,18 @@ const coursesData = [
             {
                 "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
                 "date": "Dimarts 5 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
+                "date": "Dimarts 12 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dimarts 19 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
+                "date": "Dimarts 26 de maig (17:30-19:30 h)"
             }
         ]
     },
@@ -222,7 +230,7 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -239,10 +247,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dimecres 15 d'octubre (17:30-18:30 h) | Dimecres 19 de novembre (17:30-18:30 h) | Dimecres 21 de gener (17:30-18:30 h) | Dimecres 18 de febrer (17:30-18:30 h) | Dimecres 18 de març (17:30-18:30 h) | Dimecres 15 d'abril (17:30-18:30 h) | Dimecres 6 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "Lletra Petita. Tallers de descoberta. Homage to Park Güell. Celebrating the 100th anniversary of Park Güells opening to the public",
-                "date": "Dimecres 29 d'abril (17:30-18:30 h)"
             }
         ]
     },
@@ -635,7 +639,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -656,10 +660,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de lletra gran",
                 "date": "Dimarts 9 de setembre (18:00-19:30 h) | Dimarts 7 d'octubre (18:00-19:30 h) | Dimarts 4 de novembre (18:00-19:30 h) | Dimarts 2 de desembre (18:00-19:30 h) | Dimarts 13 de gener (18:00-19:30 h) | Dimarts 3 de febrer (18:00-19:30 h) | Dimarts 3 de març (18:00-19:30 h) | Dimarts 7 d'abril (18:00-19:30 h) | Dimarts 5 de maig (18:00-19:30 h) | Dimarts 2 de juny (18:00-19:30 h)"
-            },
-            {
-                "title": "Lletra Petita  Llibres a escena. Petit o gran? (De 6 mesos a 3 anys)",
-                "date": "Dimecres 29 d'abril (17:30-18:30 h)"
             },
             {
                 "title": "Lletra petita. Sac de rondalles. Contes desexplicats (+ 3 anys)",
@@ -779,7 +779,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 14,
+        "courses_found": 20,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -836,6 +836,30 @@ const coursesData = [
             {
                 "title": "Taller de descoberta \"Les Invisibles\". Marie Curie i l'slime radioactiu (5 a 10 anys)",
                 "date": "Dijous 21 de maig (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \" Les invisibles\". L'Heura i el misteri del llibre en blanc (5 a 10 anys)",
+                "date": "Dijous 18 de juny (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta. \"Les invisibles\" L'Anna Mani i l'Art de fer bombolles (5 a 10 anus)",
+                "date": "Dijous 9 de juliol (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \" Les invisibles\". Katherine Johnson i el girador de gravetat (5 a 10 anys)",
+                "date": "Dijous 17 de setembre (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \"Les invisibles\". Jane Goodall i els ous irrompibles. (5 a 10 anys)",
+                "date": "Dijous 22 d'octubre (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \" Les invisibles\". Eugene Clark i l'oceà dins l'ampolla. (5 a 10 anys)",
+                "date": "Dijous 5 de novembre (17:30-19:00 h)"
+            },
+            {
+                "title": "Taller de descoberta \"Les invisibles\". Frances Gabe i la robot. (5 a 10 anys)",
+                "date": "Dijous 17 de desembre (17:30-19:00 h)"
             }
         ]
     },
@@ -946,23 +970,15 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 4,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 10 d'octubre (11:00-12:30 h) | Divendres 14 de novembre (11:00-12:30 h) | Divendres 12 de desembre (11:00-12:30 h) | Divendres 9 de gener (11:00-12:30 h) | Divendres 13 de febrer (11:00-12:30 h) | Divendres 13 de març (11:00-12:30 h) | Divendres 10 d'abril (11:00-12:30 h) | Divendres 8 de maig (11:00-12:30 h) | Divendres 12 de juny (11:00-12:30 h)"
             },
             {
-                "title": "Itineraris per Barcelona. Literatura i Cultura Italiana a Barcelona",
-                "date": "Dimecres 29 d'abril (17:00-19:00 h)"
-            },
-            {
                 "title": "Itineraris per Barcelona. LEixample menys conegut",
                 "date": "Dimecres 27 de maig (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
-                "date": "Dimecres 29 d'abril (17:30-19:30 h)"
             }
         ]
     },
@@ -992,7 +1008,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1009,10 +1025,6 @@ const coursesData = [
             {
                 "title": "Obrador. Taller descriptura autobiogràfica.",
                 "date": "Dijous 7 de maig (18:00-20:00 h) | Dijous 14 de maig (18:00-20:00 h) | Dijous 21 de maig (18:00-20:00 h) | Dijous 28 de maig (18:00-20:00 h)"
-            },
-            {
-                "title": "Club de lectura infantil 'Pim Pam Pum Contes\"",
-                "date": "Dimecres 29 d'abril (17:30-18:00 h)"
             }
         ]
     },
