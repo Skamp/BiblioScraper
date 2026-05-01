@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-04-30T10:00:46.603244';
+const scrapeTimestamp = '2026-05-01T09:27:41.772260';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -62,10 +62,6 @@ const coursesData = [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller de costura Azuma-Bukuro",
-                "date": "Dijous 30 d'abril (17:30-19:00 h)"
             },
             {
                 "title": "FM Taller de collage tèxtil",
