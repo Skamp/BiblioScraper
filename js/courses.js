@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-02T08:59:13.526643';
+const scrapeTimestamp = '2026-05-03T09:16:31.575935';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -74,10 +74,6 @@ const coursesData = [
             {
                 "title": "FM Taller de codisseny d'un kit bàsic de costura",
                 "date": "Dijous 7 de maig (17:30-19:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dissabte 2 de maig (11:00-13:00 h)"
             }
         ]
     },
@@ -280,7 +276,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
@@ -293,10 +289,6 @@ const coursesData = [
             {
                 "title": "Club de lectura especial: \"Emma Goldman: la revolució com a forma de vida\" de Vivian Gornick",
                 "date": "Dimecres 20 de maig (18:00-20:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dissabte 2 de maig (11:00-13:00 h)"
             }
         ]
     },
