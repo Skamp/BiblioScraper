@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-03T09:16:31.575935';
+const scrapeTimestamp = '2026-05-04T10:07:48.978968';
 const coursesData = [
     {
         "library_id": "1",
@@ -357,7 +357,7 @@ const coursesData = [
                 "date": "Divendres 5 de juny (17:00-19:00 h)"
             },
             {
-                "title": "Club de lectura puntual. GREC 2026: El retrat de Dorian Gray, d'Oscar Wilde.",
+                "title": "Club de lectura puntual. GREC 2026: \"El retrat de Dorian Gray\", d'Oscar Wilde.",
                 "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 16 de juliol (18:30-20:00 h)"
             }
         ]
@@ -437,10 +437,6 @@ const coursesData = [
                 "date": "Dimecres 15 d'octubre (18:30-19:30 h) | Dimecres 19 de novembre (18:30-19:30 h) | Dimecres 21 de gener (18:30-19:30 h) | Dimecres 18 de febrer (18:30-19:30 h) | Dimecres 18 de març (18:30-19:30 h) | Dimecres 15 d'abril (18:30-19:30 h) | Dimecres 20 de maig (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura general",
-                "date": "Dilluns 6 d'octubre (18:30-19:30 h) | Dilluns 3 de novembre (18:30-19:30 h) | Dilluns 1 de desembre (18:30-19:30 h) | Dilluns 2 de febrer (18:30-19:30 h) | Dilluns 2 de març (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 4 de maig (18:30-19:30 h)"
-            },
-            {
                 "title": "Club de lectura puntual. Lectures de Japó i Corea",
                 "date": "Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 6 de maig (18:30-20:00 h) | Dimecres 10 de juny (18:30-20:00 h)"
             },
@@ -451,13 +447,17 @@ const coursesData = [
             {
                 "title": "Nines tradicionals japoneses, taller de Washi Ningyo",
                 "date": "Dijous 7 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Construïm amb Lego les ciutats europees del 2066 (6 a 11 anys)",
+                "date": "Dijous 14 de maig (17:30-18:30 h)"
             }
         ]
     },
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -480,8 +480,12 @@ const coursesData = [
                 "date": "Dissabte 9 de maig (10:00-12:00 h)"
             },
             {
-                "title": "Club de lectura puntual. GREC 2026: Lòpera de tres rals, de Bertolt Brecht.",
+                "title": "Club de lectura puntual. GREC 2026: \"Lòpera de tres rals\", de Bertolt Brecht.",
                 "date": "Diumenge 28 de juny (18:30-20:00 h) | Dimecres 8 de juliol (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -507,12 +511,8 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dilluns 6 d'octubre (18:30-20:00 h) | Dilluns 3 de novembre (18:30-20:00 h) | Dilluns 1 de desembre (18:30-20:00 h) | Dilluns 2 de febrer (18:30-20:00 h) | Dilluns 2 de març (18:30-20:00 h) | Dilluns 13 d'abril (18:30-20:00 h) | Dilluns 4 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura de literatura de viatges",
                 "date": "Dijous 16 d'octubre (18:30-19:30 h) | Dijous 11 de desembre (18:30-19:30 h) | Dijous 15 de gener (18:30-19:30 h) | Dijous 19 de febrer (18:30-19:30 h) | Dijous 19 de març (18:30-19:30 h) | Dijous 16 d'abril (18:30-19:30 h) | Dijous 21 de maig (18:30-19:30 h)"
@@ -561,7 +561,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 3,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -574,6 +574,26 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Divendres 8 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
+                "date": "Divendres 15 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
+                "date": "Divendres 22 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
+                "date": "Divendres 29 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Divendres 5 de juny (17:30-19:30 h)"
             }
         ]
     },
@@ -950,7 +970,7 @@ const coursesData = [
                 "date": "Dijous 11 de juny (17:30-19:30 h)"
             },
             {
-                "title": "Descobrim Thomas Mann: Josep i els seus germans",
+                "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
                 "date": "Dijous 18 de juny (18:30-20:00 h) | Dijous 23 de juliol (18:30-20:00 h) | Dijous 1 d'octubre (18:30-20:00 h)"
             }
         ]
@@ -1139,7 +1159,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 6,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1164,6 +1184,22 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Divendres 8 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
+                "date": "Divendres 15 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
+                "date": "Divendres 22 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Divendres 29 de maig (17:30-19:30 h)"
             }
         ]
     },
