@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-04T10:07:48.978968';
+const scrapeTimestamp = '2026-05-05T09:56:16.732491';
 const coursesData = [
     {
         "library_id": "1",
@@ -245,7 +245,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -254,10 +254,6 @@ const coursesData = [
             {
                 "title": "Club de lectura jove.",
                 "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 22 de desembre (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 25 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dimarts 4 de novembre (17:30-18:30 h) | Dimarts 2 de desembre (17:30-18:30 h) | Dimarts 13 de gener (17:30-18:30 h) | Dimarts 3 de febrer (17:30-18:30 h) | Dimarts 3 de març (17:30-18:30 h) | Dimarts 14 d'abril (17:30-18:30 h) | Dimarts 5 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
@@ -295,7 +291,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -328,10 +324,6 @@ const coursesData = [
             {
                 "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
                 "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
-            },
-            {
-                "title": "Visions de la Ciència. Quan la por emmalalteix: diferències de sexe en els mecanismes cerebrals",
-                "date": "Dilluns 4 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -686,7 +678,7 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -695,10 +687,6 @@ const coursesData = [
             {
                 "title": "Club de lectura feminista: Horror domèstic.",
                 "date": "Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Cartes des de labsència",
-                "date": "Dijous 9 d'abril (18:30-20:00 h) | Dimarts 5 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
@@ -787,7 +775,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 20,
+        "courses_found": 19,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -812,10 +800,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
-                "date": "Dilluns 4 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
@@ -897,12 +881,8 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura de llengua italiana",
-                "date": "Dimarts 4 de novembre (18:30-19:30 h) | Dimarts 2 de desembre (18:30-19:30 h) | Dimarts 30 de desembre (18:30-19:30 h) | Dimarts 13 de gener (18:30-19:30 h) | Dimarts 3 de febrer (18:30-19:30 h) | Dimarts 3 de març (18:30-19:30 h) | Dimarts 7 d'abril (18:30-19:30 h) | Dimarts 5 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura de llengua alemanya",
                 "date": "Dilluns 6 d'octubre (18:30-19:30 h) | Dilluns 10 de novembre (18:30-19:30 h) | Dilluns 1 de desembre (18:30-19:30 h) | Dilluns 12 de gener (18:30-19:30 h) | Dilluns 9 de febrer (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 11 de maig (18:30-19:30 h)"
@@ -978,7 +958,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 2,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -987,6 +967,22 @@ const coursesData = [
             {
                 "title": "Itineraris per Barcelona. LEixample menys conegut",
                 "date": "Dimecres 27 de maig (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dimecres 13 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Dimecres 27 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
+                "date": "Dimecres 10 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
+                "date": "Dimecres 8 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -1016,7 +1012,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -1033,6 +1029,10 @@ const coursesData = [
             {
                 "title": "Obrador. Taller descriptura autobiogràfica.",
                 "date": "Dijous 7 de maig (18:00-20:00 h) | Dijous 14 de maig (18:00-20:00 h) | Dijous 21 de maig (18:00-20:00 h) | Dijous 28 de maig (18:00-20:00 h)"
+            },
+            {
+                "title": "Molt per aprendre - Jocs en família",
+                "date": "Dimecres 13 de maig (17:30-18:30 h)"
             }
         ]
     },
