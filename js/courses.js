@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-06T10:11:44.286176';
+const scrapeTimestamp = '2026-05-07T10:15:54.579678';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -50,10 +50,6 @@ const coursesData = [
             {
                 "title": "Visions de la Ciència. Com afecta el nostre estat dànim al nostre cos?",
                 "date": "Dilluns 11 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Lletra petita El racó dels pares. Primeres passes. Històries i cançons animals (de 6 mesos a 3 anys)",
-                "date": "Dimecres 6 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -98,7 +94,7 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
@@ -107,10 +103,6 @@ const coursesData = [
             {
                 "title": "Itinerari: Casino de la Rabassada.",
                 "date": "Dissabte 19 de setembre (10:00-13:30 h)"
-            },
-            {
-                "title": "Taller de Haikus",
-                "date": "Dimecres 6 de maig (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -371,7 +363,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura d'anime i manga",
@@ -380,10 +372,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dimecres 22 d'octubre (18:30-20:30 h) | Dimecres 19 de novembre (18:30-20:30 h) | Dimecres 17 de desembre (18:30-20:30 h) | Dimecres 21 de gener (18:30-20:30 h) | Dimecres 18 de febrer (18:30-20:30 h) | Dimecres 15 d'abril (18:30-20:30 h) | Dimecres 20 de maig (18:30-20:30 h)"
-            },
-            {
-                "title": "Club de lectura de llengua francesa",
-                "date": "Dijous 2 d'octubre (12:00-13:00 h) | Dijous 6 de novembre (12:00-13:00 h) | Dijous 8 de gener (12:00-13:00 h) | Dijous 5 de febrer (12:00-13:00 h) | Dijous 5 de març (12:00-13:00 h) | Dijous 9 d'abril (12:00-13:00 h) | Dijous 7 de maig (12:00-13:00 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -514,12 +502,8 @@ const coursesData = [
     {
         "library_id": "17",
         "library_name": "Biblioteca Les Roquetes  Rafa Juncadella",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 6 de novembre (18:30-20:00 h) | Dijous 4 de desembre (18:30-20:00 h) | Dijous 5 de febrer (18:30-20:00 h) | Dijous 5 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 7 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Club de Lectura Jove de Les Roquetes",
                 "date": "Dijous 16 d'octubre (18:30-19:30 h) | Dijous 20 de novembre (18:30-19:30 h) | Dijous 18 de desembre (18:30-19:30 h) | Dijous 15 de gener (18:30-19:30 h) | Dijous 19 de febrer (18:30-19:30 h) | Dijous 19 de març (18:30-19:30 h) | Dijous 16 d'abril (18:30-19:30 h) | Dijous 21 de maig (18:30-19:30 h) | Dijous 18 de juny (18:30-19:30 h)"
@@ -1131,7 +1115,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1168,6 +1152,10 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
                 "date": "Divendres 29 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "Més digitals: consum segur al món digital",
+                "date": "Dijous 7 de maig (16:00-18:30 h) | Dijous 14 de maig (16:00-18:30 h) | Dijous 21 de maig (16:00-18:30 h) | Dijous 28 de maig (16:00-18:30 h) | Dijous 4 de juny (16:00-18:30 h) | Dijous 11 de juny (16:00-18:30 h)"
             }
         ]
     },
