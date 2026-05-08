@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-07T10:15:54.579678';
+const scrapeTimestamp = '2026-05-08T09:09:07.211718';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -54,10 +54,6 @@ const coursesData = [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller de codisseny d'un kit bàsic de costura",
-                "date": "Dijous 7 de maig (17:30-19:00 h)"
             }
         ]
     },
@@ -144,7 +140,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura llegir el teatre",
@@ -165,6 +161,10 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Sant Martí barri a barri. Fet al Clot",
+                "date": "Dissabte 21 de novembre (10:00-13:00 h)"
             }
         ]
     },
@@ -363,12 +363,8 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura d'anime i manga",
-                "date": "Divendres 10 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 9 de gener (18:00-19:30 h) | Divendres 13 de febrer (18:00-19:30 h) | Divendres 13 de març (18:00-19:30 h) | Divendres 10 d'abril (18:00-19:30 h) | Divendres 8 de maig (18:00-19:30 h)"
-            },
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dimecres 22 d'octubre (18:30-20:30 h) | Dimecres 19 de novembre (18:30-20:30 h) | Dimecres 17 de desembre (18:30-20:30 h) | Dimecres 21 de gener (18:30-20:30 h) | Dimecres 18 de febrer (18:30-20:30 h) | Dimecres 15 d'abril (18:30-20:30 h) | Dimecres 20 de maig (18:30-20:30 h)"
@@ -390,7 +386,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de literatura fantàstica i ciència-ficció",
@@ -405,10 +401,6 @@ const coursesData = [
                 "date": "Dimecres 4 de febrer (17:30-18:30 h) | Dimecres 4 de març (17:30-18:30 h) | Dimecres 8 d'abril (17:30-18:30 h) | Dimecres 7 d'octubre (17:30-18:30 h) | Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h)"
             },
             {
-                "title": "Nines tradicionals japoneses, taller de Washi Ningyo",
-                "date": "Dijous 7 de maig (18:30-20:00 h)"
-            },
-            {
                 "title": "Construïm amb Lego les ciutats europees del 2066 (6 a 11 anys)",
                 "date": "Dijous 14 de maig (17:30-18:30 h)"
             }
@@ -417,7 +409,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 7,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -446,6 +438,14 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dissabte 30 de maig (10:00-12:00 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dissabte 6 de juny (10:00-12:00 h)"
             }
         ]
     },
@@ -972,7 +972,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -985,10 +985,6 @@ const coursesData = [
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
                 "date": "Dimecres 16 de setembre (17:30-18:30 h)"
-            },
-            {
-                "title": "Obrador. Taller descriptura autobiogràfica.",
-                "date": "Dijous 7 de maig (18:00-20:00 h) | Dijous 14 de maig (18:00-20:00 h) | Dijous 21 de maig (18:00-20:00 h) | Dijous 28 de maig (18:00-20:00 h)"
             },
             {
                 "title": "Molt per aprendre - Jocs en família",
@@ -1115,7 +1111,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1152,10 +1148,6 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
                 "date": "Divendres 29 de maig (17:30-19:30 h)"
-            },
-            {
-                "title": "Més digitals: consum segur al món digital",
-                "date": "Dijous 7 de maig (16:00-18:30 h) | Dijous 14 de maig (16:00-18:30 h) | Dijous 21 de maig (16:00-18:30 h) | Dijous 28 de maig (16:00-18:30 h) | Dijous 4 de juny (16:00-18:30 h) | Dijous 11 de juny (16:00-18:30 h)"
             }
         ]
     },
