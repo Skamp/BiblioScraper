@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-08T09:09:07.211718';
+const scrapeTimestamp = '2026-05-09T09:11:43.833251';
 const coursesData = [
     {
         "library_id": "1",
@@ -217,7 +217,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -226,10 +226,6 @@ const coursesData = [
             {
                 "title": "Club de lectura jove.",
                 "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 22 de desembre (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 25 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
-                "date": "Divendres 8 de maig (17:00-19:00 h)"
             },
             {
                 "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
@@ -467,7 +463,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de literatura de viatges",
@@ -490,10 +486,6 @@ const coursesData = [
                 "date": "Dissabte 10 d'octubre (11:00-12:30 h)"
             },
             {
-                "title": "Creacions: Taller 'Urban Sketching Les Corts'",
-                "date": "Divendres 8 de maig (17:00-20:00 h) | Divendres 15 de maig (17:00-20:00 h) | Divendres 22 de maig (17:00-20:00 h) | Divendres 29 de maig (17:00-20:00 h) | Divendres 5 de juny (17:00-20:00 h) | Divendres 12 de juny (17:00-20:00 h) | Divendres 19 de juny (17:00-20:00 h)"
-            },
-            {
                 "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
                 "date": "Dissabte 6 de juny (11:00-12:30 h)"
             }
@@ -513,7 +505,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -526,10 +518,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
-                "date": "Divendres 8 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
@@ -552,7 +540,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -581,10 +569,6 @@ const coursesData = [
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Del món dels Güells al Barraquisme",
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Creacions: Taller 'Urban Sketching Les Corts'",
-                "date": "Divendres 8 de maig (17:00-20:00 h) | Divendres 15 de maig (17:00-20:00 h) | Divendres 22 de maig (17:00-20:00 h) | Divendres 29 de maig (17:00-20:00 h) | Divendres 5 de juny (17:00-20:00 h) | Divendres 12 de juny (17:00-20:00 h) | Divendres 19 de juny (17:00-20:00 h)"
             },
             {
                 "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
@@ -875,15 +859,11 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 13 de novembre (18:30-20:00 h) | Dijous 11 de desembre (18:30-20:00 h) | Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Gaming Club",
-                "date": "Divendres 8 de maig (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h) | Divendres 22 de maig (18:00-19:30 h) | Divendres 29 de maig (18:00-19:30 h) | Divendres 5 de juny (18:00-19:30 h) | Divendres 12 de juny (18:00-19:30 h)"
             },
             {
                 "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
@@ -1111,7 +1091,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1132,10 +1112,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Divendres 8 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
