@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-09T09:11:43.833251';
+const scrapeTimestamp = '2026-05-10T09:24:08.875246';
 const coursesData = [
     {
         "library_id": "1",
@@ -405,7 +405,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -422,10 +422,6 @@ const coursesData = [
             {
                 "title": "BCN POESIA. Taller familiar. Operacions sobre el paper (+6 anys).",
                 "date": "Dimarts 19 de maig (17:30-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dissabte 9 de maig (10:00-12:00 h)"
             },
             {
                 "title": "Club de lectura puntual. GREC 2026: \"Lòpera de tres rals\", de Bertolt Brecht.",
