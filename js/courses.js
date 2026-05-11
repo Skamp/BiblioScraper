@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-10T09:24:08.875246';
+const scrapeTimestamp = '2026-05-11T10:55:15.752975';
 const coursesData = [
     {
         "library_id": "1",
@@ -171,7 +171,7 @@ const coursesData = [
     {
         "library_id": "30",
         "library_name": "Biblioteca Esquerra de l'Eixample-Agustí Centelles",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura Literatura i Salut Mental",
@@ -180,10 +180,6 @@ const coursesData = [
             {
                 "title": "Club de lectura sobre literatura basca",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura general",
-                "date": "Dilluns 13 d'octubre (11:00-12:30 h) | Dilluns 10 de novembre (11:00-12:30 h) | Dilluns 12 de gener (11:00-12:30 h) | Dilluns 9 de febrer (11:00-12:30 h) | Dilluns 9 de març (11:00-12:30 h) | Dilluns 13 d'abril (11:00-12:30 h) | Dilluns 11 de maig (11:00-12:30 h)"
             },
             {
                 "title": "Club de lectura de fotollibres",
@@ -405,12 +401,8 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "Club de lectura de llengua francesa",
-                "date": "Dilluns 13 d'octubre (18:30-20:00 h) | Dilluns 10 de novembre (18:30-20:00 h) | Dilluns 12 de gener (18:30-20:00 h) | Dilluns 9 de febrer (18:30-20:00 h) | Dilluns 9 de març (18:30-20:00 h) | Dilluns 13 d'abril (18:30-20:00 h) | Dilluns 11 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
@@ -633,7 +625,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -646,10 +638,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:30-20:00 h) | Dimecres 12 de novembre (18:30-20:00 h) | Dimecres 14 de gener (18:30-20:00 h) | Dimecres 11 de febrer (18:30-20:00 h) | Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura de llengua anglesa",
-                "date": "Dilluns 13 d'octubre (18:30-20:00 h) | Dilluns 10 de novembre (18:30-20:00 h) | Dilluns 12 de gener (18:30-20:00 h) | Dilluns 9 de febrer (18:30-20:00 h) | Dilluns 9 de març (18:30-20:00 h) | Dilluns 13 d'abril (18:30-20:00 h) | Dilluns 11 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura jove.",
@@ -813,12 +801,8 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura de llengua alemanya",
-                "date": "Dilluns 6 d'octubre (18:30-19:30 h) | Dilluns 10 de novembre (18:30-19:30 h) | Dilluns 1 de desembre (18:30-19:30 h) | Dilluns 12 de gener (18:30-19:30 h) | Dilluns 9 de febrer (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 11 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:30-19:30 h) | Dimecres 12 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 11 de febrer (18:30-19:30 h) | Dimecres 11 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 13 de maig (18:30-19:30 h)"
