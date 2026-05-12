@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-11T10:55:15.752975';
+const scrapeTimestamp = '2026-05-12T10:26:36.954319';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -46,10 +46,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dijous 9 d'octubre (12:00-13:00 h) | Dijous 13 de novembre (12:00-13:00 h) | Dijous 11 de desembre (12:00-13:00 h) | Dijous 8 de gener (12:00-13:00 h) | Dijous 12 de febrer (12:00-13:00 h) | Dijous 12 de març (12:00-13:00 h) | Dijous 9 d'abril (12:00-13:00 h) | Dijous 14 de maig (12:00-13:00 h) | Dijous 11 de juny (12:00-13:00 h)"
-            },
-            {
-                "title": "Visions de la Ciència. Com afecta el nostre estat dànim al nostre cos?",
-                "date": "Dilluns 11 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -71,15 +67,11 @@ const coursesData = [
     {
         "library_id": "38",
         "library_name": "Biblioteca Clarà",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimarts 21 d'octubre (18:30-19:30 h) | Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 20 de gener (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura de llengua anglesa",
-                "date": "Dimarts 14 d'octubre (18:30-19:30 h) | Dimarts 11 de novembre (18:30-19:30 h) | Dimarts 9 de desembre (18:30-19:30 h) | Dimarts 10 de febrer (18:30-19:30 h) | Dimarts 10 de març (18:30-19:30 h) | Dimarts 14 d'abril (18:30-19:30 h) | Dimarts 12 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Atrapallibres. Club de lectura infantil",
@@ -171,7 +163,7 @@ const coursesData = [
     {
         "library_id": "30",
         "library_name": "Biblioteca Esquerra de l'Eixample-Agustí Centelles",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura Literatura i Salut Mental",
@@ -180,10 +172,6 @@ const coursesData = [
             {
                 "title": "Club de lectura sobre literatura basca",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura de fotollibres",
-                "date": "Dimarts 14 d'octubre (18:30-20:00 h) | Dimarts 11 de novembre (18:30-20:00 h) | Dimarts 13 de gener (18:30-20:00 h) | Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura sobre literatura basca (Euskal Etxea)",
@@ -294,12 +282,8 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimarts 7 d'octubre (18:30-19:30 h) | Dimarts 4 de novembre (18:30-19:30 h) | Dimarts 2 de desembre (18:30-19:30 h) | Dimarts 3 de febrer (18:30-19:30 h) | Dimarts 3 de març (18:30-19:30 h) | Dimarts 7 d'abril (18:30-19:30 h) | Dimarts 12 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 22 d'octubre (18:30-20:00 h) | Dimecres 26 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 28 de gener (18:30-20:00 h) | Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 22 d'abril (18:30-20:00 h) | Dimecres 27 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
@@ -321,15 +305,11 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 16 d'octubre (18:30-20:00 h) | Dijous 20 de novembre (18:30-20:00 h) | Dijous 15 de gener (18:30-20:00 h) | Dijous 19 de febrer (18:30-20:00 h) | Dijous 19 de març (18:30-20:00 h) | Dijous 16 d'abril (18:30-20:00 h) | Dijous 21 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura de poesia",
-                "date": "Dimarts 14 d'octubre (18:30-20:00 h) | Dimarts 11 de novembre (18:30-20:00 h) | Dimarts 13 de gener (18:30-20:00 h) | Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -695,7 +675,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 19,
+        "courses_found": 18,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -720,10 +700,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
-                "date": "Dilluns 11 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
@@ -1071,7 +1047,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -1088,10 +1064,6 @@ const coursesData = [
             {
                 "title": "Espai Gent gran",
                 "date": "Dilluns 29 de setembre (18:00-19:00 h) | Dilluns 6 d'octubre (18:00-19:00 h) | Dilluns 13 d'octubre (18:00-19:00 h) | Dilluns 20 d'octubre (18:00-19:00 h) | Dilluns 27 d'octubre (18:00-19:00 h) | Dilluns 3 de novembre (18:00-19:00 h) | Dilluns 17 de novembre (18:00-19:00 h) | Dilluns 24 de novembre (18:00-19:00 h) | Dilluns 1 de desembre (18:00-19:00 h) | Dilluns 22 de desembre (18:00-19:00 h) | Dilluns 19 de gener (18:00-19:00 h) | Dilluns 26 de gener (18:00-19:00 h) | Dilluns 2 de febrer (18:00-19:00 h) | Dilluns 16 de febrer (18:00-19:00 h) | Dilluns 23 de febrer (18:00-19:00 h) | Dilluns 2 de març (18:00-19:00 h) | Dilluns 16 de març (18:00-19:00 h) | Dilluns 23 de març (18:00-19:00 h) | Dilluns 20 d'abril (18:00-19:00 h) | Dilluns 27 d'abril (18:00-19:00 h) | Dilluns 4 de maig (18:00-19:00 h) | Dilluns 18 de maig (18:00-19:00 h) | Dilluns 1 de juny (18:00-19:00 h) | Dilluns 15 de juny (18:00-19:00 h) | Dilluns 22 de juny (18:00-19:00 h) | Dilluns 29 de juny (18:00-19:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual: Negra i criminal.",
-                "date": "Dimarts 10 de febrer (18:30-20:00 h) | Dimarts 10 de març (18:30-20:00 h) | Dimarts 14 d'abril (18:30-20:00 h) | Dimarts 12 de maig (18:30-20:00 h)"
             },
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
