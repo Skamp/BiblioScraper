@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-12T10:26:36.954319';
+const scrapeTimestamp = '2026-05-13T10:15:48.394268';
 const coursesData = [
     {
         "library_id": "1",
@@ -82,7 +82,7 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 2,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
@@ -91,13 +91,29 @@ const coursesData = [
             {
                 "title": "Itinerari: Casino de la Rabassada.",
                 "date": "Dissabte 19 de setembre (10:00-13:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dimecres 20 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
+                "date": "Dimecres 3 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
+                "date": "Dimecres 10 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
+                "date": "Dimecres 17 de juny (17:30-19:30 h)"
             }
         ]
     },
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -114,10 +130,6 @@ const coursesData = [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dimarts 12 de maig (17:30-19:30 h)"
             },
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
@@ -335,7 +347,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -344,10 +356,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 29 d'octubre (18:30-20:00 h) | Dimecres 26 de novembre (18:30-20:00 h) | Dimecres 28 de gener (18:30-20:00 h) | Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h) | Dimecres 27 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Llibres prohibits als EUA.",
-                "date": "Dimecres 4 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
@@ -586,15 +594,11 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dilluns 20 d'octubre (18:30-20:00 h) | Dilluns 24 de novembre (18:30-20:00 h) | Dilluns 26 de gener (18:30-20:00 h) | Dilluns 23 de febrer (18:30-20:00 h) | Dilluns 23 de març (18:30-20:00 h) | Dilluns 27 d'abril (18:30-20:00 h) | Dilluns 18 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura feminista: Horror domèstic.",
-                "date": "Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
@@ -605,7 +609,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 12,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -616,16 +620,8 @@ const coursesData = [
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
-                "date": "Dimecres 8 d'octubre (18:30-20:00 h) | Dimecres 12 de novembre (18:30-20:00 h) | Dimecres 14 de gener (18:30-20:00 h) | Dimecres 11 de febrer (18:30-20:00 h) | Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
-            },
-            {
                 "title": "Club de lectura jove.",
                 "date": "Divendres 17 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 16 de gener (18:00-19:30 h) | Divendres 20 de febrer (18:00-19:30 h) | Divendres 20 de març (18:00-19:30 h) | Divendres 17 d'abril (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dimarts 12 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
@@ -675,12 +671,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 18,
+        "courses_found": 17,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimecres 8 d'octubre (18:30-19:30 h) | Dimecres 12 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 11 de febrer (18:30-19:30 h) | Dimecres 11 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 13 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura de ciència",
                 "date": "Dimecres 15 d'octubre (18:30-19:30 h) | Dimecres 19 de novembre (18:30-19:30 h) | Dimecres 21 de gener (18:30-19:30 h) | Dimecres 18 de febrer (18:30-19:30 h) | Dimecres 18 de març (18:30-19:30 h) | Dimecres 15 d'abril (18:30-19:30 h) | Dimecres 20 de maig (18:30-19:30 h)"
@@ -796,12 +788,8 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimecres 8 d'octubre (18:00-19:30 h) | Dimecres 12 de novembre (18:00-19:30 h) | Dimecres 10 de desembre (18:00-19:30 h) | Dimecres 11 de febrer (18:00-19:30 h) | Dimecres 11 de març (18:00-19:30 h) | Dimecres 8 d'abril (18:00-19:30 h) | Dimecres 13 de maig (18:00-19:30 h)"
-            },
             {
                 "title": "Itineraris per Barcelona. Llegir Barcelona. Testimonis escrits que expliquen la ciutat",
                 "date": "Divendres 15 de maig (17:00-19:00 h)"
@@ -931,7 +919,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -948,10 +936,6 @@ const coursesData = [
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
                 "date": "Dilluns 6 de juliol (9:30-13:30 h) | Dimarts 7 de juliol (9:30-13:30 h) | Dimecres 8 de juliol (9:30-13:30 h) | Dijous 9 de juliol (9:30-13:30 h) | Divendres 10 de juliol (9:30-13:30 h)"
-            },
-            {
-                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
-                "date": "Dimarts 12 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
@@ -982,7 +966,7 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -999,10 +983,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 20 de gener (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 21 d'abril (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Punt i a part: lectures sobre el divorci",
-                "date": "Dimecres 4 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
             }
         ]
     },
