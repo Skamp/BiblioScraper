@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-13T10:15:48.394268';
+const scrapeTimestamp = '2026-05-14T10:08:41.655133';
 const coursesData = [
     {
         "library_id": "1",
@@ -255,15 +255,11 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dijous 16 d'octubre (18:30-19:30 h) | Dijous 20 de novembre (18:30-19:30 h) | Dijous 15 de gener (18:30-19:30 h) | Dijous 19 de febrer (18:30-19:30 h) | Dijous 19 de març (18:30-19:30 h) | Dijous 16 d'abril (18:30-19:30 h) | Dijous 21 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura de literatura llatinoamericana del segle XXI",
-                "date": "Dijous 9 d'octubre (18:30-19:30 h) | Dijous 13 de novembre (18:30-19:30 h) | Dijous 11 de desembre (18:30-19:30 h) | Dijous 12 de febrer (18:30-19:30 h) | Dijous 12 de març (18:30-19:30 h) | Dijous 9 d'abril (18:30-19:30 h) | Dijous 14 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -439,15 +435,11 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de literatura de viatges",
                 "date": "Dijous 16 d'octubre (18:30-19:30 h) | Dijous 11 de desembre (18:30-19:30 h) | Dijous 15 de gener (18:30-19:30 h) | Dijous 19 de febrer (18:30-19:30 h) | Dijous 19 de març (18:30-19:30 h) | Dijous 16 d'abril (18:30-19:30 h) | Dijous 21 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Literatura i esports.",
-                "date": "Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -555,7 +547,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 8,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -566,20 +558,12 @@ const coursesData = [
                 "date": "Dimecres 15 d'octubre (18:30-19:30 h) | Dimecres 19 de novembre (18:30-19:30 h) | Dimecres 21 de gener (18:30-19:30 h) | Dimecres 18 de febrer (18:30-19:30 h) | Dimecres 18 de març (18:30-19:30 h) | Dimecres 15 d'abril (18:30-19:30 h) | Dimecres 20 de maig (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura manga",
-                "date": "Dijous 9 d'octubre (18:30-19:30 h) | Dijous 13 de novembre (18:30-19:30 h) | Dijous 8 de gener (18:30-19:30 h) | Dijous 12 de febrer (18:30-19:30 h) | Dijous 12 de març (18:30-19:30 h) | Dijous 9 d'abril (18:30-19:30 h) | Dijous 14 de maig (18:30-19:30 h)"
-            },
-            {
                 "title": "Club de lectura alternatiu",
                 "date": "Dilluns 15 de setembre (19:00-20:00 h) | Dilluns 20 d'octubre (19:00-20:00 h) | Dilluns 17 de novembre (19:00-20:00 h) | Dilluns 15 de desembre (19:00-20:00 h) | Dilluns 19 de gener (19:00-20:00 h) | Dilluns 16 de febrer (19:00-20:00 h) | Dilluns 16 de març (19:00-20:00 h) | Dilluns 20 d'abril (19:00-20:00 h) | Dilluns 18 de maig (19:00-20:00 h) | Dilluns 15 de juny (19:00-20:00 h)"
             },
             {
                 "title": "Club de lectura de lletra gran",
                 "date": "Dimarts 9 de setembre (18:00-19:30 h) | Dimarts 7 d'octubre (18:00-19:30 h) | Dimarts 4 de novembre (18:00-19:30 h) | Dimarts 2 de desembre (18:00-19:30 h) | Dimarts 13 de gener (18:00-19:30 h) | Dimarts 3 de febrer (18:00-19:30 h) | Dimarts 3 de març (18:00-19:30 h) | Dimarts 7 d'abril (18:00-19:30 h) | Dimarts 5 de maig (18:00-19:30 h) | Dimarts 2 de juny (18:00-19:30 h)"
-            },
-            {
-                "title": "Lletra petita. Sac de rondalles. Contes desexplicats (+ 3 anys)",
-                "date": "Dimecres 13 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Lletra petita. Betu el pallasso",
@@ -671,7 +655,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 17,
+        "courses_found": 16,
         "courses": [
             {
                 "title": "Club de lectura de ciència",
@@ -708,10 +692,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
                 "date": "Dilluns 22 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "Ciència en família. Diferència entre física i química. Els eclipsis solars. (6 a 9 anys)",
-                "date": "Dimecres 13 de maig (17:30-19:00 h)"
             },
             {
                 "title": "Taller de descoberta \"Les Invisibles\". Marie Curie i l'slime radioactiu (5 a 10 anys)",
@@ -803,12 +783,8 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dijous 2 d'octubre (18:30-20:00 h) | Dijous 13 de novembre (18:30-20:00 h) | Dijous 11 de desembre (18:30-20:00 h) | Dijous 12 de febrer (18:30-20:00 h) | Dijous 12 de març (18:30-20:00 h) | Dijous 9 d'abril (18:30-20:00 h) | Dijous 14 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
                 "date": "Dijous 21 de maig (17:30-19:30 h)"
@@ -834,7 +810,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -843,10 +819,6 @@ const coursesData = [
             {
                 "title": "Itineraris per Barcelona. LEixample menys conegut",
                 "date": "Dimecres 27 de maig (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dimecres 13 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
@@ -896,12 +868,8 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 4,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dijous 9 d'octubre (18:30-19:30 h) | Dijous 13 de novembre (18:30-19:30 h) | Dijous 8 de gener (18:30-19:30 h) | Dijous 12 de febrer (18:30-19:30 h) | Dijous 12 de març (18:30-19:30 h) | Dijous 9 d'abril (18:30-19:30 h) | Dijous 14 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 26 de novembre (18:30-19:30 h) | Dimecres 28 de gener (18:30-19:30 h) | Dimecres 25 de febrer (18:30-19:30 h) | Dimecres 25 de març (18:30-19:30 h) | Dimecres 22 d'abril (18:30-19:30 h) | Dimecres 27 de maig (18:30-19:30 h)"
@@ -909,10 +877,6 @@ const coursesData = [
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
                 "date": "Dimecres 16 de setembre (17:30-18:30 h)"
-            },
-            {
-                "title": "Molt per aprendre - Jocs en família",
-                "date": "Dimecres 13 de maig (17:30-18:30 h)"
             }
         ]
     },
