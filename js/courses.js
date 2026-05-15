@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-14T10:08:41.655133';
+const scrapeTimestamp = '2026-05-15T10:14:46.651286';
 const coursesData = [
     {
         "library_id": "1",
@@ -362,7 +362,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de literatura fantàstica i ciència-ficció",
@@ -375,10 +375,6 @@ const coursesData = [
             {
                 "title": "Club de lectura infantil. Còmic debat",
                 "date": "Dimecres 4 de febrer (17:30-18:30 h) | Dimecres 4 de març (17:30-18:30 h) | Dimecres 8 d'abril (17:30-18:30 h) | Dimecres 7 d'octubre (17:30-18:30 h) | Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h)"
-            },
-            {
-                "title": "Construïm amb Lego les ciutats europees del 2066 (6 a 11 anys)",
-                "date": "Dijous 14 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -547,7 +543,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -568,10 +564,6 @@ const coursesData = [
             {
                 "title": "Lletra petita. Betu el pallasso",
                 "date": "Divendres 15 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "Lletra petita  Tallers de descoberta. Guarniment de primavera (de 4 a 9 anys)",
-                "date": "Dijous 14 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -593,7 +585,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -602,10 +594,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura jove.",
-                "date": "Divendres 17 d'octubre (18:00-19:30 h) | Divendres 14 de novembre (18:00-19:30 h) | Divendres 16 de gener (18:00-19:30 h) | Divendres 20 de febrer (18:00-19:30 h) | Divendres 20 de març (18:00-19:30 h) | Divendres 17 d'abril (18:00-19:30 h) | Divendres 15 de maig (18:00-19:30 h)"
             },
             {
                 "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
@@ -837,12 +825,8 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Club de lectura Grans Lector@s (8-12 anys)",
-                "date": "Divendres 17 d'octubre (17:30-18:30 h) | Divendres 14 de novembre (17:30-18:30 h) | Divendres 12 de desembre (17:30-18:30 h) | Divendres 16 de gener (17:30-18:30 h) | Divendres 13 de febrer (17:30-18:30 h) | Divendres 13 de març (17:30-18:30 h) | Divendres 17 d'abril (17:30-18:30 h) | Divendres 15 de maig (17:30-18:30 h)"
-            },
             {
                 "title": "Club de lectura puntual: Desmuntant Desigualtats.",
                 "date": "Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
@@ -868,7 +852,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -877,6 +861,10 @@ const coursesData = [
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
                 "date": "Dimecres 16 de setembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Club de lectura infantil 'Pim Pam Pum Contes\"",
+                "date": "Dimecres 27 de maig (17:30-18:00 h)"
             }
         ]
     },
