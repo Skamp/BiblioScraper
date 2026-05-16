@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-15T10:14:46.651286';
+const scrapeTimestamp = '2026-05-16T09:24:16.423992';
 const coursesData = [
     {
         "library_id": "1",
@@ -255,7 +255,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -268,10 +268,6 @@ const coursesData = [
             {
                 "title": "Club de lectura T.I.A. (8 a 12 anys)",
                 "date": "Divendres 24 d'abril (17:30-18:30 h) | Divendres 22 de maig (17:30-18:30 h) | Divendres 12 de juny (17:30-18:30 h)"
-            },
-            {
-                "title": "Ficció en joc (de 8 a 12 anys)",
-                "date": "Dissabte 8 de novembre (11:00-12:00 h) | Dissabte 31 de gener (11:00-12:00 h) | Dissabte 14 de març (11:00-12:00 h) | Dissabte 16 de maig (11:00-12:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Crònica literària: veritat i emoció",
@@ -469,7 +465,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -482,10 +478,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
-                "date": "Divendres 15 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
@@ -543,7 +535,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -560,10 +552,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de lletra gran",
                 "date": "Dimarts 9 de setembre (18:00-19:30 h) | Dimarts 7 d'octubre (18:00-19:30 h) | Dimarts 4 de novembre (18:00-19:30 h) | Dimarts 2 de desembre (18:00-19:30 h) | Dimarts 13 de gener (18:00-19:30 h) | Dimarts 3 de febrer (18:00-19:30 h) | Dimarts 3 de març (18:00-19:30 h) | Dimarts 7 d'abril (18:00-19:30 h) | Dimarts 5 de maig (18:00-19:30 h) | Dimarts 2 de juny (18:00-19:30 h)"
-            },
-            {
-                "title": "Lletra petita. Betu el pallasso",
-                "date": "Divendres 15 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -756,12 +744,8 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Itineraris per Barcelona. Llegir Barcelona. Testimonis escrits que expliquen la ciutat",
-                "date": "Divendres 15 de maig (17:00-19:00 h)"
-            },
             {
                 "title": "Itineraris per Barcelona. Barcelona viscuda i escrita en francès.",
                 "date": "Dijous 21 de maig (17:00-19:00 h)"
@@ -979,7 +963,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -996,10 +980,6 @@ const coursesData = [
             {
                 "title": "Espai Gent gran",
                 "date": "Dilluns 29 de setembre (18:00-19:00 h) | Dilluns 6 d'octubre (18:00-19:00 h) | Dilluns 13 d'octubre (18:00-19:00 h) | Dilluns 20 d'octubre (18:00-19:00 h) | Dilluns 27 d'octubre (18:00-19:00 h) | Dilluns 3 de novembre (18:00-19:00 h) | Dilluns 17 de novembre (18:00-19:00 h) | Dilluns 24 de novembre (18:00-19:00 h) | Dilluns 1 de desembre (18:00-19:00 h) | Dilluns 22 de desembre (18:00-19:00 h) | Dilluns 19 de gener (18:00-19:00 h) | Dilluns 26 de gener (18:00-19:00 h) | Dilluns 2 de febrer (18:00-19:00 h) | Dilluns 16 de febrer (18:00-19:00 h) | Dilluns 23 de febrer (18:00-19:00 h) | Dilluns 2 de març (18:00-19:00 h) | Dilluns 16 de març (18:00-19:00 h) | Dilluns 23 de març (18:00-19:00 h) | Dilluns 20 d'abril (18:00-19:00 h) | Dilluns 27 d'abril (18:00-19:00 h) | Dilluns 4 de maig (18:00-19:00 h) | Dilluns 18 de maig (18:00-19:00 h) | Dilluns 1 de juny (18:00-19:00 h) | Dilluns 15 de juny (18:00-19:00 h) | Dilluns 22 de juny (18:00-19:00 h) | Dilluns 29 de juny (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
-                "date": "Divendres 15 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
