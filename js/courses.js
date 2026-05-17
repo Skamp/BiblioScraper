@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-16T09:24:16.423992';
+const scrapeTimestamp = '2026-05-17T09:29:11.179103';
 const coursesData = [
     {
         "library_id": "1",
@@ -213,12 +213,8 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dilluns 13 d'octubre (18:30-19:30 h) | Dilluns 10 de novembre (18:30-19:30 h) | Dilluns 15 de desembre (18:30-19:30 h) | Dilluns 9 de febrer (18:30-19:30 h) | Dilluns 9 de març (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 11 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura jove.",
                 "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 22 de desembre (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 25 de maig (18:00-19:30 h)"
@@ -427,7 +423,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de literatura de viatges",
@@ -436,10 +432,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
                 "date": "Dimarts 6 d'octubre (18:00-20:00 h)"
-            },
-            {
-                "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Pedralbes II. Del barri amagat al Castell de la Diagonal",
-                "date": "Dissabte 16 de maig (11:00-12:30 h)"
             },
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Entorns de la Maternitat: rieres, masies salut i modernisme",
