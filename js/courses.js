@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-17T09:29:11.179103';
+const scrapeTimestamp = '2026-05-18T11:39:26.058140';
 const coursesData = [
     {
         "library_id": "1",
@@ -29,7 +29,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de llengua francesa",
@@ -38,10 +38,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 26 de novembre (18:30-19:30 h) | Dimecres 28 de gener (18:30-19:30 h) | Dimecres 25 de febrer (18:30-19:30 h) | Dimecres 25 de març (18:30-19:30 h) | Dimecres 22 d'abril (18:30-19:30 h) | Dimecres 27 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Club de lectura de Còmic infantil (8-10 anys)",
-                "date": "Dilluns 20 d'octubre (17:30-18:30 h) | Dilluns 17 de novembre (17:30-18:30 h) | Dilluns 19 de gener (17:30-18:30 h) | Dilluns 16 de febrer (17:30-18:30 h) | Dilluns 16 de març (17:30-18:30 h) | Dilluns 20 d'abril (17:30-18:30 h) | Dilluns 18 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -232,15 +228,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 6 d'octubre (18:00-19:30 h) | Dilluns 10 de novembre (18:00-19:30 h) | Dilluns 12 de gener (18:00-19:30 h) | Dilluns 9 de febrer (18:00-19:30 h) | Dilluns 9 de març (18:00-19:30 h) | Dilluns 13 d'abril (18:00-19:30 h) | Dilluns 11 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Club de lectura Assaig feminista",
-                "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 17 de novembre (18:00-19:30 h) | Dilluns 19 de gener (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 16 de març (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 18 de maig (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura especial: \"Emma Goldman: la revolució com a forma de vida\" de Vivian Gornick",
@@ -408,12 +400,8 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura de llengua anglesa",
-                "date": "Dilluns 20 d'octubre (18:00-19:30 h) | Dilluns 17 de novembre (18:00-19:30 h) | Dilluns 15 de desembre (18:00-19:30 h) | Dilluns 16 de febrer (18:00-19:30 h) | Dilluns 16 de març (18:00-19:30 h) | Dilluns 20 d'abril (18:00-19:30 h) | Dilluns 18 de maig (18:00-19:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 15 d'octubre (18:00-19:30 h) | Dimecres 19 de novembre (18:00-19:30 h) | Dimecres 17 de desembre (18:00-19:30 h) | Dimecres 18 de febrer (18:00-19:30 h) | Dimecres 18 de març (18:00-19:30 h) | Dimecres 15 d'abril (18:00-19:30 h) | Dimecres 20 de maig (18:00-19:30 h)"
@@ -550,12 +538,8 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dilluns 20 d'octubre (18:30-20:00 h) | Dilluns 24 de novembre (18:30-20:00 h) | Dilluns 26 de gener (18:30-20:00 h) | Dilluns 23 de febrer (18:30-20:00 h) | Dilluns 23 de març (18:30-20:00 h) | Dilluns 27 d'abril (18:30-20:00 h) | Dilluns 18 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
                 "date": "Dilluns 13 de juliol (9:30-13:30 h) | Dimarts 14 de juliol (9:30-13:30 h) | Dimecres 15 de juliol (9:30-13:30 h) | Dijous 16 de juliol (9:30-13:30 h) | Divendres 17 de juliol (9:30-13:30 h)"
