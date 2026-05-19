@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-18T11:39:26.058140';
+const scrapeTimestamp = '2026-05-19T10:56:05.818650';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,13 +18,8 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 1,
-        "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimarts 21 d'octubre (18:30-19:30 h) | Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 16 de desembre (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
-            }
-        ]
+        "courses_found": 0,
+        "courses": []
     },
     {
         "library_id": "34",
@@ -63,12 +58,8 @@ const coursesData = [
     {
         "library_id": "38",
         "library_name": "Biblioteca Clarà",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimarts 21 d'octubre (18:30-19:30 h) | Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 20 de gener (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Atrapallibres. Club de lectura infantil",
                 "date": "Dimarts 28 d'octubre (17:30-18:30 h) | Dimarts 25 de novembre (17:30-18:30 h) | Dimarts 27 de gener (17:30-18:30 h) | Dimarts 24 de febrer (17:30-18:30 h) | Dimarts 24 de març (17:30-18:30 h) | Dimarts 28 d'abril (17:30-18:30 h) | Dimarts 26 de maig (17:30-18:30 h)"
@@ -171,7 +162,7 @@ const coursesData = [
     {
         "library_id": "30",
         "library_name": "Biblioteca Esquerra de l'Eixample-Agustí Centelles",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura Literatura i Salut Mental",
@@ -180,17 +171,13 @@ const coursesData = [
             {
                 "title": "Club de lectura sobre literatura basca",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura sobre literatura basca (Euskal Etxea)",
-                "date": "Dimarts 21 d'octubre (18:00-19:30 h) | Dimarts 18 de novembre (18:00-19:30 h) | Dimarts 20 de gener (18:00-19:30 h) | Dimarts 17 de febrer (18:00-19:30 h) | Dimarts 17 de març (18:00-19:30 h) | Dimarts 21 d'abril (18:00-19:30 h) | Dimarts 19 de maig (18:00-19:30 h)"
             }
         ]
     },
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -203,6 +190,10 @@ const coursesData = [
             {
                 "title": "Club de lectura Literatura Asiàtica",
                 "date": "Dilluns 13 d'octubre (18:30-19:30 h) | Dilluns 10 de novembre (18:30-19:30 h) | Dilluns 15 de desembre (18:30-19:30 h) | Dilluns 12 de gener (18:30-19:30 h) | Dilluns 9 de febrer (18:30-19:30 h) | Dilluns 9 de març (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 11 de maig (18:30-19:30 h) | Dilluns 8 de juny (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Literatura i arquitectura",
+                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h)"
             }
         ]
     },
@@ -445,12 +436,8 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Club de lectura de novel·la negra",
-                "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 20 de gener (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 8 d'octubre (18:30-20:00 h) | Dimecres 12 de novembre (18:30-20:00 h) | Dimecres 10 de desembre (18:30-20:00 h) | Dimecres 11 de febrer (18:30-20:00 h) | Dimecres 11 de març (18:30-20:00 h) | Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 13 de maig (18:30-20:00 h)"
@@ -592,12 +579,8 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dimarts 18 de novembre (18:30-19:30 h) | Dimarts 16 de desembre (18:30-19:30 h) | Dimarts 20 de gener (18:30-19:30 h) | Dimarts 17 de febrer (18:30-19:30 h) | Dimarts 17 de març (18:30-19:30 h) | Dimarts 21 d'abril (18:30-19:30 h) | Dimarts 19 de maig (18:30-19:30 h)"
-            },
             {
                 "title": "Sant Martí, barri a barri. El Besòs i el Maresme: de la lluita veïnal a lúltima transformació del litoral",
                 "date": "Dissabte 6 de juny (10:00-13:00 h)"
@@ -607,7 +590,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 16,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura de ciència",
@@ -622,16 +605,8 @@ const coursesData = [
                 "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 5 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 4 de febrer (18:30-19:30 h) | Dimecres 4 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 6 de maig (18:30-19:30 h) | Dimecres 3 de juny (18:30-19:30 h)"
             },
             {
-                "title": "Visions de la Ciència. Neurodiàleg en clau de sol",
-                "date": "Dilluns 18 de maig (18:30-20:00 h)"
-            },
-            {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
-                "date": "Dilluns 18 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
@@ -758,7 +733,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -779,21 +754,21 @@ const coursesData = [
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
                 "date": "Dimecres 8 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Música i literatura",
+                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h)"
             }
         ]
     },
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual: Desmuntant Desigualtats.",
                 "date": "Dimecres 25 de març (18:30-20:00 h) | Dimecres 29 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
-                "date": "Dilluns 18 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
@@ -878,7 +853,7 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -891,10 +866,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua alemanya",
                 "date": "Dijous 16 d'octubre (18:00-20:00 h) | Dijous 20 de novembre (18:00-20:00 h) | Dijous 18 de desembre (18:00-20:00 h) | Dijous 19 de febrer (18:00-20:00 h) | Dijous 19 de març (18:00-20:00 h) | Dijous 16 d'abril (18:00-20:00 h) | Dijous 21 de maig (18:00-20:00 h)"
-            },
-            {
-                "title": "Club de lectura general",
-                "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 20 de gener (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 21 d'abril (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -924,12 +895,8 @@ const coursesData = [
     {
         "library_id": "23",
         "library_name": "Biblioteca Xavier Benguerel",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura de cinema i novel·la",
-                "date": "Dimarts 21 d'octubre (18:30-20:00 h) | Dimarts 18 de novembre (18:30-20:00 h) | Dimarts 20 de gener (18:30-20:00 h) | Dimarts 17 de febrer (18:30-20:00 h) | Dimarts 17 de març (18:30-20:00 h) | Dimarts 21 d'abril (18:30-20:00 h) | Dimarts 19 de maig (18:30-20:00 h)"
-            },
             {
                 "title": "Sant Martí, barri a barri. La Vila Olímpica: quan Barcelona es va trobar amb la mar",
                 "date": "Dissabte 23 de maig (10:00-13:00 h)"
