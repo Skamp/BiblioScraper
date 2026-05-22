@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-21T11:01:01.635178';
+const scrapeTimestamp = '2026-05-22T10:43:59.398727';
 const coursesData = [
     {
         "library_id": "1",
@@ -190,11 +190,15 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 6 d'octubre (18:00-19:30 h) | Dilluns 10 de novembre (18:00-19:30 h) | Dilluns 12 de gener (18:00-19:30 h) | Dilluns 9 de febrer (18:00-19:30 h) | Dilluns 9 de març (18:00-19:30 h) | Dilluns 13 d'abril (18:00-19:30 h) | Dilluns 11 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Visita històrica biblioteca Francesca Bonnemaison",
+                "date": "Dilluns 29 de juny (18:00-19:00 h)"
             }
         ]
     },
@@ -307,7 +311,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (2a part)",
@@ -328,6 +332,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dissabte 6 de juny (10:00-12:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua francesa",
+                "date": "Dilluns 12 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -345,7 +353,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -358,6 +366,10 @@ const coursesData = [
             {
                 "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
                 "date": "Dissabte 6 de juny (11:00-12:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 1 de febrer (18:30-20:00 h) | Dilluns 1 de març (18:30-20:00 h) | Dilluns 5 d'abril (18:30-20:00 h) | Dilluns 3 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -521,7 +533,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -546,10 +558,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
                 "date": "Dilluns 22 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "Taller de descoberta \"Les Invisibles\". Marie Curie i l'slime radioactiu (5 a 10 anys)",
-                "date": "Dijous 21 de maig (17:30-19:00 h)"
             },
             {
                 "title": "Taller de descoberta \" Les invisibles\". L'Heura i el misteri del llibre en blanc (5 a 10 anys)",
@@ -622,12 +630,8 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Itineraris per Barcelona. Barcelona viscuda i escrita en francès.",
-                "date": "Dijous 21 de maig (17:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
                 "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 17 de setembre (18:30-20:00 h) | Dijous 15 d'octubre (18:30-20:00 h)"
@@ -637,12 +641,8 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
-                "date": "Dijous 21 de maig (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
                 "date": "Dijous 28 de maig (17:30-19:30 h)"
