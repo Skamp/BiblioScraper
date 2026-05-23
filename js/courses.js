@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-22T10:43:59.398727';
+const scrapeTimestamp = '2026-05-23T09:45:28.034022';
 const coursesData = [
     {
         "library_id": "1",
@@ -87,7 +87,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -104,10 +104,6 @@ const coursesData = [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dimarts 28 d'octubre (18:30-20:00 h) | Dimarts 25 de novembre (18:30-20:00 h) | Dimarts 16 de desembre (18:30-20:00 h) | Dimarts 27 de gener (18:30-20:00 h) | Dimarts 24 de febrer (18:30-20:00 h) | Dimarts 24 de març (18:30-20:00 h) | Dimarts 28 d'abril (18:30-20:00 h) | Dimarts 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
-                "date": "Dimarts 26 de maig (17:30-19:30 h)"
             }
         ]
     },
@@ -198,7 +194,7 @@ const coursesData = [
             },
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
-                "date": "Dilluns 29 de juny (18:00-19:00 h)"
+                "date": "Divendres 26 de juny (12:00-13:00 h)"
             }
         ]
     },
@@ -376,26 +372,26 @@ const coursesData = [
     {
         "library_id": "17",
         "library_name": "Biblioteca Les Roquetes  Rafa Juncadella",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de Lectura Jove de Les Roquetes",
                 "date": "Dijous 16 d'octubre (18:30-19:30 h) | Dijous 20 de novembre (18:30-19:30 h) | Dijous 18 de desembre (18:30-19:30 h) | Dijous 15 de gener (18:30-19:30 h) | Dijous 19 de febrer (18:30-19:30 h) | Dijous 19 de març (18:30-19:30 h) | Dijous 16 d'abril (18:30-19:30 h) | Dijous 21 de maig (18:30-19:30 h) | Dijous 18 de juny (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h) | Dijous 4 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 1 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h)"
             }
         ]
     },
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
-                "date": "Divendres 22 de maig (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Construccions que flipen (9 a 12 anys)",
@@ -816,7 +812,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
@@ -829,10 +825,6 @@ const coursesData = [
             {
                 "title": "Espai Gent gran",
                 "date": "Dilluns 29 de setembre (18:00-19:00 h) | Dilluns 6 d'octubre (18:00-19:00 h) | Dilluns 13 d'octubre (18:00-19:00 h) | Dilluns 20 d'octubre (18:00-19:00 h) | Dilluns 27 d'octubre (18:00-19:00 h) | Dilluns 3 de novembre (18:00-19:00 h) | Dilluns 17 de novembre (18:00-19:00 h) | Dilluns 24 de novembre (18:00-19:00 h) | Dilluns 1 de desembre (18:00-19:00 h) | Dilluns 22 de desembre (18:00-19:00 h) | Dilluns 19 de gener (18:00-19:00 h) | Dilluns 26 de gener (18:00-19:00 h) | Dilluns 2 de febrer (18:00-19:00 h) | Dilluns 16 de febrer (18:00-19:00 h) | Dilluns 23 de febrer (18:00-19:00 h) | Dilluns 2 de març (18:00-19:00 h) | Dilluns 16 de març (18:00-19:00 h) | Dilluns 23 de març (18:00-19:00 h) | Dilluns 20 d'abril (18:00-19:00 h) | Dilluns 27 d'abril (18:00-19:00 h) | Dilluns 4 de maig (18:00-19:00 h) | Dilluns 18 de maig (18:00-19:00 h) | Dilluns 1 de juny (18:00-19:00 h) | Dilluns 15 de juny (18:00-19:00 h) | Dilluns 22 de juny (18:00-19:00 h) | Dilluns 29 de juny (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Divendres 22 de maig (17:30-19:30 h)"
             },
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
