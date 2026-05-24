@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-23T09:45:28.034022';
+const scrapeTimestamp = '2026-05-24T09:49:43.466032';
 const coursesData = [
     {
         "library_id": "1",
@@ -201,7 +201,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 5,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -222,6 +222,18 @@ const coursesData = [
             {
                 "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
                 "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
+            },
+            {
+                "title": "Club de lectura de literatura llatinoamericana del segle XXI",
+                "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 11 de març (18:30-20:00 h) | Dijous 8 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua anglesa",
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 25 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
             }
         ]
     },
