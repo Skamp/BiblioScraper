@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-28T11:32:03.245885';
+const scrapeTimestamp = '2026-05-29T11:22:07.337207';
 const coursesData = [
     {
         "library_id": "1",
@@ -47,12 +47,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura Biblionatura. Literatura de natura",
-                "date": "Dissabte 11 d'octubre (11:00-13:00 h) | Dissabte 8 de novembre (11:00-13:00 h) | Dissabte 10 de gener (11:00-13:00 h) | Dissabte 7 de febrer (11:00-13:00 h) | Dissabte 7 de març (11:00-13:00 h) | Dissabte 18 d'abril (11:00-13:00 h) | Dissabte 9 de maig (11:00-13:00 h)"
-            },
             {
                 "title": "Itinerari: Casino de la Rabassada.",
                 "date": "Dissabte 19 de setembre (10:00-13:30 h)"
@@ -97,7 +93,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -106,6 +102,10 @@ const coursesData = [
             {
                 "title": "Sant Martí barri a barri. Fet al Clot",
                 "date": "Dissabte 21 de novembre (10:00-13:00 h)"
+            },
+            {
+                "title": "Club de lectura llegir el teatre",
+                "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h)"
             }
         ]
     },
@@ -599,12 +599,8 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dijous 28 de maig (17:30-19:30 h)"
-            },
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
                 "date": "Dijous 4 de juny (17:30-19:30 h)"
@@ -758,7 +754,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 3,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura fàcil en castellà",
@@ -771,6 +767,18 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
                 "date": "Divendres 29 de maig (17:30-19:30 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
+                "date": "Dijous 19 de novembre (17:00-18:00 h) | Dimecres 16 de desembre (17:00-18:00 h) | Dijous 17 de desembre (17:00-18:00 h) | Dijous 14 de gener (17:00-18:00 h) | Dimecres 10 de febrer (17:00-18:00 h) | Dijous 11 de febrer (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 11 de març (17:00-18:00 h) | Dimecres 17 de març (17:00-18:00 h) | Dijous 18 de març (17:00-18:00 h) | Dimecres 14 d'abril (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
+            },
+            {
+                "title": "Taller de lectura (6 a 12 anys)",
+                "date": "Dimecres 7 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
+            },
+            {
+                "title": "Ficció en joc (de 6 a 12 anys)",
+                "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 24 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
             }
         ]
     },
