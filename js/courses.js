@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-05-31T10:09:13.698592';
+const scrapeTimestamp = '2026-06-01T13:29:54.825282';
 const coursesData = [
     {
         "library_id": "1",
@@ -106,12 +106,8 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura general",
-                "date": "Dilluns 27 d'octubre (18:30-19:30 h) | Dilluns 24 de novembre (18:30-19:30 h) | Dilluns 26 de gener (18:30-19:30 h) | Dilluns 23 de febrer (18:30-19:30 h) | Dilluns 23 de març (18:30-19:30 h) | Dilluns 27 d'abril (18:30-19:30 h) | Dilluns 1 de juny (18:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 17 d'octubre (10:30-11:30 h) | Divendres 21 de novembre (10:30-11:30 h) | Divendres 19 de desembre (10:30-11:30 h) | Divendres 16 de gener (10:30-11:30 h) | Divendres 20 de febrer (10:30-11:30 h) | Divendres 20 de març (10:30-11:30 h) | Divendres 17 d'abril (10:30-11:30 h) | Divendres 15 de maig (10:30-11:30 h) | Divendres 19 de juny (10:30-11:30 h)"
@@ -717,11 +713,11 @@ const coursesData = [
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dijous 19 de novembre (17:00-18:00 h) | Dimecres 16 de desembre (17:00-18:00 h) | Dijous 17 de desembre (17:00-18:00 h) | Dijous 14 de gener (17:00-18:00 h) | Dimecres 10 de febrer (17:00-18:00 h) | Dijous 11 de febrer (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 11 de març (17:00-18:00 h) | Dimecres 17 de març (17:00-18:00 h) | Dijous 18 de març (17:00-18:00 h) | Dimecres 14 d'abril (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
+                "date": "Dimecres 18 de novembre (17:00-18:00 h) | Dijous 10 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
             },
             {
                 "title": "Taller de lectura (6 a 12 anys)",
-                "date": "Dimecres 7 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
+                "date": "Dimecres 7 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 20 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
             },
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
