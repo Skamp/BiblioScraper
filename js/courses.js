@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-01T13:29:54.825282';
+const scrapeTimestamp = '2026-06-02T11:58:43.805073';
 const coursesData = [
     {
         "library_id": "1",
@@ -374,15 +374,23 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 2,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dilluns 15 de setembre (19:00-20:00 h) | Dilluns 20 d'octubre (19:00-20:00 h) | Dilluns 17 de novembre (19:00-20:00 h) | Dilluns 15 de desembre (19:00-20:00 h) | Dilluns 19 de gener (19:00-20:00 h) | Dilluns 16 de febrer (19:00-20:00 h) | Dilluns 16 de març (19:00-20:00 h) | Dilluns 20 d'abril (19:00-20:00 h) | Dilluns 18 de maig (19:00-20:00 h) | Dilluns 15 de juny (19:00-20:00 h)"
             },
             {
-                "title": "Club de lectura de lletra gran",
-                "date": "Dimarts 9 de setembre (18:00-19:30 h) | Dimarts 7 d'octubre (18:00-19:30 h) | Dimarts 4 de novembre (18:00-19:30 h) | Dimarts 2 de desembre (18:00-19:30 h) | Dimarts 13 de gener (18:00-19:30 h) | Dimarts 3 de febrer (18:00-19:30 h) | Dimarts 3 de març (18:00-19:30 h) | Dimarts 7 d'abril (18:00-19:30 h) | Dimarts 5 de maig (18:00-19:30 h) | Dimarts 2 de juny (18:00-19:30 h)"
+                "title": "Club de lectura general",
+                "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de novel·la històrica",
+                "date": "Dimarts 27 d'octubre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dimarts 23 de març (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura alternatiu",
+                "date": "Dilluns 21 de setembre (19:00-20:00 h) | Dilluns 19 d'octubre (19:00-20:00 h) | Dilluns 16 de novembre (19:00-20:00 h) | Dilluns 21 de desembre (19:00-20:00 h) | Dilluns 18 de gener (19:00-20:00 h) | Dilluns 15 de febrer (19:00-20:00 h) | Dilluns 15 de març (19:00-20:00 h) | Dilluns 26 d'abril (19:00-20:00 h) | Dilluns 17 de maig (19:00-20:00 h) | Dilluns 21 de juny (19:00-20:00 h)"
             }
         ]
     },
@@ -450,7 +458,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura LGTBIAQ+",
@@ -459,10 +467,6 @@ const coursesData = [
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
-                "date": "Dilluns 1 de juny (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
@@ -596,12 +600,8 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
-                "date": "Dilluns 1 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
