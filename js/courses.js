@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-02T11:58:43.805073';
+const scrapeTimestamp = '2026-06-03T12:36:23.320239';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,8 +41,17 @@ const coursesData = [
     {
         "library_id": "38",
         "library_name": "Biblioteca Clarà",
-        "courses_found": 0,
-        "courses": []
+        "courses_found": 2,
+        "courses": [
+            {
+                "title": "Club de lectura general",
+                "date": "Dimarts 20 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua anglesa",
+                "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 10 de novembre (18:30-19:30 h) | Dimarts 8 de desembre (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dimarts 9 de març (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h) | Dimarts 11 de maig (18:30-19:30 h)"
+            }
+        ]
     },
     {
         "library_id": "40",
@@ -70,11 +79,23 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 1,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dijous 18 de setembre (18:00-19:30 h) | Dijous 16 d'octubre (18:00-19:30 h) | Dijous 20 de novembre (18:00-19:30 h) | Dijous 18 de desembre (18:00-19:30 h) | Dijous 15 de gener (18:00-19:30 h) | Dijous 19 de febrer (18:00-19:30 h) | Dijous 19 de març (18:00-19:30 h) | Dijous 16 d'abril (18:00-19:30 h) | Dijous 21 de maig (18:00-19:30 h) | Dijous 18 de juny (18:00-19:30 h) | Dijous 16 de juliol (18:00-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dimarts 9 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
+                "date": "Dimarts 16 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Dimarts 30 de juny (17:30-19:30 h)"
             }
         ]
     },
@@ -155,15 +176,11 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura T.I.A. (8 a 12 anys)",
                 "date": "Divendres 24 d'abril (17:30-18:30 h) | Divendres 22 de maig (17:30-18:30 h) | Divendres 12 de juny (17:30-18:30 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Crònica literària: veritat i emoció",
-                "date": "Dimecres 8 d'abril (18:30-20:00 h) | Dimecres 6 de maig (18:30-20:00 h) | Dimecres 3 de juny (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -412,7 +429,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -421,10 +438,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dimarts 2 de juny (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
@@ -458,12 +471,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
-            {
-                "title": "Club de lectura LGTBIAQ+",
-                "date": "Dimecres 22 d'octubre (18:30-19:30 h) | Dimecres 5 de novembre (18:30-19:30 h) | Dimecres 14 de gener (18:30-19:30 h) | Dimecres 4 de febrer (18:30-19:30 h) | Dimecres 4 de març (18:30-19:30 h) | Dimecres 8 d'abril (18:30-19:30 h) | Dimecres 6 de maig (18:30-19:30 h) | Dimecres 3 de juny (18:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
@@ -550,7 +559,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 5,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
@@ -571,6 +580,22 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura i IA.",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Escornabot a la recerca del tresor perdut (5 a 7 anys)",
+                "date": "Dilluns 29 de juny (17:30-19:00 h)"
+            },
+            {
+                "title": "Animals fantàstics amb lego wedo 2.0 (8 a 11 anys)",
+                "date": "Dilluns 6 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "Lab de sumo-bots amb Lego Mindstorms (+12 anys)",
+                "date": "Dilluns 13 de juliol (17:30-20:00 h) | Dijous 16 de juliol (17:30-20:00 h)"
+            },
+            {
+                "title": "Construïm i programem un cotxe amb Lego wedo 2.0 (8 a 11 anys)",
+                "date": "Dilluns 20 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -630,7 +655,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -647,10 +672,6 @@ const coursesData = [
             {
                 "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
                 "date": "Dimarts 16 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
-                "date": "Dimarts 2 de juny (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
