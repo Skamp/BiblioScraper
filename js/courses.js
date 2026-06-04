@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-03T12:36:23.320239';
+const scrapeTimestamp = '2026-06-04T10:57:21.608213';
 const coursesData = [
     {
         "library_id": "1",
@@ -35,8 +35,13 @@ const coursesData = [
     {
         "library_id": "16",
         "library_name": "Biblioteca Canyelles - M. Àngels Rivas",
-        "courses_found": 0,
-        "courses": []
+        "courses_found": 1,
+        "courses": [
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
+            }
+        ]
     },
     {
         "library_id": "38",
@@ -56,15 +61,11 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Itinerari: Casino de la Rabassada.",
                 "date": "Dissabte 19 de setembre (10:00-13:30 h)"
-            },
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dimecres 3 de juny (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
@@ -102,7 +103,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 3,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -115,6 +116,14 @@ const coursesData = [
             {
                 "title": "Club de lectura llegir el teatre",
                 "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura Llegim el Museu",
+                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -176,7 +185,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura T.I.A. (8 a 12 anys)",
@@ -189,6 +198,10 @@ const coursesData = [
             {
                 "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
                 "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
+            },
+            {
+                "title": "Pòdcast en directe: Les flors prohibides. Especial Festival Grec",
+                "date": "Dilluns 15 de juny (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de literatura llatinoamericana del segle XXI",
@@ -682,7 +695,7 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 2,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -691,21 +704,25 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura africana (segona edició)",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de filosofia",
+                "date": "Dimecres 21 d'octubre (18:00-20:00 h) | Dimecres 18 de novembre (18:00-20:00 h) | Dimecres 20 de gener (18:00-20:00 h) | Dimecres 17 de febrer (18:00-20:00 h) | Dimecres 17 de març (18:00-20:00 h) | Dimecres 21 d'abril (18:00-20:00 h) | Dimecres 19 de maig (18:00-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua alemanya",
+                "date": "Dijous 15 d'octubre (18:00-20:00 h) | Dijous 19 de novembre (18:00-20:00 h) | Dijous 17 de desembre (18:00-20:00 h) | Dijous 18 de febrer (18:00-20:00 h) | Dijous 18 de març (18:00-20:00 h) | Dijous 15 d'abril (18:00-20:00 h) | Dijous 20 de maig (18:00-20:00 h)"
             }
         ]
     },
     {
         "library_id": "32",
         "library_name": "Biblioteca Vilapicina i la Torre Llobeta",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 17 d'octubre (10:30-11:30 h) | Divendres 21 de novembre (10:30-11:30 h) | Divendres 19 de desembre (10:30-11:30 h) | Divendres 16 de gener (10:30-11:30 h) | Divendres 20 de febrer (10:30-11:30 h) | Divendres 20 de març (10:30-11:30 h) | Divendres 17 d'abril (10:30-11:30 h) | Divendres 15 de maig (10:30-11:30 h) | Divendres 19 de juny (10:30-11:30 h)"
-            },
-            {
-                "title": "Atreveix-te amb els llibres (8 a 10 anys)",
-                "date": "Dijous 8 de gener (17:30-18:30 h) | Dijous 5 de febrer (17:30-18:30 h) | Dijous 5 de març (17:30-18:30 h) | Dijous 9 d'abril (17:30-18:30 h) | Dijous 7 de maig (17:30-18:30 h) | Dijous 4 de juny (17:30-18:30 h)"
             },
             {
                 "title": "Visions de la Ciència. El cervell és un ordinador?",
@@ -716,8 +733,17 @@ const coursesData = [
     {
         "library_id": "23",
         "library_name": "Biblioteca Xavier Benguerel",
-        "courses_found": 0,
-        "courses": []
+        "courses_found": 2,
+        "courses": [
+            {
+                "title": "Club de lectura general",
+                "date": "Dimarts 13 d'octubre (18:00-19:30 h) | Dimarts 10 de novembre (18:00-19:30 h) | Dimarts 15 de desembre (18:00-19:30 h) | Dimarts 9 de febrer (18:00-19:30 h) | Dimarts 9 de març (18:00-19:30 h) | Dimarts 13 d'abril (18:00-19:30 h) | Dimarts 11 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de cinema i novel·la",
+                "date": "Dimarts 20 d'octubre (18:00-19:30 h) | Dimarts 17 de novembre (18:00-19:30 h) | Dimarts 19 de gener (18:00-19:30 h) | Dimarts 16 de febrer (18:00-19:30 h) | Dimarts 16 de març (18:00-19:30 h) | Dimarts 20 d'abril (18:00-19:30 h) | Dimarts 18 de maig (18:00-19:30 h)"
+            }
+        ]
     },
     {
         "library_id": "26",
