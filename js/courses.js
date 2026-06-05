@@ -1,15 +1,10 @@
-const scrapeTimestamp = '2026-06-04T10:57:21.608213';
+const scrapeTimestamp = '2026-06-05T11:19:55.574543';
 const coursesData = [
     {
         "library_id": "1",
         "library_name": "Biblioteca Barceloneta-La Fraternitat",
-        "courses_found": 1,
-        "courses": [
-            {
-                "title": "Club de lectura puntual. Lany que va desaparèixer la sorra.",
-                "date": "Dijous 4 de juny (18:30-20:00 h)"
-            }
-        ]
+        "courses_found": 0,
+        "courses": []
     },
     {
         "library_id": "19",
@@ -404,11 +399,15 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura alternatiu",
                 "date": "Dilluns 15 de setembre (19:00-20:00 h) | Dilluns 20 d'octubre (19:00-20:00 h) | Dilluns 17 de novembre (19:00-20:00 h) | Dilluns 15 de desembre (19:00-20:00 h) | Dilluns 19 de gener (19:00-20:00 h) | Dilluns 16 de febrer (19:00-20:00 h) | Dilluns 16 de març (19:00-20:00 h) | Dilluns 20 d'abril (19:00-20:00 h) | Dilluns 18 de maig (19:00-20:00 h) | Dilluns 15 de juny (19:00-20:00 h)"
+            },
+            {
+                "title": "Club de lectura manga",
+                "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 10 de desembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -572,12 +571,8 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
-            {
-                "title": "ESTÀSON. Donem forma a les matemàtiques! (9 a 12 anys)",
-                "date": "Dijous 4 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dijous 11 de juny (17:30-19:30 h)"
