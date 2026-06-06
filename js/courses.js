@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-05T11:19:55.574543';
+const scrapeTimestamp = '2026-06-06T09:56:36.154437';
 const coursesData = [
     {
         "library_id": "1",
@@ -98,7 +98,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -119,6 +119,10 @@ const coursesData = [
             {
                 "title": "Club de lectura Llegim el Museu",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura juvenil",
+                "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
             }
         ]
     },
@@ -215,15 +219,11 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 22 d'octubre (18:30-20:00 h) | Dimecres 26 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 28 de gener (18:30-20:00 h) | Dimecres 25 de febrer (18:30-20:00 h) | Dimecres 25 de març (18:30-20:00 h) | Dimecres 22 d'abril (18:30-20:00 h) | Dimecres 27 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
-            },
-            {
-                "title": "Itineraris per Barcelona. Territorio Méndez",
-                "date": "Divendres 5 de juny (17:00-19:00 h)"
             },
             {
                 "title": "Club de lectura puntual. GREC 2026: \"El retrat de Dorian Gray\", d'Oscar Wilde.",
@@ -357,15 +357,11 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Divendres 5 de juny (17:30-19:30 h)"
             }
         ]
     },
@@ -407,7 +403,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura manga",
-                "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 10 de desembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
+                "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -441,12 +437,8 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Divendres 3 d'octubre (17:30-18:30 h) | Divendres 7 de novembre (17:30-18:30 h) | Divendres 9 de gener (17:30-18:30 h) | Divendres 6 de febrer (17:30-18:30 h) | Divendres 6 de març (17:30-18:30 h) | Divendres 10 d'abril (17:30-18:30 h) | Divendres 8 de maig (17:30-18:30 h) | Divendres 5 de juny (17:30-18:30 h)"
-            },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 15 d'octubre (18:30-20:00 h) | Dimecres 19 de novembre (18:30-20:00 h) | Dimecres 17 de desembre (18:30-20:00 h) | Dimecres 21 de gener (18:30-20:00 h) | Dimecres 18 de febrer (18:30-20:00 h) | Dimecres 18 de març (18:30-20:00 h) | Dimecres 15 d'abril (18:30-20:00 h) | Dimecres 20 de maig (18:30-20:00 h) | Dimecres 17 de juny (18:30-20:00 h)"
