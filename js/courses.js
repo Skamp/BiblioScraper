@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-06T09:56:36.154437';
+const scrapeTimestamp = '2026-06-07T10:23:22.808426';
 const coursesData = [
     {
         "library_id": "1",
@@ -277,7 +277,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (2a part)",
@@ -290,10 +290,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dissabte 6 de juny (10:00-12:00 h)"
             },
             {
                 "title": "Club de lectura de llengua francesa",
@@ -319,7 +315,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -328,10 +324,6 @@ const coursesData = [
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Entorns de la Maternitat: rieres, masies salut i modernisme",
                 "date": "Dissabte 10 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
-                "date": "Dissabte 6 de juny (11:00-12:30 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -357,18 +349,26 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 1,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de novel·la negra",
+                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 3 de novembre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 1 de desembre (18:30-20:00 h) | Dimarts 8 de desembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 22 de desembre (18:30-20:00 h) | Dimarts 29 de desembre (18:30-20:00 h) | Dimarts 5 de gener (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 19 de gener (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 2 de febrer (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 2 de març (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 23 de març (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 6 d'abril (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 4 de maig (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h) | Dimecres 9 de desembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 30 de desembre (18:30-20:00 h) | Dimecres 6 de gener (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 3 de febrer (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 3 de març (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             }
         ]
     },
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de ciència-ficció",
@@ -385,10 +385,6 @@ const coursesData = [
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Del món dels Güells al Barraquisme",
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Visita guiada al Reial Monestir de Santa Maria de Pedralbes",
-                "date": "Dissabte 6 de juny (11:00-12:30 h)"
             }
         ]
     },
@@ -464,13 +460,8 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 1,
-        "courses": [
-            {
-                "title": "Sant Martí, barri a barri. El Besòs i el Maresme: de la lluita veïnal a lúltima transformació del litoral",
-                "date": "Dissabte 6 de juny (10:00-13:00 h)"
-            }
-        ]
+        "courses_found": 0,
+        "courses": []
     },
     {
         "library_id": "5",
