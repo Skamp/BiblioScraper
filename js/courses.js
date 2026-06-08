@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-07T10:23:22.808426';
+const scrapeTimestamp = '2026-06-08T12:23:45.858470';
 const coursesData = [
     {
         "library_id": "1",
@@ -135,15 +135,11 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 17 d'octubre (10:30-11:30 h) | Divendres 21 de novembre (10:30-11:30 h) | Divendres 19 de desembre (10:30-11:30 h) | Divendres 16 de gener (10:30-11:30 h) | Divendres 20 de febrer (10:30-11:30 h) | Divendres 20 de març (10:30-11:30 h) | Divendres 17 d'abril (10:30-11:30 h) | Divendres 15 de maig (10:30-11:30 h) | Divendres 19 de juny (10:30-11:30 h)"
-            },
-            {
-                "title": "Club de lectura Literatura Asiàtica",
-                "date": "Dilluns 13 d'octubre (18:30-19:30 h) | Dilluns 10 de novembre (18:30-19:30 h) | Dilluns 15 de desembre (18:30-19:30 h) | Dilluns 12 de gener (18:30-19:30 h) | Dilluns 9 de febrer (18:30-19:30 h) | Dilluns 9 de març (18:30-19:30 h) | Dilluns 13 d'abril (18:30-19:30 h) | Dilluns 11 de maig (18:30-19:30 h) | Dilluns 8 de juny (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
