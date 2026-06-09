@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-08T12:23:45.858470';
+const scrapeTimestamp = '2026-06-09T10:53:53.393900';
 const coursesData = [
     {
         "library_id": "1",
@@ -462,15 +462,11 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
                 "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
-                "date": "Dilluns 8 de juny (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
