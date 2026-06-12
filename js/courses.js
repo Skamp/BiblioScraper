@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-11T12:04:44.102842';
+const scrapeTimestamp = '2026-06-12T11:38:46.373895';
 const coursesData = [
     {
         "library_id": "1",
@@ -131,7 +131,7 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 2,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -140,6 +140,18 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura Literatura Asiàtica",
+                "date": "Dilluns 19 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 14 de desembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 1 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h) | Dilluns 14 de juny (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dilluns 26 d'octubre (18:30-19:30 h) | Dilluns 23 de novembre (18:30-19:30 h) | Dilluns 25 de gener (18:30-19:30 h) | Dilluns 22 de febrer (18:30-19:30 h) | Dilluns 15 de març (18:30-19:30 h) | Dilluns 26 d'abril (18:30-19:30 h) | Dilluns 24 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Divendres 16 d'octubre (10:30-11:30 h) | Divendres 20 de novembre (10:30-11:30 h) | Divendres 18 de desembre (10:30-11:30 h) | Divendres 15 de gener (10:30-11:30 h) | Divendres 19 de febrer (10:30-11:30 h) | Divendres 19 de març (10:30-11:30 h) | Divendres 16 d'abril (10:30-11:30 h) | Divendres 21 de maig (10:30-11:30 h) | Divendres 18 de juny (10:30-11:30 h)"
             }
         ]
     },
@@ -161,7 +173,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
@@ -170,18 +182,18 @@ const coursesData = [
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
                 "date": "Dilluns 29 de juny (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura Assaig feminista 2026-2027",
+                "date": "Dilluns 19 d'octubre (18:00-19:30 h) | Dilluns 16 de novembre (18:00-19:30 h) | Dilluns 18 de gener (18:00-19:30 h) | Dilluns 15 de febrer (18:00-19:30 h) | Dilluns 15 de març (18:00-19:30 h) | Dilluns 19 d'abril (18:00-19:30 h) | Dilluns 17 de maig (18:00-19:30 h)"
             }
         ]
     },
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
-            {
-                "title": "Club de lectura T.I.A. (8 a 12 anys)",
-                "date": "Divendres 24 d'abril (17:30-18:30 h) | Divendres 22 de maig (17:30-18:30 h) | Divendres 12 de juny (17:30-18:30 h)"
-            },
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
                 "date": "Dissabte 11 d'abril (18:00-19:30 h) | Dissabte 9 de maig (18:00-19:30 h) | Dissabte 13 de juny (18:00-19:30 h) | Dissabte 11 de juliol (18:00-19:30 h) | Dissabte 19 de setembre (18:00-19:30 h) | Dissabte 17 d'octubre (18:00-19:30 h) | Dissabte 14 de novembre (18:00-19:30 h)"
@@ -270,15 +282,15 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura puntual. Europa en construcció: veus per entendre el present.",
-                "date": "Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h)"
+                "date": "Dimecres 3 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de literatura italiana",
-                "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 25 de novembre (18:30-19:30 h)"
+                "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Lectures de Japó i Corea",
-                "date": "Dijous 8 d'abril (18:30-19:30 h) | Dijous 6 de maig (18:30-19:30 h) | Dijous 3 de juny (18:30-19:30 h)"
+                "date": "Dijous 8 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h) | Dijous 3 de juny (18:30-20:00 h)"
             }
         ]
     },
@@ -582,12 +594,8 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dijous 11 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
                 "date": "Dijous 18 de juny (18:30-20:00 h) | Dijous 23 de juliol (18:30-20:00 h) | Dijous 1 d'octubre (18:30-20:00 h)"
@@ -621,12 +629,8 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 10 d'octubre (11:00-12:30 h) | Divendres 14 de novembre (11:00-12:30 h) | Divendres 12 de desembre (11:00-12:30 h) | Divendres 9 de gener (11:00-12:30 h) | Divendres 13 de febrer (11:00-12:30 h) | Divendres 13 de març (11:00-12:30 h) | Divendres 10 d'abril (11:00-12:30 h) | Divendres 8 de maig (11:00-12:30 h) | Divendres 12 de juny (11:00-12:30 h)"
-            },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
                 "date": "Dimecres 8 de juliol (17:30-19:30 h)"
@@ -697,12 +701,8 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 10 d'octubre (12:00-13:30 h) | Divendres 14 de novembre (12:00-13:30 h) | Divendres 12 de desembre (12:00-13:30 h) | Divendres 9 de gener (12:00-13:30 h) | Divendres 13 de febrer (12:00-13:30 h) | Divendres 13 de març (12:00-13:30 h) | Divendres 10 d'abril (12:00-13:30 h) | Divendres 8 de maig (12:00-13:30 h) | Divendres 12 de juny (12:00-13:30 h)"
-            },
             {
                 "title": "Club de lectura puntual. Literatura africana (segona edició)",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h)"
