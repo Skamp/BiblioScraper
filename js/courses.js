@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-12T11:38:46.373895';
+const scrapeTimestamp = '2026-06-13T10:23:17.704559';
 const coursesData = [
     {
         "library_id": "1",
@@ -192,7 +192,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -201,10 +201,6 @@ const coursesData = [
             {
                 "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
                 "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
-            },
-            {
-                "title": "Pòdcast en directe: Les flors prohibides. Especial Festival Grec",
-                "date": "Dilluns 15 de juny (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de literatura llatinoamericana del segle XXI",
@@ -701,8 +697,12 @@ const coursesData = [
     {
         "library_id": "12",
         "library_name": "Biblioteca Vila de Gràcia - Rosa M. Arquimbau",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Divendres 9 d'octubre (12:00-13:30 h) | Divendres 13 de novembre (12:00-13:30 h) | Divendres 11 de desembre (12:00-13:30 h) | Divendres 8 de gener (12:00-13:30 h) | Divendres 12 de febrer (12:00-13:30 h) | Divendres 12 de març (12:00-13:30 h) | Divendres 9 d'abril (12:00-13:30 h) | Divendres 14 de maig (12:00-13:30 h) | Divendres 11 de juny (12:00-13:30 h)"
+            },
             {
                 "title": "Club de lectura puntual. Literatura africana (segona edició)",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h)"
