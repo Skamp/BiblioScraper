@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-13T10:23:17.704559';
+const scrapeTimestamp = '2026-06-14T10:45:30.483993';
 const coursesData = [
     {
         "library_id": "1",
@@ -15,7 +15,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 3,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -28,6 +28,14 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dijous 8 d'octubre (12:00-13:00 h) | Dijous 12 de novembre (12:00-13:00 h) | Dijous 10 de desembre (12:00-13:00 h) | Dijous 14 de gener (12:00-13:00 h) | Dijous 11 de febrer (12:00-13:00 h) | Dijous 11 de març (12:00-13:00 h) | Dijous 8 d'abril (12:00-13:00 h) | Dijous 13 de maig (12:00-13:00 h) | Dijous 10 de juny (12:00-13:00 h)"
+            },
+            {
+                "title": "FM Trames de memòria: traçabilitat afectiva",
+                "date": "Dimecres 17 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "FM Teixint linvisible: introducció a la microscòpia tèxtil",
+                "date": "Divendres 19 de juny (17:30-19:30 h)"
             }
         ]
     },
@@ -158,12 +166,8 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Itineraris per Barcelona. La Seat, motor de llibertat",
-                "date": "Dissabte 13 de juny (10:30-12:30 h)"
-            },
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
                 "date": "Dilluns 29 de juny (9:30-13:30 h) | Dimarts 30 de juny (9:30-13:30 h) | Dimecres 1 de juliol (9:30-13:30 h) | Dijous 2 de juliol (9:30-13:30 h) | Divendres 3 de juliol (9:30-13:30 h)"
@@ -251,8 +255,12 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
+            },
             {
                 "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
                 "date": "Dimecres 8 de juliol (18:30-20:00 h)"
