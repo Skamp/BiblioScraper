@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-14T10:45:30.483993';
+const scrapeTimestamp = '2026-06-15T13:48:50.189795';
 const coursesData = [
     {
         "library_id": "1",
@@ -83,7 +83,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -96,6 +96,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
                 "date": "Dimarts 30 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de novel·la barcelonina",
+                "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -114,7 +118,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura llegir el teatre",
-                "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h)"
+                "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -196,7 +200,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -217,6 +221,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 25 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "El Vaivenito: construcció duna cançó",
+                "date": "Dilluns 13 de juliol (17:00-18:30 h) | Dimarts 14 de juliol (17:00-18:30 h) | Dimecres 15 de juliol (17:00-18:30 h)"
             }
         ]
     },
@@ -259,7 +267,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura general",
-                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
+                "date": ""
             },
             {
                 "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
@@ -427,12 +435,8 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura alternatiu",
-                "date": "Dilluns 15 de setembre (19:00-20:00 h) | Dilluns 20 d'octubre (19:00-20:00 h) | Dilluns 17 de novembre (19:00-20:00 h) | Dilluns 15 de desembre (19:00-20:00 h) | Dilluns 19 de gener (19:00-20:00 h) | Dilluns 16 de febrer (19:00-20:00 h) | Dilluns 16 de març (19:00-20:00 h) | Dilluns 20 d'abril (19:00-20:00 h) | Dilluns 18 de maig (19:00-20:00 h) | Dilluns 15 de juny (19:00-20:00 h)"
-            },
             {
                 "title": "Club de lectura manga",
                 "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
@@ -682,7 +686,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -699,6 +703,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
                 "date": "Dimarts 30 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 28 d'octubre (18:30-20:30 h) | Dimecres 25 de novembre (18:30-20:30 h) | Dimecres 27 de gener (18:30-20:30 h) | Dimecres 24 de febrer (18:30-20:30 h) | Dimecres 31 de març (18:30-20:30 h) | Dimecres 28 d'abril (18:30-20:30 h) | Dimecres 26 de maig (18:30-20:30 h)"
             }
         ]
     },
