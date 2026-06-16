@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-15T13:48:50.189795';
+const scrapeTimestamp = '2026-06-16T12:47:44.127166';
 const coursesData = [
     {
         "library_id": "1",
@@ -15,7 +15,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 5,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -36,6 +36,14 @@ const coursesData = [
             {
                 "title": "FM Teixint linvisible: introducció a la microscòpia tèxtil",
                 "date": "Divendres 19 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 7 d'octubre (18:30-19:30 h) | Dimecres 4 de novembre (18:30-19:30 h) | Dimecres 2 de desembre (18:30-19:30 h) | Dimecres 3 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua francesa",
+                "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
             }
         ]
     },
@@ -83,7 +91,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 4,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -100,6 +108,14 @@ const coursesData = [
             {
                 "title": "Club de lectura de novel·la barcelonina",
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura alternatiu",
+                "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 22 de desembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura novel·la negra barcelonina.",
+                "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 25 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -181,7 +197,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
@@ -194,6 +210,10 @@ const coursesData = [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
                 "date": "Dilluns 19 d'octubre (18:00-19:30 h) | Dilluns 16 de novembre (18:00-19:30 h) | Dilluns 18 de gener (18:00-19:30 h) | Dilluns 15 de febrer (18:00-19:30 h) | Dilluns 15 de març (18:00-19:30 h) | Dilluns 19 d'abril (18:00-19:30 h) | Dilluns 17 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Terror en femení.",
+                "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -458,7 +478,7 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
@@ -471,6 +491,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dilluns 26 d'octubre (18:30-20:00 h) | Dilluns 23 de novembre (18:30-20:00 h) | Dilluns 25 de gener (18:30-20:00 h) | Dilluns 22 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 26 d'abril (18:30-20:00 h) | Dilluns 24 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura feminista: Atrapades en si mateixes",
+                "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -506,12 +530,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
-            {
-                "title": "EstàsON. Els reptes de lSTEAM (6 a 8 anys)",
-                "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
                 "date": "Dilluns 22 de juny (17:30-19:30 h)"
@@ -580,22 +600,30 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 17 d'octubre (10:00-11:30 h) | Divendres 21 de novembre (10:00-11:30 h) | Divendres 19 de desembre (10:00-11:30 h) | Divendres 16 de gener (10:00-11:30 h) | Divendres 20 de febrer (10:00-11:30 h) | Divendres 20 de març (10:00-11:30 h) | Divendres 17 d'abril (10:00-11:30 h) | Divendres 15 de maig (10:00-11:30 h) | Divendres 19 de juny (10:00-11:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua alemanya",
+                "date": "Dilluns 19 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 14 de desembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
             }
         ]
     },
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
                 "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 17 de setembre (18:30-20:00 h) | Dijous 15 d'octubre (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimecres 14 d'octubre (18:00-19:30 h) | Dimecres 11 de novembre (18:00-19:30 h) | Dimecres 9 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
             }
         ]
     },
@@ -652,12 +680,8 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dilluns 15 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
                 "date": "Dilluns 29 de juny (17:30-19:30 h)"
@@ -686,7 +710,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 5,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -707,6 +731,14 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 28 d'octubre (18:30-20:30 h) | Dimecres 25 de novembre (18:30-20:30 h) | Dimecres 27 de gener (18:30-20:30 h) | Dimecres 24 de febrer (18:30-20:30 h) | Dimecres 31 de març (18:30-20:30 h) | Dimecres 28 d'abril (18:30-20:30 h) | Dimecres 26 de maig (18:30-20:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Dimecres 21 d'octubre (10:00-12:00 h) | Dimecres 18 de novembre (10:00-12:00 h) | Dimecres 16 de desembre (10:00-12:00 h) | Dimecres 20 de gener (10:00-12:00 h) | Dimecres 17 de febrer (10:00-12:00 h) | Dimecres 17 de març (10:00-12:00 h) | Dimecres 21 d'abril (10:00-12:00 h) | Dimecres 19 de maig (10:00-12:00 h) | Dimecres 16 de juny (10:00-12:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua anglesa",
+                "date": "Dimecres 21 d'octubre (19:00-20:30 h) | Dimecres 18 de novembre (19:00-20:30 h) | Dimecres 20 de gener (19:00-20:30 h) | Dimecres 17 de febrer (19:00-20:30 h) | Dimecres 17 de març (19:00-20:30 h) | Dimecres 21 d'abril (19:00-20:30 h) | Dimecres 19 de maig (19:00-20:30 h)"
             }
         ]
     },
