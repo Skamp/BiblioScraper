@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-20T10:28:37.479308';
+const scrapeTimestamp = '2026-06-21T11:12:11.029221';
 const coursesData = [
     {
         "library_id": "1",
@@ -339,7 +339,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -355,7 +355,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura general",
-                "date": ""
+                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
@@ -367,7 +367,11 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura Llegir en comunitat",
-                "date": ""
+                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 16 de novembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h) | Dilluns 15 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 19 d'abril (18:30-20:00 h) | Dilluns 17 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de còmic",
+                "date": "Dimecres 21 d'octubre (18:30-20:30 h) | Dimecres 25 de novembre (18:30-20:30 h) | Dimecres 16 de desembre (18:30-20:30 h) | Dimecres 20 de gener (18:30-20:30 h) | Dimecres 17 de febrer (18:30-20:30 h) | Dimecres 21 d'abril (18:30-20:30 h) | Dimecres 19 de maig (18:30-20:30 h)"
             },
             {
                 "title": "Club de lectura d'anime i manga juvenil",
@@ -583,7 +587,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura alternatiu",
-                "date": "Dilluns 21 de setembre (19:00-20:00 h) | Dilluns 19 d'octubre (19:00-20:00 h) | Dilluns 16 de novembre (19:00-20:00 h) | Dilluns 21 de desembre (19:00-20:00 h) | Dilluns 18 de gener (19:00-20:00 h) | Dilluns 15 de febrer (19:00-20:00 h) | Dilluns 15 de març (19:00-20:00 h) | Dilluns 19 d'abril (19:00-20:00 h) | Dilluns 17 de maig (19:00-20:00 h) | Dilluns 21 de juny (19:00-20:00 h)"
+                "date": "Dilluns 21 de setembre (19:00-20:00 h) | Dilluns 19 d'octubre (19:00-20:00 h) | Dilluns 16 de novembre (19:00-20:00 h) | Dilluns 21 de desembre (19:00-20:00 h) | Dilluns 18 de gener (19:00-20:00 h) | Dilluns 15 de febrer (19:00-20:00 h) | Dilluns 15 de març (19:00-20:00 h) | Dilluns 19 d'abril (19:00-20:00 h) | Dilluns 24 de maig (19:00-20:00 h) | Dilluns 21 de juny (19:00-20:00 h)"
             },
             {
                 "title": "Club de lectura de lletra gran",
