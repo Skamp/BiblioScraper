@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-21T11:12:11.029221';
+const scrapeTimestamp = '2026-06-22T13:29:00.680537';
 const coursesData = [
     {
         "library_id": "1",
@@ -240,7 +240,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
@@ -261,6 +261,10 @@ const coursesData = [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 8 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
+                "date": "Dimecres 26 d'agost (11:30-12:30 h)"
             }
         ]
     },
@@ -339,7 +343,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 11,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -384,6 +388,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
                 "date": "Dijous 13 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Atrapallibres. Club de lectura infantil",
+                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h)"
             }
         ]
     },
@@ -776,7 +784,7 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
@@ -789,6 +797,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
                 "date": "Dimecres 12 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
+                "date": "Dilluns 24 d'agost (18:00-19:00 h)"
             }
         ]
     },
