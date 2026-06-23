@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-22T13:29:00.680537';
+const scrapeTimestamp = '2026-06-23T10:56:50.602641';
 const coursesData = [
     {
         "library_id": "1",
@@ -291,7 +291,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura general",
-                "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 25 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
+                "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
             },
             {
                 "title": "El Vaivenito: construcció duna cançó",
@@ -687,12 +687,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
-            {
-                "title": "EstàsON. Programem i dissenyem un joc en equip (9-12 anys)",
-                "date": "Dilluns 22 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "Taller de descoberta. \"Les invisibles\" L'Anna Mani i l'Art de fer bombolles (5 a 10 anus)",
                 "date": "Dijous 9 de juliol (17:30-19:00 h)"
