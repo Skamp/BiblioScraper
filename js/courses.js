@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-23T10:56:50.602641';
+const scrapeTimestamp = '2026-06-24T10:42:55.444422';
 const coursesData = [
     {
         "library_id": "1",
@@ -202,7 +202,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
-                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h)"
+                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 30 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura Literatura Asiàtica",
@@ -343,7 +343,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 12,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -392,6 +392,10 @@ const coursesData = [
             {
                 "title": "Atrapallibres. Club de lectura infantil",
                 "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h)"
+            },
+            {
+                "title": "Club de lectura protagonista jove.",
+                "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h)"
             }
         ]
     },
@@ -575,7 +579,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -608,6 +612,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell superior)",
                 "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
+                "date": "Dimecres 26 d'agost (18:00-19:00 h)"
             }
         ]
     },
@@ -999,7 +1007,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Espai Gent gran",
@@ -1036,6 +1044,10 @@ const coursesData = [
             {
                 "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
                 "date": "Divendres 26 de juny (17:30-19:30 h)"
+            },
+            {
+                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
+                "date": "Dimecres 26 d'agost (18:00-19:00 h)"
             }
         ]
     },
