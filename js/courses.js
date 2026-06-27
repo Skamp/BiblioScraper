@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-26T10:45:37.632539';
+const scrapeTimestamp = '2026-06-27T09:58:44.357226';
 const coursesData = [
     {
         "library_id": "1",
@@ -252,12 +252,8 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
-            {
-                "title": "Visita històrica biblioteca Francesca Bonnemaison",
-                "date": "Divendres 26 de juny (12:00-13:00 h)"
-            },
             {
                 "title": "Visita històrica biblioteca Francesca Bonnemaison",
                 "date": "Dilluns 29 de juny (18:00-19:00 h)"
@@ -333,11 +329,23 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 1,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
                 "date": "Dilluns 10 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura de poesia",
+                "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Divendres 9 d'octubre (10:00-11:30 h) | Divendres 13 de novembre (10:00-11:30 h) | Divendres 11 de desembre (10:00-11:30 h) | Divendres 8 de gener (10:00-11:30 h) | Divendres 12 de febrer (10:00-11:30 h) | Divendres 12 de març (10:00-11:30 h) | Divendres 9 d'abril (10:00-11:30 h) | Divendres 14 de maig (10:00-11:30 h) | Divendres 11 de juny (10:00-11:30 h)"
             }
         ]
     },
@@ -541,7 +549,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -554,10 +562,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
-                "date": "Divendres 26 de juny (17:30-19:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals d'Ulisses. (8 a 12 anys)",
@@ -766,15 +770,11 @@ const coursesData = [
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. Memòria històrica del franquisme. \"I després de Franco, què? (1965-1975)\".",
                 "date": "Dimecres 29 d'abril (18:00-20:00 h) | Dimecres 27 de maig (18:00-20:00 h) | Dimecres 17 de juny (18:00-20:00 h) | Dimecres 1 de juliol (18:00-20:00 h)"
-            },
-            {
-                "title": "Itineraris per Barcelona. Darrere les persianes.",
-                "date": "Divendres 26 de juny (17:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de novel·la negra",
@@ -1035,7 +1035,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Espai Gent gran",
@@ -1068,10 +1068,6 @@ const coursesData = [
             {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
-            },
-            {
-                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
-                "date": "Divendres 26 de juny (17:30-19:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
