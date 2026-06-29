@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-28T10:22:40.433448';
+const scrapeTimestamp = '2026-06-29T12:24:59.550805';
 const coursesData = [
     {
         "library_id": "1",
@@ -607,7 +607,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -644,6 +644,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
                 "date": "Dimecres 26 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Lletra petita. Sac de rondalles. La bruixeta poruga (+3 anys)",
+                "date": "Dimecres 30 de setembre (17:30-18:30 h)"
             }
         ]
     },
@@ -1035,12 +1039,8 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
-            {
-                "title": "Espai Gent gran",
-                "date": "Dilluns 29 de setembre (18:00-19:00 h) | Dilluns 6 d'octubre (18:00-19:00 h) | Dilluns 13 d'octubre (18:00-19:00 h) | Dilluns 20 d'octubre (18:00-19:00 h) | Dilluns 27 d'octubre (18:00-19:00 h) | Dilluns 3 de novembre (18:00-19:00 h) | Dilluns 17 de novembre (18:00-19:00 h) | Dilluns 24 de novembre (18:00-19:00 h) | Dilluns 1 de desembre (18:00-19:00 h) | Dilluns 22 de desembre (18:00-19:00 h) | Dilluns 19 de gener (18:00-19:00 h) | Dilluns 26 de gener (18:00-19:00 h) | Dilluns 2 de febrer (18:00-19:00 h) | Dilluns 16 de febrer (18:00-19:00 h) | Dilluns 23 de febrer (18:00-19:00 h) | Dilluns 2 de març (18:00-19:00 h) | Dilluns 16 de març (18:00-19:00 h) | Dilluns 23 de març (18:00-19:00 h) | Dilluns 20 d'abril (18:00-19:00 h) | Dilluns 27 d'abril (18:00-19:00 h) | Dilluns 4 de maig (18:00-19:00 h) | Dilluns 18 de maig (18:00-19:00 h) | Dilluns 1 de juny (18:00-19:00 h) | Dilluns 15 de juny (18:00-19:00 h) | Dilluns 22 de juny (18:00-19:00 h) | Dilluns 29 de juny (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 1 de juliol (17:00-18:00 h) | Dimecres 8 de juliol (17:00-18:00 h) | Dimecres 15 de juliol (17:00-18:00 h)"
