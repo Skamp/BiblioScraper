@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-06-29T12:24:59.550805';
+const scrapeTimestamp = '2026-06-30T10:50:32.590394';
 const coursesData = [
     {
         "library_id": "1",
@@ -14,7 +14,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
@@ -23,6 +23,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
                 "date": "Dijous 3 de setembre (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 22 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -233,12 +237,8 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
-                "date": "Dilluns 29 de juny (9:30-13:30 h) | Dimarts 30 de juny (9:30-13:30 h) | Dimecres 1 de juliol (9:30-13:30 h) | Dijous 2 de juliol (9:30-13:30 h) | Divendres 3 de juliol (9:30-13:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
@@ -252,12 +252,8 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Visita històrica biblioteca Francesca Bonnemaison",
-                "date": "Dilluns 29 de juny (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
                 "date": "Dilluns 19 d'octubre (18:00-19:30 h) | Dilluns 16 de novembre (18:00-19:30 h) | Dilluns 18 de gener (18:00-19:30 h) | Dilluns 15 de febrer (18:00-19:30 h) | Dilluns 15 de març (18:00-19:30 h) | Dilluns 19 d'abril (18:00-19:30 h) | Dilluns 17 de maig (18:00-19:30 h)"
@@ -681,7 +677,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -710,6 +706,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
                 "date": "Dijous 6 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
+                "date": "Divendres 2 d'octubre (17:30-18:30 h) | Divendres 6 de novembre (17:30-18:30 h) | Divendres 8 de gener (17:30-18:30 h) | Divendres 5 de febrer (17:30-18:30 h) | Divendres 5 de març (17:30-18:30 h) | Divendres 2 d'abril (17:30-18:30 h) | Divendres 7 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -843,7 +843,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -856,10 +856,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura i IA.",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Escornabot a la recerca del tresor perdut (5 a 7 anys)",
-                "date": "Dilluns 29 de juny (17:30-19:00 h)"
             },
             {
                 "title": "Animals fantàstics amb lego wedo 2.0 (8 a 11 anys)",
@@ -901,12 +897,8 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
-                "date": "Dilluns 29 de juny (17:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 3 de febrer (18:30-20:00 h) | Dimecres 3 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h)"
@@ -997,12 +989,8 @@ const coursesData = [
     {
         "library_id": "32",
         "library_name": "Biblioteca Vilapicina i la Torre Llobeta",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 17 d'octubre (10:30-11:30 h) | Divendres 21 de novembre (10:30-11:30 h) | Divendres 19 de desembre (10:30-11:30 h) | Divendres 16 de gener (10:30-11:30 h) | Divendres 20 de febrer (10:30-11:30 h) | Divendres 20 de març (10:30-11:30 h) | Divendres 17 d'abril (10:30-11:30 h) | Divendres 15 de maig (10:30-11:30 h) | Divendres 19 de juny (10:30-11:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimarts 3 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 2 de febrer (18:30-20:00 h) | Dimarts 2 de març (18:30-20:00 h) | Dimarts 6 d'abril (18:30-20:00 h) | Dimarts 4 de maig (18:30-20:00 h) | Dimarts 1 de juny (18:30-20:00 h)"
