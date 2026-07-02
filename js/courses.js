@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-01T11:18:41.708753';
+const scrapeTimestamp = '2026-07-02T10:30:48.764758';
 const coursesData = [
     {
         "library_id": "1",
@@ -26,7 +26,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura general",
-                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 22 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
+                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
@@ -129,7 +129,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -150,6 +150,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dijous 17 de setembre (18:00-19:00 h) | Dijous 15 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h) | Dijous 17 de juny (18:00-19:00 h) | Dijous 15 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Espai Steam. Descobreix la impressió 3D",
+                "date": "Divendres 10 de juliol (17:30-19:00 h) | Divendres 17 de juliol (17:30-19:00 h) | Divendres 24 de juliol (17:30-19:00 h)"
             }
         ]
     },
@@ -379,7 +383,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
-                "date": "Dijous 2 de juliol (11:30-12:00 h)"
+                "date": "Dimarts 28 de juliol (11:30-12:30 h)"
             },
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
@@ -515,7 +519,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -536,6 +540,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
                 "date": "Dimecres 29 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Visita a una biblioteca singular: El Centre Excursionista de Catalunya",
+                "date": "Dimecres 7 d'octubre (19:00-20:30 h)"
             }
         ]
     },
@@ -635,7 +643,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de novel·la històrica",
-                "date": "Dimarts 27 d'octubre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h)"
+                "date": "Dimarts 22 de setembre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura alternatiu",
