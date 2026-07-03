@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-02T10:30:48.764758';
+const scrapeTimestamp = '2026-07-03T10:28:21.173173';
 const coursesData = [
     {
         "library_id": "1",
@@ -152,7 +152,7 @@ const coursesData = [
                 "date": "Dijous 17 de setembre (18:00-19:00 h) | Dijous 15 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h) | Dijous 17 de juny (18:00-19:00 h) | Dijous 15 de juliol (18:00-19:00 h)"
             },
             {
-                "title": "Espai Steam. Descobreix la impressió 3D",
+                "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
                 "date": "Divendres 10 de juliol (17:30-19:00 h) | Divendres 17 de juliol (17:30-19:00 h) | Divendres 24 de juliol (17:30-19:00 h)"
             }
         ]
@@ -268,7 +268,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
-                "date": "Dilluns 19 d'octubre (18:00-19:30 h) | Dilluns 16 de novembre (18:00-19:30 h) | Dilluns 18 de gener (18:00-19:30 h) | Dilluns 15 de febrer (18:00-19:30 h) | Dilluns 15 de març (18:00-19:30 h) | Dilluns 19 d'abril (18:00-19:30 h) | Dilluns 17 de maig (18:00-19:30 h)"
+                "date": "Dimecres 21 d'octubre (18:00-19:30 h) | Dimecres 18 de novembre (18:00-19:30 h) | Dimecres 20 de gener (18:00-19:30 h) | Dimecres 17 de febrer (18:00-19:30 h) | Dimecres 17 de març (18:00-19:30 h) | Dimecres 21 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura puntual. Terror en femení.",
@@ -276,7 +276,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura: Una lectura pròpia",
-                "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 8 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
+                "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
@@ -867,7 +867,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -896,6 +896,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
                 "date": "Divendres 31 de juliol (11:30-12:30 h)"
+            },
+            {
+                "title": "Club de lectura general",
+                "date": "Dijous 1 d'octubre (18:30-19:30 h) | Dimarts 6 d'octubre (18:30-19:30 h) | Dijous 8 d'octubre (18:30-19:30 h) | Dimarts 13 d'octubre (18:30-19:30 h) | Dijous 15 d'octubre (18:30-19:30 h) | Dimarts 20 d'octubre (18:30-19:30 h) | Dijous 22 d'octubre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dijous 29 d'octubre (18:30-19:30 h) | Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 10 de novembre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dijous 19 de novembre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dijous 26 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 8 de desembre (18:30-19:30 h) | Dijous 10 de desembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dijous 17 de desembre (18:30-19:30 h) | Dimarts 22 de desembre (18:30-19:30 h) | Dijous 24 de desembre (18:30-19:30 h) | Dimarts 29 de desembre (18:30-19:30 h) | Dijous 31 de desembre (18:30-19:30 h) | Dimarts 5 de gener (18:30-19:30 h) | Dijous 7 de gener (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dijous 21 de gener (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dijous 28 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dijous 4 de febrer (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dijous 18 de febrer (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dijous 25 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dijous 4 de març (18:30-19:30 h) | Dimarts 9 de març (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dijous 18 de març (18:30-19:30 h) | Dimarts 23 de març (18:30-19:30 h) | Dijous 25 de març (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dijous 1 d'abril (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h) | Dijous 15 d'abril (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dijous 22 d'abril (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dijous 29 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dijous 6 de maig (18:30-19:30 h) | Dimarts 11 de maig (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h) | Dijous 20 de maig (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h) | Dijous 27 de maig (18:30-19:30 h)"
             }
         ]
     },
