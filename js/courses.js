@@ -1,10 +1,14 @@
-const scrapeTimestamp = '2026-07-03T10:28:21.173173';
+const scrapeTimestamp = '2026-07-04T10:01:55.912226';
 const coursesData = [
     {
         "library_id": "1",
         "library_name": "Biblioteca Barceloneta-La Fraternitat",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Dimarts 13 d'octubre (17:00-18:30 h) | Dimarts 10 de novembre (17:00-18:30 h) | Dimarts 15 de desembre (17:00-18:30 h) | Dimarts 12 de gener (17:00-18:30 h) | Dimarts 9 de febrer (17:00-18:30 h) | Dimarts 9 de març (17:00-18:30 h) | Dimarts 13 d'abril (17:00-18:30 h) | Dimarts 11 de maig (17:00-18:30 h) | Dimarts 8 de juny (17:00-18:30 h)"
+            },
             {
                 "title": "Un estiu de postal. Postals d'Ulisses. (8 a 12 anys)",
                 "date": "Dimarts 21 de juliol (18:00-19:00 h)"
@@ -37,8 +41,16 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 8,
+        "courses_found": 11,
         "courses": [
+            {
+                "title": "FM Taller de ventalls personalitzats",
+                "date": "Dimecres 22 de juliol (17:30-19:00 h)"
+            },
+            {
+                "title": "FM Taller de Marbrejat",
+                "date": "Divendres 24 de juliol (11:30-13:00 h)"
+            },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
@@ -62,6 +74,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "FM Taller el que la llengua mou",
+                "date": "Divendres 10 de juliol (17:30-19:30 h) | Dimarts 14 de juliol (17:30-19:30 h)"
             },
             {
                 "title": "FM Taller de ninots de feltre (+ 6 anys)",
@@ -1033,7 +1049,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura general",
-                "date": "Dimarts 3 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 2 de febrer (18:30-20:00 h) | Dimarts 2 de març (18:30-20:00 h) | Dimarts 6 d'abril (18:30-20:00 h) | Dimarts 4 de maig (18:30-20:00 h) | Dimarts 1 de juny (18:30-20:00 h)"
+                "date": "Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dimarts 1 de juny (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -1041,7 +1057,7 @@ const coursesData = [
             },
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
-                "date": "Dimarts 20 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 20 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
+                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
