@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-06T11:58:00.933243';
+const scrapeTimestamp = '2026-07-07T10:48:51.697748';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,7 +41,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 11,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "FM Taller de ventalls personalitzats",
@@ -86,6 +86,10 @@ const coursesData = [
             {
                 "title": "FM Taller de costura bàsica",
                 "date": "Dimarts 7 de juliol (10:00-13:00 h) | Dijous 9 de juliol (10:00-13:00 h) | Dimarts 14 de juliol (10:00-13:00 h) | Dijous 16 de juliol (10:00-13:00 h)"
+            },
+            {
+                "title": "FM Trames de memòria: traçabilitat afectiva.",
+                "date": "Dimecres 15 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -898,10 +902,6 @@ const coursesData = [
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h)"
             },
             {
-                "title": "Animals fantàstics amb lego wedo 2.0 (8 a 11 anys)",
-                "date": "Dilluns 6 de juliol (17:30-19:30 h)"
-            },
-            {
                 "title": "Lab de sumo-bots amb Lego Mindstorms (+12 anys)",
                 "date": "Dilluns 13 de juliol (17:30-20:00 h) | Dijous 16 de juliol (17:30-20:00 h)"
             },
@@ -916,6 +916,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general",
                 "date": "Dijous 1 d'octubre (18:30-19:30 h) | Dimarts 6 d'octubre (18:30-19:30 h) | Dijous 8 d'octubre (18:30-19:30 h) | Dimarts 13 d'octubre (18:30-19:30 h) | Dijous 15 d'octubre (18:30-19:30 h) | Dimarts 20 d'octubre (18:30-19:30 h) | Dijous 22 d'octubre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dijous 29 d'octubre (18:30-19:30 h) | Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 10 de novembre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dijous 19 de novembre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dijous 26 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 8 de desembre (18:30-19:30 h) | Dijous 10 de desembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dijous 17 de desembre (18:30-19:30 h) | Dimarts 22 de desembre (18:30-19:30 h) | Dijous 24 de desembre (18:30-19:30 h) | Dimarts 29 de desembre (18:30-19:30 h) | Dijous 31 de desembre (18:30-19:30 h) | Dimarts 5 de gener (18:30-19:30 h) | Dijous 7 de gener (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dijous 21 de gener (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dijous 28 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dijous 4 de febrer (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dijous 18 de febrer (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dijous 25 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dijous 4 de març (18:30-19:30 h) | Dimarts 9 de març (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dijous 18 de març (18:30-19:30 h) | Dimarts 23 de març (18:30-19:30 h) | Dijous 25 de març (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dijous 1 d'abril (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h) | Dijous 15 d'abril (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dijous 22 d'abril (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dijous 29 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dijous 6 de maig (18:30-19:30 h) | Dimarts 11 de maig (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h) | Dijous 20 de maig (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h) | Dijous 27 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Expliquem un conte amb lescornabot (5 a 8 anys)",
+                "date": "Dilluns 27 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -991,12 +995,8 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
-                "date": "Dilluns 6 de juliol (9:30-13:30 h) | Dimarts 7 de juliol (9:30-13:30 h) | Dimecres 8 de juliol (9:30-13:30 h) | Dijous 9 de juliol (9:30-13:30 h) | Divendres 10 de juliol (9:30-13:30 h)"
-            },
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 28 d'octubre (18:30-20:30 h) | Dimecres 25 de novembre (18:30-20:30 h) | Dimecres 27 de gener (18:30-20:30 h) | Dimecres 24 de febrer (18:30-20:30 h) | Dimecres 31 de març (18:30-20:30 h) | Dimecres 28 d'abril (18:30-20:30 h) | Dimecres 26 de maig (18:30-20:30 h)"
@@ -1087,15 +1087,11 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 1 de juliol (17:00-18:00 h) | Dimecres 8 de juliol (17:00-18:00 h) | Dimecres 15 de juliol (17:00-18:00 h)"
-            },
-            {
-                "title": "Espai Gent gran Estiu",
-                "date": "Dilluns 6 de juliol (18:00-19:00 h) | Dilluns 13 de juliol (18:00-19:00 h) | Dilluns 20 de juliol (18:00-19:00 h) | Dilluns 27 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
