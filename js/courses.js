@@ -1,9 +1,9 @@
-const scrapeTimestamp = '2026-07-07T10:48:51.697748';
+const scrapeTimestamp = '2026-07-08T10:09:47.117211';
 const coursesData = [
     {
         "library_id": "1",
         "library_name": "Biblioteca Barceloneta-La Fraternitat",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -12,6 +12,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals d'Ulisses. (8 a 12 anys)",
                 "date": "Dimarts 21 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura. Lletres de Mèxic",
+                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -41,7 +45,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "FM Taller de ventalls personalitzats",
@@ -82,10 +86,6 @@ const coursesData = [
             {
                 "title": "FM Taller de ninots de feltre (+ 6 anys)",
                 "date": "Dimecres 8 de juliol (17:30-19:00 h)"
-            },
-            {
-                "title": "FM Taller de costura bàsica",
-                "date": "Dimarts 7 de juliol (10:00-13:00 h) | Dijous 9 de juliol (10:00-13:00 h) | Dimarts 14 de juliol (10:00-13:00 h) | Dijous 16 de juliol (10:00-13:00 h)"
             },
             {
                 "title": "FM Trames de memòria: traçabilitat afectiva.",
@@ -269,7 +269,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general",
@@ -278,6 +278,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
                 "date": "Dimarts 21 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
+                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 1 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 4 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -399,7 +403,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 14,
+        "courses_found": 18,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -456,6 +460,22 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
                 "date": "Dimarts 4 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
+                "date": "Dijous 16 de juliol (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
+                "date": "Dilluns 20 de juliol (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
+                "date": "Dimarts 21 de juliol (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
+                "date": "Dijous 23 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -497,19 +517,15 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Club de lectura puntual. GREC 2026: \"Lòpera de tres rals\", de Bertolt Brecht.",
-                "date": "Diumenge 28 de juny (18:30-20:00 h) | Dimecres 8 de juliol (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de llengua francesa",
-                "date": "Dilluns 12 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
+                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura general",
@@ -961,11 +977,15 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 1,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 3 de febrer (18:30-20:00 h) | Dimecres 3 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
+                "date": "Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h) | Dimecres 13 de gener (17:30-18:30 h) | Dimecres 3 de febrer (17:30-18:30 h) | Dimecres 3 de març (17:30-18:30 h) | Dimecres 7 d'abril (17:30-18:30 h) | Dimecres 12 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -1034,7 +1054,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua alemanya",
-                "date": "Dijous 15 d'octubre (18:00-20:00 h) | Dijous 19 de novembre (18:00-20:00 h) | Dijous 17 de desembre (18:00-20:00 h) | Dijous 18 de febrer (18:00-20:00 h) | Dijous 18 de març (18:00-20:00 h) | Dijous 15 d'abril (18:00-20:00 h) | Dijous 20 de maig (18:00-20:00 h)"
+                "date": "Dijous 15 d'octubre (18:00-20:00 h) | Dijous 19 de novembre (18:00-20:00 h) | Dijous 17 de desembre (18:00-20:00 h) | Dijous 21 de gener (18:00-20:00 h) | Dijous 18 de febrer (18:00-20:00 h) | Dijous 15 d'abril (18:00-20:00 h) | Dijous 20 de maig (18:00-20:00 h)"
             },
             {
                 "title": "Club de lectura general",
