@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-08T10:09:47.117211';
+const scrapeTimestamp = '2026-07-09T10:47:37.072836';
 const coursesData = [
     {
         "library_id": "1",
@@ -33,7 +33,7 @@ const coursesData = [
                 "date": "Dijous 3 de setembre (18:00-19:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             },
             {
@@ -45,7 +45,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "FM Taller de ventalls personalitzats",
@@ -68,7 +68,7 @@ const coursesData = [
                 "date": "Dijous 8 d'octubre (12:00-13:00 h) | Dijous 12 de novembre (12:00-13:00 h) | Dijous 10 de desembre (12:00-13:00 h) | Dijous 14 de gener (12:00-13:00 h) | Dijous 11 de febrer (12:00-13:00 h) | Dijous 11 de març (12:00-13:00 h) | Dijous 8 d'abril (12:00-13:00 h) | Dijous 13 de maig (12:00-13:00 h) | Dijous 10 de juny (12:00-13:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 7 d'octubre (18:30-19:30 h) | Dimecres 4 de novembre (18:30-19:30 h) | Dimecres 2 de desembre (18:30-19:30 h) | Dimecres 3 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h)"
             },
             {
@@ -84,10 +84,6 @@ const coursesData = [
                 "date": "Divendres 10 de juliol (17:30-19:30 h) | Dimarts 14 de juliol (17:30-19:30 h)"
             },
             {
-                "title": "FM Taller de ninots de feltre (+ 6 anys)",
-                "date": "Dimecres 8 de juliol (17:30-19:00 h)"
-            },
-            {
                 "title": "FM Trames de memòria: traçabilitat afectiva.",
                 "date": "Dimecres 15 de juliol (17:30-19:30 h)"
             }
@@ -99,7 +95,7 @@ const coursesData = [
         "courses_found": 2,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
             },
             {
@@ -114,7 +110,7 @@ const coursesData = [
         "courses_found": 3,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h)"
             },
             {
@@ -149,7 +145,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 6,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -174,6 +170,14 @@ const coursesData = [
             {
                 "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
                 "date": "Divendres 10 de juliol (17:30-19:00 h) | Divendres 17 de juliol (17:30-19:00 h) | Divendres 24 de juliol (17:30-19:00 h)"
+            },
+            {
+                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
+                "date": "Dimarts 21 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
+                "date": "Dimarts 28 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -195,7 +199,7 @@ const coursesData = [
                 "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
             },
             {
@@ -204,7 +208,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura juvenil",
-                "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
+                "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 25 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
             },
             {
                 "title": "Un estiu de postal. Les postals exquisides. Taller d'escriptura automàtica. (6 a 8 anys)",
@@ -218,7 +222,7 @@ const coursesData = [
         "courses_found": 5,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dilluns 19 d'octubre (11:00-12:30 h) | Dilluns 9 de novembre (11:00-12:30 h) | Dilluns 14 de desembre (11:00-12:30 h) | Dilluns 8 de febrer (11:00-12:30 h) | Dilluns 8 de març (11:00-12:30 h) | Dilluns 12 d'abril (11:00-12:30 h) | Dilluns 10 de maig (11:00-12:30 h)"
             },
             {
@@ -246,14 +250,14 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
-                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 30 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h)"
+                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura Literatura Asiàtica",
                 "date": "Dilluns 19 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 14 de desembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 1 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h) | Dilluns 14 de juny (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dilluns 26 d'octubre (18:30-19:30 h) | Dilluns 23 de novembre (18:30-19:30 h) | Dilluns 25 de gener (18:30-19:30 h) | Dilluns 22 de febrer (18:30-19:30 h) | Dilluns 15 de març (18:30-19:30 h) | Dilluns 26 d'abril (18:30-19:30 h) | Dilluns 24 de maig (18:30-19:30 h)"
             },
             {
@@ -272,16 +276,16 @@ const coursesData = [
         "courses_found": 3,
         "courses": [
             {
-                "title": "Club de lectura general",
-                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
-            },
-            {
                 "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
                 "date": "Dimarts 21 de juliol (18:00-19:00 h)"
             },
             {
+                "title": "Club de lectura general.",
+                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
+            },
+            {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 1 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 4 de maig (17:30-18:30 h)"
+                "date": "Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 1 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 2 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 11 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -315,7 +319,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -334,7 +338,7 @@ const coursesData = [
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
             },
             {
@@ -344,6 +348,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
                 "date": "Dimarts 1 de setembre (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Llegim Sergio Ramírez",
+                "date": "Dissabte 19 de setembre (12:00-13:30 h)"
             }
         ]
     },
@@ -372,7 +380,7 @@ const coursesData = [
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
             },
             {
@@ -391,7 +399,7 @@ const coursesData = [
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 15 d'octubre (12:00-13:30 h) | Dijous 19 de novembre (12:00-13:30 h) | Dijous 17 de desembre (12:00-13:30 h) | Dijous 18 de febrer (12:00-13:30 h) | Dijous 18 de març (12:00-13:30 h) | Dijous 22 d'abril (12:00-13:30 h) | Dijous 20 de maig (12:00-13:30 h)"
             },
             {
@@ -403,7 +411,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 18,
+        "courses_found": 17,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -418,12 +426,8 @@ const coursesData = [
                 "date": "Dimarts 14 de juliol (18:00-19:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Lhort destiu en test: tomàquets, pebrots i alfàbrega",
-                "date": "Dimecres 8 de juliol (18:30-20:00 h)"
             },
             {
                 "title": "Taller Premis Junceda. Taller d'il·lustració: Plantes botàniques. (6 a 12 anys)",
@@ -489,7 +493,7 @@ const coursesData = [
                 "date": "Dimecres 4 de febrer (17:30-18:30 h) | Dimecres 4 de març (17:30-18:30 h) | Dimecres 8 d'abril (17:30-18:30 h) | Dimecres 7 d'octubre (17:30-18:30 h) | Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-19:30 h) | Dimecres 11 de novembre (18:30-19:30 h) | Dimecres 9 de desembre (18:30-19:30 h) | Dimecres 10 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 14 d'abril (18:30-19:30 h) | Dimecres 12 de maig (18:30-19:30 h)"
             },
             {
@@ -517,7 +521,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 4,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -528,12 +532,20 @@ const coursesData = [
                 "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
                 "date": "Dijous 30 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
+                "date": "Dimecres 15 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
+                "date": "Dimecres 22 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -543,7 +555,7 @@ const coursesData = [
         "courses_found": 2,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:00-19:30 h) | Dimecres 18 de novembre (18:00-19:30 h) | Dimecres 16 de desembre (18:00-19:30 h) | Dimecres 17 de febrer (18:00-19:30 h) | Dimecres 17 de març (18:00-19:30 h) | Dimecres 21 d'abril (18:00-19:30 h) | Dimecres 19 de maig (18:00-19:30 h)"
             },
             {
@@ -566,7 +578,7 @@ const coursesData = [
                 "date": "Dissabte 10 d'octubre (11:00-12:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 1 de febrer (18:30-20:00 h) | Dilluns 1 de març (18:30-20:00 h) | Dilluns 5 d'abril (18:30-20:00 h) | Dilluns 3 de maig (18:30-20:00 h)"
             },
             {
@@ -589,7 +601,7 @@ const coursesData = [
         "courses_found": 3,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h) | Dijous 4 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 1 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h)"
             },
             {
@@ -616,7 +628,7 @@ const coursesData = [
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 19 de gener (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             },
             {
@@ -643,7 +655,7 @@ const coursesData = [
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 29 d'octubre (18:30-19:30 h) | Dijous 26 de novembre (18:30-19:30 h) | Dijous 28 de gener (18:30-19:30 h) | Dijous 25 de febrer (18:30-19:30 h) | Dijous 1 d'abril (18:30-19:30 h) | Dijous 29 d'abril (18:30-19:30 h) | Dijous 27 de maig (18:30-19:30 h)"
             },
             {
@@ -674,7 +686,7 @@ const coursesData = [
                 "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
             },
             {
@@ -721,7 +733,7 @@ const coursesData = [
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dilluns 26 d'octubre (18:30-20:00 h) | Dilluns 23 de novembre (18:30-20:00 h) | Dilluns 25 de gener (18:30-20:00 h) | Dilluns 22 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 26 d'abril (18:30-20:00 h) | Dilluns 24 de maig (18:30-20:00 h)"
             },
             {
@@ -748,7 +760,7 @@ const coursesData = [
                 "date": "Dissabte 17 d'octubre (10:00-13:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             },
             {
@@ -791,7 +803,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Taller de descoberta. \"Les invisibles\" L'Anna Mani i l'Art de fer bombolles (5 a 10 anus)",
@@ -822,7 +834,7 @@ const coursesData = [
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 22 de desembre (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-19:30 h) | Dimecres 11 de novembre (18:30-19:30 h) | Dimecres 13 de gener (18:30-19:30 h) | Dimecres 10 de febrer (18:30-19:30 h) | Dimecres 10 de març (18:30-19:30 h) | Dimecres 14 d'abril (18:30-19:30 h) | Dimecres 12 de maig (18:30-19:30 h)"
             },
             {
@@ -832,6 +844,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de ciència",
                 "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Cristian Olivé",
+                "date": "Dimecres 30 de setembre (18:00-19:00 h)"
             }
         ]
     },
@@ -849,7 +865,7 @@ const coursesData = [
                 "date": "Dilluns 20 de juliol (18:00-19:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
             }
         ]
@@ -864,7 +880,7 @@ const coursesData = [
                 "date": "Dilluns 19 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 14 de desembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-19:30 h) | Dimecres 11 de novembre (18:30-19:30 h) | Dimecres 13 de gener (18:30-19:30 h) | Dimecres 10 de febrer (18:30-19:30 h) | Dimecres 10 de març (18:30-19:30 h) | Dimecres 14 d'abril (18:30-19:30 h) | Dimecres 12 de maig (18:30-19:30 h)"
             },
             {
@@ -887,7 +903,7 @@ const coursesData = [
                 "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 17 de setembre (18:30-20:00 h) | Dijous 15 d'octubre (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:00-19:30 h) | Dimecres 11 de novembre (18:00-19:30 h) | Dimecres 9 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
             },
             {
@@ -930,8 +946,8 @@ const coursesData = [
                 "date": "Divendres 31 de juliol (11:30-12:30 h)"
             },
             {
-                "title": "Club de lectura general",
-                "date": "Dijous 1 d'octubre (18:30-19:30 h) | Dimarts 6 d'octubre (18:30-19:30 h) | Dijous 8 d'octubre (18:30-19:30 h) | Dimarts 13 d'octubre (18:30-19:30 h) | Dijous 15 d'octubre (18:30-19:30 h) | Dimarts 20 d'octubre (18:30-19:30 h) | Dijous 22 d'octubre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dijous 29 d'octubre (18:30-19:30 h) | Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 10 de novembre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dijous 19 de novembre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dijous 26 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 8 de desembre (18:30-19:30 h) | Dijous 10 de desembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dijous 17 de desembre (18:30-19:30 h) | Dimarts 22 de desembre (18:30-19:30 h) | Dijous 24 de desembre (18:30-19:30 h) | Dimarts 29 de desembre (18:30-19:30 h) | Dijous 31 de desembre (18:30-19:30 h) | Dimarts 5 de gener (18:30-19:30 h) | Dijous 7 de gener (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dijous 21 de gener (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dijous 28 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dijous 4 de febrer (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dijous 18 de febrer (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dijous 25 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dijous 4 de març (18:30-19:30 h) | Dimarts 9 de març (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dijous 18 de març (18:30-19:30 h) | Dimarts 23 de març (18:30-19:30 h) | Dijous 25 de març (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dijous 1 d'abril (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h) | Dijous 15 d'abril (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dijous 22 d'abril (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dijous 29 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dijous 6 de maig (18:30-19:30 h) | Dimarts 11 de maig (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h) | Dijous 20 de maig (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h) | Dijous 27 de maig (18:30-19:30 h)"
+                "title": "Club de lectura general.",
+                "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Expliquem un conte amb lescornabot (5 a 8 anys)",
@@ -945,8 +961,8 @@ const coursesData = [
         "courses_found": 7,
         "courses": [
             {
-                "title": "EstàsON. Art amb geometria! (6 a 8 anys)",
-                "date": "Dimecres 8 de juliol (17:30-19:30 h)"
+                "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
+                "date": "Dimarts 6 d'octubre (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -961,7 +977,7 @@ const coursesData = [
                 "date": "Dimecres 14 d'octubre (11:00-12:30 h) | Dimecres 11 de novembre (11:00-12:30 h) | Dimecres 9 de desembre (11:00-12:30 h) | Dimecres 13 de gener (11:00-12:30 h) | Dimecres 10 de febrer (11:00-12:30 h) | Dimecres 10 de març (11:00-12:30 h) | Dimecres 14 d'abril (11:00-12:30 h)"
             },
             {
-                "title": "Club de lectura obert+",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 13 d'octubre (11:00-12:30 h) | Dimarts 10 de novembre (11:00-12:30 h) | Dimarts 15 de desembre (11:00-12:30 h) | Dimarts 12 de gener (11:00-12:30 h) | Dimarts 9 de febrer (11:00-12:30 h) | Dimarts 9 de març (11:00-12:30 h) | Dimarts 13 d'abril (11:00-12:30 h)"
             },
             {
@@ -980,7 +996,7 @@ const coursesData = [
         "courses_found": 2,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 3 de febrer (18:30-20:00 h) | Dimecres 3 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h)"
             },
             {
@@ -999,7 +1015,7 @@ const coursesData = [
                 "date": "Dimecres 16 de setembre (17:30-18:30 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 14 de gener (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 11 de març (18:30-20:00 h) | Dijous 8 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
             },
             {
@@ -1018,8 +1034,8 @@ const coursesData = [
         "courses_found": 4,
         "courses": [
             {
-                "title": "Club de lectura general",
-                "date": "Dimecres 28 d'octubre (18:30-20:30 h) | Dimecres 25 de novembre (18:30-20:30 h) | Dimecres 27 de gener (18:30-20:30 h) | Dimecres 24 de febrer (18:30-20:30 h) | Dimecres 31 de març (18:30-20:30 h) | Dimecres 28 d'abril (18:30-20:30 h) | Dimecres 26 de maig (18:30-20:30 h)"
+                "title": "Club de lectura general.",
+                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -1057,7 +1073,7 @@ const coursesData = [
                 "date": "Dijous 15 d'octubre (18:00-20:00 h) | Dijous 19 de novembre (18:00-20:00 h) | Dijous 17 de desembre (18:00-20:00 h) | Dijous 21 de gener (18:00-20:00 h) | Dijous 18 de febrer (18:00-20:00 h) | Dijous 15 d'abril (18:00-20:00 h) | Dijous 20 de maig (18:00-20:00 h)"
             },
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
             }
         ]
@@ -1068,7 +1084,7 @@ const coursesData = [
         "courses_found": 4,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dimarts 1 de juny (18:30-19:30 h)"
             },
             {
@@ -1091,7 +1107,7 @@ const coursesData = [
         "courses_found": 3,
         "courses": [
             {
-                "title": "Club de lectura general",
+                "title": "Club de lectura general.",
                 "date": "Dimarts 13 d'octubre (18:00-19:30 h) | Dimarts 10 de novembre (18:00-19:30 h) | Dimarts 15 de desembre (18:00-19:30 h) | Dimarts 9 de febrer (18:00-19:30 h) | Dimarts 9 de març (18:00-19:30 h) | Dimarts 13 d'abril (18:00-19:30 h) | Dimarts 11 de maig (18:00-19:30 h)"
             },
             {
