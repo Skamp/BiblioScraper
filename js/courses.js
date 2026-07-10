@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-09T10:47:37.072836';
+const scrapeTimestamp = '2026-07-10T10:46:24.200054';
 const coursesData = [
     {
         "library_id": "1",
@@ -207,7 +207,7 @@ const coursesData = [
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura juvenil",
+                "title": "Club de lectura juvenil (+14 anys)",
                 "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 25 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
             },
             {
@@ -273,7 +273,7 @@ const coursesData = [
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 3,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
@@ -286,6 +286,14 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 1 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 2 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 11 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "Club de lectura jove",
+                "date": "Dimecres 30 de setembre (18:00-19:30 h)"
+            },
+            {
+                "title": "Club de lectura jove",
+                "date": "Dijous 1 d'octubre (17:30-18:30 h) | Dijous 5 de novembre (17:30-18:30 h) | Dijous 3 de desembre (17:30-18:30 h) | Dijous 14 de gener (17:30-18:30 h) | Dijous 4 de febrer (17:30-18:30 h) | Dijous 4 de març (17:30-18:30 h) | Dijous 1 d'abril (17:30-18:30 h) | Dijous 6 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -358,11 +366,19 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 1,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. GREC 2026: \"El retrat de Dorian Gray\", d'Oscar Wilde.",
                 "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 16 de juliol (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura general.",
+                "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura jove. Literatura contemporània per entendre una mica més el món.",
+                "date": "Dissabte 17 d'octubre (11:00-12:30 h) | Dissabte 14 de novembre (11:00-12:30 h) | Dissabte 16 de gener (11:00-12:30 h) | Dissabte 20 de febrer (11:00-12:30 h)"
             }
         ]
     },
@@ -411,15 +427,11 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 17,
+        "courses_found": 16,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
                 "date": "Dimarts 28 de juliol (11:30-12:30 h)"
-            },
-            {
-                "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
-                "date": "Dijous 9 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Tallers Premis Junceda 2025. Uns convidats inesperats. Dibuixem plantes i animals. (6 a 10 anys)",
@@ -784,11 +796,15 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
                 "date": "Dimecres 22 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura general.",
+                "date": "Dimarts 20 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
@@ -803,12 +819,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
-            {
-                "title": "Taller de descoberta. \"Les invisibles\" L'Anna Mani i l'Art de fer bombolles (5 a 10 anus)",
-                "date": "Dijous 9 de juliol (17:30-19:00 h)"
-            },
             {
                 "title": "Taller de descoberta \" Les invisibles\". Katherine Johnson i el girador de gravetat (5 a 10 anys)",
                 "date": "Dijous 17 de setembre (17:30-19:00 h)"
