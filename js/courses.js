@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-10T10:46:24.200054';
+const scrapeTimestamp = '2026-07-11T09:20:10.188651';
 const coursesData = [
     {
         "library_id": "1",
@@ -45,7 +45,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "FM Taller de ventalls personalitzats",
@@ -78,10 +78,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "FM Taller el que la llengua mou",
-                "date": "Divendres 10 de juliol (17:30-19:30 h) | Dimarts 14 de juliol (17:30-19:30 h)"
             },
             {
                 "title": "FM Trames de memòria: traçabilitat afectiva.",
@@ -285,11 +281,11 @@ const coursesData = [
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 1 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 2 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 11 de maig (17:30-18:30 h)"
+                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 2 de febrer (17:30-18:30 h) | Dimarts 2 de març (17:30-18:30 h) | Dimarts 6 d'abril (17:30-18:30 h) | Dimarts 11 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Club de lectura jove",
-                "date": "Dimecres 30 de setembre (18:00-19:30 h)"
+                "date": "Dimecres 7 d'octubre (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura jove",
