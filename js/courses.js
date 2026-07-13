@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-12T09:44:56.499986';
+const scrapeTimestamp = '2026-07-13T10:52:27.690632';
 const coursesData = [
     {
         "library_id": "1",
@@ -423,7 +423,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 16,
+        "courses_found": 17,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -439,7 +439,7 @@ const coursesData = [
             },
             {
                 "title": "Taller Premis Junceda. Taller d'il·lustració: Plantes botàniques. (6 a 12 anys)",
-                "date": "Dimarts 21 de juliol (18:00-19:30 h)"
+                "date": "Dimarts 6 d'octubre (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura Llegir en comunitat",
@@ -488,6 +488,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
                 "date": "Dijous 23 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
+                "date": "Dimarts 15 de setembre (17:30-19:30 h)"
             }
         ]
     },
@@ -815,7 +819,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Taller de descoberta \" Les invisibles\". Katherine Johnson i el girador de gravetat (5 a 10 anys)",
@@ -856,6 +860,10 @@ const coursesData = [
             {
                 "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Cristian Olivé",
                 "date": "Dimecres 30 de setembre (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Judith Juanhuix",
+                "date": "Dilluns 28 de setembre (18:30-20:00 h)"
             }
         ]
     },
