@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-13T10:52:27.690632';
+const scrapeTimestamp = '2026-07-14T09:49:19.124074';
 const coursesData = [
     {
         "library_id": "1",
@@ -141,7 +141,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de còmic",
@@ -174,6 +174,10 @@ const coursesData = [
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
                 "date": "Dimarts 28 de juliol (17:30-19:30 h)"
+            },
+            {
+                "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
+                "date": "Dimecres 29 de juliol (18:00-19:30 h)"
             }
         ]
     },
@@ -285,7 +289,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura jove",
-                "date": "Dimecres 7 d'octubre (18:00-19:30 h)"
+                "date": "Dimecres 7 d'octubre (18:00-19:30 h) | Dimecres 2 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 16 de juny (18:00-19:30 h)"
             },
             {
                 "title": "Club de lectura jove",
@@ -323,7 +327,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -344,10 +348,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "El Vaivenito: construcció duna cançó",
-                "date": "Dilluns 13 de juliol (17:00-18:30 h) | Dimarts 14 de juliol (17:00-18:30 h) | Dimecres 15 de juliol (17:00-18:30 h)"
             },
             {
                 "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
@@ -652,7 +652,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club Maker",
@@ -681,6 +681,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Fotografies per enviar. (8 a 12 anys)",
                 "date": "Dilluns 27 de juliol (11:30-12:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua anglesa",
+                "date": "Dimarts 27 d'octubre (19:00-20:00 h) | Dimarts 24 de novembre (19:00-20:00 h) | Dimarts 26 de gener (19:00-20:00 h) | Dimarts 23 de febrer (19:00-20:00 h) | Dimarts 30 de març (19:00-20:00 h) | Dimarts 27 d'abril (19:00-20:00 h) | Dimarts 25 de maig (19:00-20:00 h)"
             }
         ]
     },
@@ -734,12 +738,8 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Acampa a la Biblioteca!  Rovelló, relat d'un retorn. (9-12 anys)",
-                "date": "Dilluns 13 de juliol (9:30-13:30 h) | Dimarts 14 de juliol (9:30-13:30 h) | Dimecres 15 de juliol (9:30-13:30 h) | Dijous 16 de juliol (9:30-13:30 h) | Divendres 17 de juliol (9:30-13:30 h)"
-            },
             {
                 "title": "Club de lectura puntual. Veus del Mediterrani, de la costa catalana a Grècia",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h)"
@@ -935,7 +935,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -948,10 +948,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura i IA.",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Lab de sumo-bots amb Lego Mindstorms (+12 anys)",
-                "date": "Dilluns 13 de juliol (17:30-20:00 h) | Dijous 16 de juliol (17:30-20:00 h)"
             },
             {
                 "title": "Construïm i programem un cotxe amb Lego wedo 2.0 (8 a 11 anys)",
