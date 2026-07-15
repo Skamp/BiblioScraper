@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-14T09:49:19.124074';
+const scrapeTimestamp = '2026-07-15T09:53:51.509456';
 const coursesData = [
     {
         "library_id": "1",
@@ -122,7 +122,7 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Itinerari: Casino de la Rabassada.",
@@ -135,6 +135,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
                 "date": "Dimecres 22 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres (8 a 10 anys)",
+                "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 31 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
             }
         ]
     },
@@ -430,10 +434,6 @@ const coursesData = [
                 "date": "Dimarts 28 de juliol (11:30-12:30 h)"
             },
             {
-                "title": "Tallers Premis Junceda 2025. Uns convidats inesperats. Dibuixem plantes i animals. (6 a 10 anys)",
-                "date": "Dimarts 14 de juliol (18:00-19:30 h)"
-            },
-            {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
@@ -492,6 +492,10 @@ const coursesData = [
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
                 "date": "Dimarts 15 de setembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Taller comencem un hort de tardor",
+                "date": "Dilluns 28 de setembre (18:30-20:00 h)"
             }
         ]
     },
@@ -564,7 +568,7 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -573,6 +577,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
                 "date": "Divendres 31 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua anglesa",
+                "date": "Dilluns 19 d'octubre (18:00-20:00 h) | Dilluns 16 de novembre (18:00-20:00 h) | Dilluns 18 de gener (18:00-20:00 h) | Dilluns 15 de febrer (18:00-20:00 h) | Dilluns 15 de març (18:00-20:00 h) | Dilluns 19 d'abril (18:00-20:00 h) | Dilluns 17 de maig (18:00-20:00 h)"
             }
         ]
     },
@@ -970,7 +978,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -991,10 +999,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 13 d'octubre (11:00-12:30 h) | Dimarts 10 de novembre (11:00-12:30 h) | Dimarts 15 de desembre (11:00-12:30 h) | Dimarts 12 de gener (11:00-12:30 h) | Dimarts 9 de febrer (11:00-12:30 h) | Dimarts 9 de març (11:00-12:30 h) | Dimarts 13 d'abril (11:00-12:30 h)"
-            },
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 9 d'octubre (11:00-12:30 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -1135,12 +1139,8 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "Club de lectura fàcil en castellà",
-                "date": "Dimecres 1 de juliol (17:00-18:00 h) | Dimecres 8 de juliol (17:00-18:00 h) | Dimecres 15 de juliol (17:00-18:00 h)"
-            },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dimecres 18 de novembre (17:00-18:00 h) | Dijous 10 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
