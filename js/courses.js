@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-15T09:53:51.509456';
+const scrapeTimestamp = '2026-07-16T10:00:29.805003';
 const coursesData = [
     {
         "library_id": "1",
@@ -22,7 +22,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
@@ -39,13 +39,17 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
                 "date": "Dilluns 3 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Contes a la mà: club de lectura familiar (3 a 6 anys)",
+                "date": "Dimarts 6 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h)"
             }
         ]
     },
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "FM Taller de ventalls personalitzats",
@@ -78,10 +82,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "FM Trames de memòria: traçabilitat afectiva.",
-                "date": "Dimecres 15 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -145,12 +145,8 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
-            {
-                "title": "Club de lectura de còmic",
-                "date": "Dijous 18 de setembre (18:00-19:30 h) | Dijous 16 d'octubre (18:00-19:30 h) | Dijous 20 de novembre (18:00-19:30 h) | Dijous 18 de desembre (18:00-19:30 h) | Dijous 15 de gener (18:00-19:30 h) | Dijous 19 de febrer (18:00-19:30 h) | Dijous 19 de març (18:00-19:30 h) | Dijous 16 d'abril (18:00-19:30 h) | Dijous 21 de maig (18:00-19:30 h) | Dijous 18 de juny (18:00-19:30 h) | Dijous 16 de juliol (18:00-19:30 h)"
-            },
             {
                 "title": "Club de lectura de novel·la barcelonina",
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
@@ -366,12 +362,8 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
-            {
-                "title": "Club de lectura puntual. GREC 2026: \"El retrat de Dorian Gray\", d'Oscar Wilde.",
-                "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 16 de juliol (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h)"
@@ -537,7 +529,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -554,10 +546,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
                 "date": "Dijous 30 de juliol (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Fem màquines que cobren vida (6 a 8 anys)",
-                "date": "Dimecres 15 de juliol (17:30-19:30 h)"
             },
             {
                 "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
@@ -897,7 +885,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua alemanya",
@@ -914,6 +902,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
                 "date": "Dijous 27 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
+                "date": "Dissabte 17 d'octubre (11:30-12:30 h) | Dissabte 14 de novembre (11:30-12:30 h) | Dissabte 12 de desembre (11:30-12:30 h)"
             }
         ]
     },
