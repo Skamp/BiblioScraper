@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-16T10:00:29.805003';
+const scrapeTimestamp = '2026-07-17T09:50:17.973287';
 const coursesData = [
     {
         "library_id": "1",
@@ -419,7 +419,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 17,
+        "courses_found": 16,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -464,10 +464,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
                 "date": "Dimarts 4 d'agost (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Construïm animals en 3D (6 a 8 anys)",
-                "date": "Dijous 16 de juliol (11:00-13:00 h)"
             },
             {
                 "title": "EstàsON. Juguem a ser espies i creem el nostre propi holograma (9-12 anys)",
@@ -1093,7 +1089,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura general.",
-                "date": "Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dimarts 1 de juny (18:30-19:30 h)"
+                "date": "Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h) | Dimarts 1 de juny (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -1101,7 +1097,7 @@ const coursesData = [
             },
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
-                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
+                "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
             },
             {
                 "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
