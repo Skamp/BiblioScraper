@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-17T09:50:17.973287';
+const scrapeTimestamp = '2026-07-18T09:17:09.779234';
 const coursesData = [
     {
         "library_id": "1",
@@ -22,7 +22,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 5,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
@@ -43,6 +43,14 @@ const coursesData = [
             {
                 "title": "Contes a la mà: club de lectura familiar (3 a 6 anys)",
                 "date": "Dimarts 6 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Lectures compartides",
+                "date": "Dimarts 29 de setembre (17:30-18:30 h) | Dimarts 27 d'octubre (17:30-18:30 h) | Dimarts 24 de novembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Primeres lectures",
+                "date": "Dimecres 30 de setembre (17:30-18:30 h) | Dimecres 28 d'octubre (17:30-18:30 h) | Dimecres 25 de novembre (17:30-18:30 h)"
             }
         ]
     },
@@ -362,7 +370,7 @@ const coursesData = [
     {
         "library_id": "28",
         "library_name": "Biblioteca Gòtic - Andreu Nin",
-        "courses_found": 2,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -371,6 +379,14 @@ const coursesData = [
             {
                 "title": "Club de lectura jove. Literatura contemporània per entendre una mica més el món.",
                 "date": "Dissabte 17 d'octubre (11:00-12:30 h) | Dissabte 14 de novembre (11:00-12:30 h) | Dissabte 16 de gener (11:00-12:30 h) | Dissabte 20 de febrer (11:00-12:30 h)"
+            },
+            {
+                "title": "Club de lectura d'òpera. LiceuBIB",
+                "date": "Dilluns 26 d'octubre (18:00-20:00 h) | Dilluns 16 de novembre (18:00-20:00 h) | Dilluns 21 de desembre (18:00-20:00 h) | Dilluns 25 de gener (18:00-20:00 h) | Dimecres 3 de febrer (18:00-20:00 h) | Dilluns 22 de febrer (18:00-20:00 h) | Dimecres 3 de març (18:00-20:00 h) | Dimecres 31 de març (18:00-20:00 h) | Dimecres 12 de maig (18:00-20:00 h) | Dimecres 16 de juny (18:00-20:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Dimecres 28 d'octubre (18:30-19:30 h) | Dimecres 25 de novembre (18:30-19:30 h) | Dimecres 16 de desembre (18:30-19:30 h) | Dimecres 27 de gener (18:30-19:30 h) | Dimecres 24 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 28 d'abril (18:30-19:30 h) | Dimecres 26 de maig (18:30-19:30 h) | Dimecres 16 de juny (17:00-18:00 h)"
             }
         ]
     },
