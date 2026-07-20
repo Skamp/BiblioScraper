@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-19T09:46:15.408367';
+const scrapeTimestamp = '2026-07-20T10:44:11.278596';
 const coursesData = [
     {
         "library_id": "1",
@@ -446,8 +446,8 @@ const coursesData = [
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Taller Premis Junceda. Taller d'il·lustració: Plantes botàniques. (6 a 12 anys)",
-                "date": "Dimarts 6 d'octubre (18:00-19:30 h)"
+                "title": "Taller Premis Junceda. Taller d'il·lustració: Plantes botàniques. (6 a 10 anys)",
+                "date": "Dimarts 6 d'octubre (17:30-19:00 h)"
             },
             {
                 "title": "Club de lectura Llegir en comunitat",
@@ -495,7 +495,7 @@ const coursesData = [
             },
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
-                "date": "Dimarts 15 de setembre (17:30-19:30 h)"
+                "date": "Dimarts 15 de setembre (17:30-18:30 h)"
             },
             {
                 "title": "Taller comencem un hort de tardor",
@@ -707,7 +707,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura manga",
-                "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 12 de novembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
+                "date": "Dijous 15 d'octubre (18:30-19:30 h) | Dijous 26 de novembre (18:30-19:30 h) | Dijous 14 de gener (18:30-19:30 h) | Dijous 11 de febrer (18:30-19:30 h) | Dijous 11 de març (18:30-19:30 h) | Dijous 8 d'abril (18:30-19:30 h) | Dijous 13 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura general.",
