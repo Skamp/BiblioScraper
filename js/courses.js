@@ -1,17 +1,13 @@
-const scrapeTimestamp = '2026-07-21T10:18:20.916930';
+const scrapeTimestamp = '2026-07-22T10:18:21.216485';
 const coursesData = [
     {
         "library_id": "1",
         "library_name": "Biblioteca Barceloneta-La Fraternitat",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimarts 13 d'octubre (17:00-18:30 h) | Dimarts 10 de novembre (17:00-18:30 h) | Dimarts 15 de desembre (17:00-18:30 h) | Dimarts 12 de gener (17:00-18:30 h) | Dimarts 9 de febrer (17:00-18:30 h) | Dimarts 9 de març (17:00-18:30 h) | Dimarts 13 d'abril (17:00-18:30 h) | Dimarts 11 de maig (17:00-18:30 h) | Dimarts 8 de juny (17:00-18:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals d'Ulisses. (8 a 12 anys)",
-                "date": "Dimarts 21 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura. Lletres de Mèxic",
@@ -41,12 +37,12 @@ const coursesData = [
                 "date": "Dilluns 3 d'agost (18:00-19:00 h)"
             },
             {
-                "title": "Lectures compartides",
-                "date": "Dimarts 29 de setembre (17:30-18:30 h) | Dimarts 27 d'octubre (17:30-18:30 h) | Dimarts 24 de novembre (17:30-18:30 h)"
+                "title": "Primeres lectures",
+                "date": "Dimecres 30 de setembre (17:30-18:30 h) | Dimecres 28 d'octubre (17:30-18:30 h) | Dimecres 25 de novembre (17:30-18:30 h) | Dimecres 20 de gener (17:30-18:30 h) | Dimecres 17 de febrer (17:30-18:30 h) | Dimecres 17 de març (17:30-18:30 h) | Dimecres 21 d'abril (17:30-18:30 h) | Dimecres 19 de maig (17:30-18:30 h)"
             },
             {
-                "title": "Primeres lectures",
-                "date": "Dimecres 30 de setembre (17:30-18:30 h) | Dimecres 28 d'octubre (17:30-18:30 h) | Dimecres 25 de novembre (17:30-18:30 h)"
+                "title": "Lectures compartides",
+                "date": "Dimarts 29 de setembre (17:30-18:30 h) | Dimarts 27 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 24 de novembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -134,7 +130,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
-                "date": "Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 9 de gener (11:00-13:00 h) | Dissabte 13 de febrer (11:00-13:00 h) | Dissabte 13 de març (11:00-13:00 h) | Dissabte 10 d'abril (11:00-13:00 h) | Dissabte 8 de maig (11:00-13:00 h)"
+                "date": "Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 16 de gener (11:00-13:00 h) | Dissabte 13 de febrer (11:00-13:00 h) | Dissabte 13 de març (11:00-13:00 h) | Dissabte 10 d'abril (11:00-13:00 h) | Dissabte 8 de maig (11:00-13:00 h)"
             },
             {
                 "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
@@ -149,7 +145,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 9,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -166,14 +162,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dijous 17 de setembre (18:00-19:00 h) | Dijous 15 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h) | Dijous 17 de juny (18:00-19:00 h) | Dijous 15 de juliol (18:00-19:00 h)"
-            },
-            {
-                "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
-                "date": "Divendres 10 de juliol (17:30-19:00 h) | Divendres 17 de juliol (17:30-19:00 h) | Divendres 24 de juliol (17:30-19:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
-                "date": "Dimarts 21 de juliol (17:30-19:30 h)"
             },
             {
                 "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
@@ -254,7 +242,7 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
@@ -271,22 +259,14 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 16 d'octubre (10:30-11:30 h) | Divendres 20 de novembre (10:30-11:30 h) | Divendres 18 de desembre (10:30-11:30 h) | Divendres 15 de gener (10:30-11:30 h) | Divendres 19 de febrer (10:30-11:30 h) | Divendres 19 de març (10:30-11:30 h) | Divendres 16 d'abril (10:30-11:30 h) | Divendres 21 de maig (10:30-11:30 h) | Divendres 18 de juny (10:30-11:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Les postals exquisides. Taller d'escriptura automàtica. (6 a 8 anys)",
-                "date": "Dimarts 21 de juliol (11:30-12:30 h)"
             }
         ]
     },
     {
         "library_id": "7",
         "library_name": "Biblioteca Francesc Candel",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
-                "date": "Dimarts 21 de juliol (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
@@ -439,7 +419,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -486,10 +466,6 @@ const coursesData = [
                 "date": "Dimarts 4 d'agost (18:00-19:00 h)"
             },
             {
-                "title": "EstàsON. La història dels àtoms i les molècules (9-12 anys)",
-                "date": "Dimarts 21 de juliol (11:00-13:00 h)"
-            },
-            {
                 "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
                 "date": "Dijous 23 de juliol (17:30-19:30 h)"
             },
@@ -506,11 +482,15 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura infantil. Còmic debat",
                 "date": "Dimecres 4 de febrer (17:30-18:30 h) | Dimecres 4 de març (17:30-18:30 h) | Dimecres 8 d'abril (17:30-18:30 h) | Dimecres 7 d'octubre (17:30-18:30 h) | Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Obrador. Disparadors de la creativitat",
+                "date": "Dijous 3 de desembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura general.",
@@ -943,7 +923,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -958,12 +938,16 @@ const coursesData = [
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 2 de desembre (18:30-20:00 h)"
             },
             {
+                "title": "Atreveix-te amb els llibres (6 a 8 anys)",
+                "date": "Divendres 13 de novembre (18:00-19:00 h) | Divendres 18 de desembre (18:00-19:00 h) | Divendres 29 de gener (18:00-19:00 h) | Divendres 26 de febrer (18:00-19:00 h) | Divendres 2 d'abril (18:00-19:00 h) | Divendres 7 de maig (18:00-19:00 h)"
+            },
+            {
                 "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
                 "date": "Divendres 31 de juliol (11:30-12:30 h)"
             },
             {
                 "title": "Club de lectura general.",
-                "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
+                "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Expliquem un conte amb lescornabot (5 a 8 anys)",
