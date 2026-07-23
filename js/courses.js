@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-22T10:18:21.216485';
+const scrapeTimestamp = '2026-07-23T10:13:37.607147';
 const coursesData = [
     {
         "library_id": "1",
@@ -49,12 +49,8 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "FM Taller de ventalls personalitzats",
-                "date": "Dimecres 22 de juliol (17:30-19:00 h)"
-            },
             {
                 "title": "FM Taller de Marbrejat",
                 "date": "Divendres 24 de juliol (11:30-13:00 h)"
@@ -133,12 +129,12 @@ const coursesData = [
                 "date": "Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 16 de gener (11:00-13:00 h) | Dissabte 13 de febrer (11:00-13:00 h) | Dissabte 13 de març (11:00-13:00 h) | Dissabte 10 d'abril (11:00-13:00 h) | Dissabte 8 de maig (11:00-13:00 h)"
             },
             {
-                "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
-                "date": "Dimecres 22 de juliol (18:00-19:00 h)"
-            },
-            {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 31 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
+            },
+            {
+                "title": "Concurs dScrabble",
+                "date": "Dimecres 16 de setembre (17:30-19:00 h)"
             }
         ]
     },
@@ -180,7 +176,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -205,10 +201,6 @@ const coursesData = [
             {
                 "title": "Club de lectura juvenil (+14 anys)",
                 "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 25 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Les postals exquisides. Taller d'escriptura automàtica. (6 a 8 anys)",
-                "date": "Dimecres 22 de juliol (18:00-19:00 h)"
             }
         ]
     },
@@ -315,7 +307,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -344,6 +336,10 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Llegim Sergio Ramírez",
                 "date": "Dissabte 19 de setembre (12:00-13:30 h)"
+            },
+            {
+                "title": "Club de lectura de literatura infantil llatinoamericana",
+                "date": "Divendres 18 de setembre (17:30-18:30 h) | Divendres 16 d'octubre (17:30-18:30 h) | Divendres 20 de novembre (17:30-18:30 h)"
             }
         ]
     },
@@ -521,7 +517,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -538,10 +534,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
                 "date": "Dijous 30 de juliol (18:00-19:00 h)"
-            },
-            {
-                "title": "ESTÀSON. Autòmats en moviment (9 a 12 anys)",
-                "date": "Dimecres 22 de juliol (17:30-19:30 h)"
             }
         ]
     },
@@ -617,7 +609,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -630,10 +622,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals d'Ulisses. (8 a 12 anys)",
-                "date": "Dimecres 22 de juliol (11:30-12:30 h)"
             }
         ]
     },
@@ -784,12 +772,8 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
-                "date": "Dimecres 22 de juliol (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h)"
@@ -958,7 +942,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 6,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -983,6 +967,14 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 9 d'octubre (11:00-12:30 h) | Divendres 13 de novembre (11:00-12:30 h) | Divendres 11 de desembre (11:00-12:30 h) | Divendres 8 de gener (11:00-12:30 h) | Divendres 12 de febrer (11:00-12:30 h) | Divendres 12 de març (11:00-12:30 h) | Divendres 9 d'abril (11:00-12:30 h)"
+            },
+            {
+                "title": "Vivim més anys que mai, però què podem fer perquè aquests anys siguin plens de sentit?",
+                "date": "Dijous 29 d'octubre (18:30-20:00 h)"
+            },
+            {
+                "title": "Tintin i el seu creador Hergé",
+                "date": "Divendres 6 de novembre (11:00-12:30 h)"
             }
         ]
     },
@@ -1004,7 +996,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
@@ -1017,10 +1009,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
-                "date": "Dimecres 22 de juliol (18:00-19:00 h)"
             }
         ]
     },
