@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-23T10:13:37.607147';
+const scrapeTimestamp = '2026-07-24T10:09:54.790945';
 const coursesData = [
     {
         "library_id": "1",
@@ -99,7 +99,7 @@ const coursesData = [
     {
         "library_id": "38",
         "library_name": "Biblioteca Clarà",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -112,6 +112,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
                 "date": "Divendres 24 de juliol (18:00-19:00 h)"
+            },
+            {
+                "title": "Atrapallibres. Club de lectura infantil (categoria 11 anys)",
+                "date": "Dimarts 27 d'octubre (18:00-19:00 h) | Dimarts 24 de novembre (18:00-19:00 h) | Dimarts 26 de gener (18:00-19:00 h) | Dimarts 23 de febrer (18:00-19:00 h) | Dimarts 27 d'abril (18:00-19:00 h) | Dimarts 25 de maig (18:00-19:00 h)"
             }
         ]
     },
@@ -396,7 +400,7 @@ const coursesData = [
     {
         "library_id": "15",
         "library_name": "Biblioteca Horta-Can Mariner",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura llegir el teatre",
@@ -405,17 +409,13 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 15 d'octubre (12:00-13:30 h) | Dijous 19 de novembre (12:00-13:30 h) | Dijous 17 de desembre (12:00-13:30 h) | Dijous 18 de febrer (12:00-13:30 h) | Dijous 18 de març (12:00-13:30 h) | Dijous 22 d'abril (12:00-13:30 h) | Dijous 20 de maig (12:00-13:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Les postals exquisides. Taller d'escriptura automàtica. (6 a 8 anys)",
-                "date": "Dijous 23 de juliol (18:00-19:00 h)"
             }
         ]
     },
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
@@ -460,10 +460,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
                 "date": "Dimarts 4 d'agost (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsON. Fabriquem un test de reg automàtic per plantes (6-8 anys)",
-                "date": "Dijous 23 de juliol (17:30-19:30 h)"
             },
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
@@ -714,7 +710,7 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. Veus del Mediterrani, de la costa catalana a Grècia",
@@ -727,10 +723,6 @@ const coursesData = [
             {
                 "title": "Club de lectura feminista: Atrapades en si mateixes",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Fotografies per enviar. (8 a 12 anys)",
-                "date": "Dijous 23 de juliol (18:00-19:00 h)"
             }
         ]
     },
@@ -942,7 +934,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -951,10 +943,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Música i literatura",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Servei postal....Joc i mediació literària. (3 a 6 anys).",
-                "date": "Dijous 23 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -975,6 +963,14 @@ const coursesData = [
             {
                 "title": "Tintin i el seu creador Hergé",
                 "date": "Divendres 6 de novembre (11:00-12:30 h)"
+            },
+            {
+                "title": "Booklife. Taller de biblioteràpia. Desamor",
+                "date": "Divendres 20 de novembre (11:00-12:30 h)"
+            },
+            {
+                "title": "Booklife. Taller de biblioteràpia. Coratge",
+                "date": "Divendres 30 d'octubre (11:00-12:30 h)"
             }
         ]
     },
@@ -1065,7 +1061,7 @@ const coursesData = [
     {
         "library_id": "32",
         "library_name": "Biblioteca Vilapicina i la Torre Llobeta",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1078,10 +1074,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
-                "date": "Dijous 23 de juliol (18:00-19:00 h)"
             }
         ]
     },
