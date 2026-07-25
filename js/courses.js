@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-24T10:09:54.790945';
+const scrapeTimestamp = '2026-07-25T09:31:08.586181';
 const coursesData = [
     {
         "library_id": "1",
@@ -49,12 +49,8 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
-            {
-                "title": "FM Taller de Marbrejat",
-                "date": "Divendres 24 de juliol (11:30-13:00 h)"
-            },
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
@@ -99,7 +95,7 @@ const coursesData = [
     {
         "library_id": "38",
         "library_name": "Biblioteca Clarà",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -108,10 +104,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (17:00-18:00 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dimarts 9 de febrer (18:30-19:30 h) | Dimarts 9 de març (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h) | Dimarts 11 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
-                "date": "Divendres 24 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Atrapallibres. Club de lectura infantil (categoria 11 anys)",
