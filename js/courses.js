@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-26T09:52:25.125774';
+const scrapeTimestamp = '2026-07-27T11:12:21.770254';
 const coursesData = [
     {
         "library_id": "1",
@@ -826,7 +826,7 @@ const coursesData = [
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -835,6 +835,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club puntual Teatre Lliure - L'Herència.",
+                "date": "Diumenge 22 de novembre (16:00-20:30 h) | Dilluns 30 de novembre (18:30-20:30 h)"
             }
         ]
     },
@@ -984,7 +988,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Lletra petita - Taller de descoberta - Animalades. Els gossos",
@@ -997,6 +1001,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura Puntual Teatre Lliure - Júlia - 15 anys més tard.",
+                "date": "Dissabte 14 de novembre (17:00-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h)"
             }
         ]
     },
