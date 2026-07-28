@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-27T11:12:21.770254';
+const scrapeTimestamp = '2026-07-28T10:27:22.664950';
 const coursesData = [
     {
         "library_id": "1",
@@ -276,7 +276,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -297,6 +297,10 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
                 "date": "Divendres 28 d'agost (18:00-19:00 h)"
+            },
+            {
+                "title": "Club de lectura Música llibres i dones",
+                "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 1 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -528,7 +532,7 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -541,13 +545,17 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dilluns 19 d'octubre (18:00-20:00 h) | Dilluns 16 de novembre (18:00-20:00 h) | Dilluns 18 de gener (18:00-20:00 h) | Dilluns 15 de febrer (18:00-20:00 h) | Dilluns 15 de març (18:00-20:00 h) | Dilluns 19 d'abril (18:00-20:00 h) | Dilluns 17 de maig (18:00-20:00 h)"
+            },
+            {
+                "title": "Obrador. Laboratori de creació i experimentació literària.",
+                "date": "Dijous 29 d'octubre (18:00-19:30 h) | Dijous 5 de novembre (18:00-19:30 h) | Dijous 12 de novembre (18:00-19:30 h)"
             }
         ]
     },
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -572,6 +580,10 @@ const coursesData = [
             {
                 "title": "Visita a una biblioteca singular: El Centre Excursionista de Catalunya",
                 "date": "Dimecres 7 d'octubre (19:00-20:30 h)"
+            },
+            {
+                "title": "Obrador. Història familiar i genealogia. Viatge als teus orígens.",
+                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 26 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 23 de novembre (18:30-20:00 h)"
             }
         ]
     },
@@ -616,7 +628,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club Maker",
@@ -643,10 +655,6 @@ const coursesData = [
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Un estiu de postal. Fotografies per enviar. (8 a 12 anys)",
-                "date": "Dilluns 27 de juliol (11:30-12:30 h)"
-            },
-            {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimarts 27 d'octubre (19:00-20:00 h) | Dimarts 24 de novembre (19:00-20:00 h) | Dimarts 26 de gener (19:00-20:00 h) | Dimarts 23 de febrer (19:00-20:00 h) | Dimarts 30 de març (19:00-20:00 h) | Dimarts 27 d'abril (19:00-20:00 h) | Dimarts 25 de maig (19:00-20:00 h)"
             }
@@ -655,7 +663,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -696,6 +704,10 @@ const coursesData = [
             {
                 "title": "Lletra petita. Sac de rondalles. La bruixeta poruga (+3 anys)",
                 "date": "Dimecres 30 de setembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Obrador. Taller de narració de contes i altres secrets",
+                "date": "Divendres 13 de novembre (18:00-20:00 h) | Divendres 20 de novembre (18:00-20:00 h) | Divendres 27 de novembre (18:00-20:00 h) | Divendres 4 de desembre (18:00-20:00 h)"
             }
         ]
     },
@@ -775,7 +787,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 11,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Taller de descoberta \" Les invisibles\". Katherine Johnson i el girador de gravetat (5 a 10 anys)",
@@ -820,6 +832,10 @@ const coursesData = [
             {
                 "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Judith Juanhuix",
                 "date": "Dilluns 28 de setembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Obrador. Taller de relat curt en femení",
+                "date": "Divendres 9 d'octubre (18:30-20:00 h) | Divendres 16 d'octubre (18:30-20:00 h) | Divendres 23 d'octubre (18:30-20:00 h)"
             }
         ]
     },
@@ -895,7 +911,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -920,17 +936,13 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Expliquem un conte amb lescornabot (5 a 8 anys)",
-                "date": "Dilluns 27 de juliol (17:30-19:30 h)"
             }
         ]
     },
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -967,6 +979,10 @@ const coursesData = [
             {
                 "title": "Booklife. Taller de biblioteràpia. Coratge",
                 "date": "Divendres 30 d'octubre (11:00-12:30 h)"
+            },
+            {
+                "title": "Obrador. Autobiografia, memòria i relats personals",
+                "date": "Dimecres 7 d'octubre (11:00-12:30 h) | Dimecres 21 d'octubre (11:00-12:30 h) | Dimecres 4 de novembre (11:00-12:30 h) | Dimecres 18 de novembre (11:00-12:30 h)"
             }
         ]
     },
@@ -1061,7 +1077,7 @@ const coursesData = [
     {
         "library_id": "32",
         "library_name": "Biblioteca Vilapicina i la Torre Llobeta",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1074,6 +1090,10 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dimarts 13 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 15 de desembre (17:30-18:30 h) | Dimarts 12 de gener (17:30-18:30 h) | Dimarts 9 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "Obrador. Taller descriptura autobiogràfica.",
+                "date": "Dijous 15 d'octubre (17:30-19:30 h) | Dijous 22 d'octubre (17:30-19:30 h) | Dijous 29 d'octubre (17:30-19:30 h) | Dijous 5 de novembre (17:30-19:30 h)"
             }
         ]
     },
