@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-28T10:27:22.664950';
+const scrapeTimestamp = '2026-07-29T10:32:38.063745';
 const coursesData = [
     {
         "library_id": "1",
@@ -80,15 +80,11 @@ const coursesData = [
     {
         "library_id": "16",
         "library_name": "Biblioteca Canyelles - M. Àngels Rivas",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
-                "date": "Dimarts 28 de juliol (18:00-19:00 h)"
             }
         ]
     },
@@ -137,7 +133,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -156,10 +152,6 @@ const coursesData = [
                 "date": "Dijous 17 de setembre (18:00-19:00 h) | Dijous 15 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h) | Dijous 17 de juny (18:00-19:00 h) | Dijous 15 de juliol (18:00-19:00 h)"
             },
             {
-                "title": "EstàsON. Robots protagonistes d'un relat fantàstic (6 a 8 anys).",
-                "date": "Dimarts 28 de juliol (17:30-19:30 h)"
-            },
-            {
                 "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
                 "date": "Dimecres 29 de juliol (18:00-19:30 h)"
             },
@@ -172,7 +164,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
@@ -197,6 +189,10 @@ const coursesData = [
             {
                 "title": "Club de lectura juvenil (+14 anys)",
                 "date": "Dijous 22 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 25 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h)"
+            },
+            {
+                "title": "Passem a lacció: lassaig general",
+                "date": "Divendres 20 de novembre (9:30-11:00 h)"
             }
         ]
     },
@@ -411,12 +407,8 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
-            {
-                "title": "Tallers Premis Junceda 2025. El nas d'en Mic, de l'obra de teatre Mac, Mec, Mic. (3 a 5 anys).",
-                "date": "Dimarts 28 de juliol (11:30-12:30 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
@@ -548,7 +540,7 @@ const coursesData = [
             },
             {
                 "title": "Obrador. Laboratori de creació i experimentació literària.",
-                "date": "Dijous 29 d'octubre (18:00-19:30 h) | Dijous 5 de novembre (18:00-19:30 h) | Dijous 12 de novembre (18:00-19:30 h)"
+                "date": "Dijous 15 d'octubre (18:00-19:30 h) | Dijous 29 d'octubre (18:00-19:30 h) | Dijous 12 de novembre (18:00-19:30 h)"
             }
         ]
     },
@@ -942,7 +934,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -983,6 +975,10 @@ const coursesData = [
             {
                 "title": "Obrador. Autobiografia, memòria i relats personals",
                 "date": "Dimecres 7 d'octubre (11:00-12:30 h) | Dimecres 21 d'octubre (11:00-12:30 h) | Dimecres 4 de novembre (11:00-12:30 h) | Dimecres 18 de novembre (11:00-12:30 h)"
+            },
+            {
+                "title": "Larquitectura del cervell com construïm els nostres records",
+                "date": "Divendres 2 d'octubre (10:00-11:30 h)"
             }
         ]
     },
@@ -997,7 +993,7 @@ const coursesData = [
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 2 de desembre (17:30-18:30 h) | Dimecres 13 de gener (17:30-18:30 h) | Dimecres 3 de febrer (17:30-18:30 h) | Dimecres 3 de març (17:30-18:30 h) | Dimecres 7 d'abril (17:30-18:30 h) | Dimecres 12 de maig (17:30-18:30 h)"
+                "date": "Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 9 de desembre (17:30-18:30 h) | Dimecres 13 de gener (17:30-18:30 h) | Dimecres 3 de febrer (17:30-18:30 h) | Dimecres 3 de març (17:30-18:30 h) | Dimecres 7 d'abril (17:30-18:30 h) | Dimecres 12 de maig (17:30-18:30 h)"
             }
         ]
     },
