@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-29T10:32:38.063745';
+const scrapeTimestamp = '2026-07-30T10:15:57.734120';
 const coursesData = [
     {
         "library_id": "1",
@@ -133,7 +133,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -150,10 +150,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de còmic",
                 "date": "Dijous 17 de setembre (18:00-19:00 h) | Dijous 15 d'octubre (18:00-19:00 h) | Dijous 19 de novembre (18:00-19:00 h) | Dimecres 16 de desembre (18:00-19:00 h) | Dijous 21 de gener (18:00-19:00 h) | Dijous 18 de febrer (18:00-19:00 h) | Dijous 18 de març (18:00-19:00 h) | Dijous 15 d'abril (18:00-19:00 h) | Dijous 20 de maig (18:00-19:00 h) | Dijous 17 de juny (18:00-19:00 h) | Dijous 15 de juliol (18:00-19:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
-                "date": "Dimecres 29 de juliol (18:00-19:30 h)"
             },
             {
                 "title": "Pim Pam Pum PAU! Taller amb contacontes (8-12 anys)",
@@ -547,7 +543,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -564,10 +560,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de literatura de viatges",
                 "date": "Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Quina correspondència més esbojarrada! Ajudem en Murdo a posar-hi ordre! (de 6 a 8 anys)",
-                "date": "Dimecres 29 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Visita a una biblioteca singular: El Centre Excursionista de Catalunya",
@@ -853,7 +845,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua alemanya",
@@ -874,6 +866,10 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dissabte 17 d'octubre (11:30-12:30 h) | Dissabte 14 de novembre (11:30-12:30 h) | Dissabte 12 de desembre (11:30-12:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Divendres 2 d'octubre (10:00-11:00 h) | Divendres 6 de novembre (10:00-11:00 h) | Divendres 4 de desembre (10:00-11:00 h) | Divendres 15 de gener (10:00-11:00 h) | Divendres 5 de febrer (10:00-11:00 h) | Divendres 5 de març (10:00-11:00 h) | Divendres 2 d'abril (10:00-11:00 h) | Divendres 30 d'abril (10:00-11:00 h) | Divendres 4 de juny (10:00-11:00 h)"
             }
         ]
     },
@@ -934,7 +930,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 11,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -978,7 +974,11 @@ const coursesData = [
             },
             {
                 "title": "Larquitectura del cervell com construïm els nostres records",
-                "date": "Divendres 2 d'octubre (10:00-11:30 h)"
+                "date": "Divendres 2 d'octubre (11:00-12:30 h)"
+            },
+            {
+                "title": "Una finestra a la memòria",
+                "date": "Divendres 27 de novembre (11:00-12:30 h)"
             }
         ]
     },
@@ -1015,7 +1015,7 @@ const coursesData = [
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Club de lectura Puntual Teatre Lliure - Júlia - 15 anys més tard.",
+                "title": "Club de lectura Teatre Lliure. Júlia  15 anys més tard.",
                 "date": "Dissabte 14 de novembre (17:00-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h)"
             }
         ]
