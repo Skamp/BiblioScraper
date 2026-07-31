@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-30T10:15:57.734120';
+const scrapeTimestamp = '2026-07-31T10:30:37.689304';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,7 +18,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
@@ -43,6 +43,10 @@ const coursesData = [
             {
                 "title": "Lectures compartides",
                 "date": "Dimarts 29 de setembre (17:30-18:30 h) | Dimarts 27 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 24 de novembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
+            },
+            {
+                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
+                "date": "Divendres 28 d'agost (18:00-19:00 h)"
             }
         ]
     },
@@ -268,7 +272,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -293,6 +297,10 @@ const coursesData = [
             {
                 "title": "Club de lectura Música llibres i dones",
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 1 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "El fil de les imatges: taller de fotobrodat",
+                "date": "Dilluns 7 de setembre (17:30-19:30 h)"
             }
         ]
     },
@@ -497,7 +505,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -510,10 +518,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
-                "date": "Dijous 30 de juliol (18:00-19:00 h)"
             }
         ]
     },
@@ -551,7 +555,7 @@ const coursesData = [
             },
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Entorns de la Maternitat: rieres, masies salut i modernisme",
-                "date": "Dissabte 10 d'octubre (11:00-12:30 h)"
+                "date": "Dissabte 10 d'octubre (10:30-12:30 h)"
             },
             {
                 "title": "Club de lectura general.",
@@ -612,19 +616,15 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
-            {
-                "title": "Club Maker",
-                "date": "Dimecres 24 de setembre (17:30-19:30 h) | Dimecres 1 d'octubre (17:30-19:30 h) | Dimecres 8 d'octubre (17:30-19:30 h) | Dimecres 15 d'octubre (17:30-19:30 h) | Dimecres 22 d'octubre (15:30-16:30 h) | Dimecres 29 d'octubre (17:30-19:30 h) | Dimecres 5 de novembre (17:30-19:30 h) | Dimecres 12 de novembre (17:30-19:30 h) | Dimecres 19 de novembre (17:30-19:30 h) | Dimecres 26 de novembre (15:30-16:30 h) | Dimecres 3 de desembre (17:30-19:30 h) | Dimecres 10 de desembre (17:30-19:30 h) | Dimecres 17 de desembre (17:30-19:30 h) | Dimecres 24 de desembre (17:30-19:30 h) | Dimecres 31 de desembre (17:30-19:30 h) | Dimecres 7 de gener (17:30-19:30 h) | Dimecres 14 de gener (17:30-19:30 h) | Dimecres 21 de gener (17:30-19:30 h) | Dimecres 28 de gener (15:30-16:30 h) | Dimecres 4 de febrer (17:30-19:30 h) | Dimecres 11 de febrer (17:30-19:30 h) | Dimecres 18 de febrer (17:30-19:30 h) | Dimecres 25 de febrer (15:30-16:30 h) | Dimecres 4 de març (17:30-19:30 h) | Dimecres 11 de març (17:30-19:30 h) | Dimecres 18 de març (17:30-19:30 h) | Dimecres 25 de març (15:30-16:30 h) | Dimecres 1 d'abril (17:30-19:30 h) | Dimecres 8 d'abril (17:30-19:30 h) | Dimecres 15 d'abril (17:30-19:30 h) | Dimecres 22 d'abril (15:30-16:30 h) | Dimecres 29 d'abril (17:30-19:30 h) | Dimecres 6 de maig (17:30-19:30 h) | Dimecres 13 de maig (17:30-19:30 h) | Dimecres 20 de maig (17:30-19:30 h) | Dimecres 27 de maig (17:30-16:30 h) | Dimecres 3 de juny (17:30-19:30 h) | Dimecres 10 de juny (17:30-19:30 h) | Dimecres 17 de juny (17:30-19:30 h) | Dimecres 24 de juny (17:30-19:30 h) | Dimecres 1 de juliol (17:30-19:30 h) | Dimecres 8 de juliol (17:30-19:30 h) | Dimecres 15 de juliol (17:30-19:30 h) | Dimecres 22 de juliol (17:30-19:30 h) | Dimecres 29 de juliol (17:30-19:30 h)"
-            },
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
                 "date": "Dimarts 6 d'octubre (18:00-20:00 h)"
             },
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Del món dels Güells al Barraquisme",
-                "date": "Dissabte 3 d'octubre (10:30-12:00 h)"
+                "date": "Dissabte 3 d'octubre (10:30-12:30 h)"
             },
             {
                 "title": "Club de lectura general.",
