@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-07-31T10:30:37.689304';
+const scrapeTimestamp = '2026-08-01T09:51:54.542861';
 const coursesData = [
     {
         "library_id": "1",
@@ -167,7 +167,7 @@ const coursesData = [
         "courses_found": 7,
         "courses": [
             {
-                "title": "Club de lectura puntual. El dol i la superació de la pèrdua.",
+                "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
             },
             {
@@ -524,15 +524,11 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:00-19:30 h) | Dimecres 18 de novembre (18:00-19:30 h) | Dimecres 16 de desembre (18:00-19:30 h) | Dimecres 17 de febrer (18:00-19:30 h) | Dimecres 17 de març (18:00-19:30 h) | Dimecres 21 d'abril (18:00-19:30 h) | Dimecres 19 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. El camí del viatge. (8 a 10 anys)",
-                "date": "Divendres 31 de juliol (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -733,7 +729,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua anglesa",
-                "date": "Dilluns 12 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
+                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura jove.",
@@ -899,7 +895,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -916,10 +912,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres (6 a 8 anys)",
                 "date": "Divendres 13 de novembre (18:00-19:00 h) | Divendres 18 de desembre (18:00-19:00 h) | Divendres 29 de gener (18:00-19:00 h) | Divendres 26 de febrer (18:00-19:00 h) | Divendres 2 d'abril (18:00-19:00 h) | Divendres 7 de maig (18:00-19:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Mail Art. (6 a 8 anys)",
-                "date": "Divendres 31 de juliol (11:30-12:30 h)"
             },
             {
                 "title": "Club de lectura general.",
