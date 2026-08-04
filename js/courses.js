@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-03T11:14:55.272840';
+const scrapeTimestamp = '2026-08-04T10:29:24.008428';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,7 +18,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
@@ -31,10 +31,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
-                "date": "Dilluns 3 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Primeres lectures",
@@ -335,7 +331,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura puntual. Llegim Sergio Ramírez",
-                "date": "Dissabte 19 de setembre (12:00-13:30 h)"
+                "date": "Dissabte 19 de setembre (13:00-14:00 h)"
             },
             {
                 "title": "Club de lectura de literatura infantil llatinoamericana",
