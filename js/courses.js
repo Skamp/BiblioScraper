@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-04T10:29:24.008428';
+const scrapeTimestamp = '2026-08-05T10:28:27.372612';
 const coursesData = [
     {
         "library_id": "1",
@@ -407,7 +407,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -444,10 +444,6 @@ const coursesData = [
             {
                 "title": "Club de lectura protagonista jove.",
                 "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
-                "date": "Dimarts 4 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
