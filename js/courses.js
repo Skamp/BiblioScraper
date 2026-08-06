@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-05T10:28:27.372612';
+const scrapeTimestamp = '2026-08-06T10:31:19.159547';
 const coursesData = [
     {
         "library_id": "1",
@@ -458,7 +458,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura infantil. Còmic debat",
@@ -483,10 +483,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Lectures de Japó i Corea",
                 "date": "Dijous 8 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h) | Dijous 3 de juny (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
-                "date": "Dimecres 5 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Literatura italiana",
@@ -798,11 +794,11 @@ const coursesData = [
                 "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
             },
             {
-                "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Cristian Olivé",
+                "title": "Club de lectura puntual. Setmana LGTBIAQ+ amb Cristian Olivé",
                 "date": "Dimecres 30 de setembre (18:00-19:00 h)"
             },
             {
-                "title": "Club de lectura a mida. Setmana LGTBIAQ+ amb Judith Juanhuix",
+                "title": "Club de lectura puntual. Setmana LGTBIAQ+ amb Judith Juanhuix",
                 "date": "Dilluns 28 de setembre (18:30-20:00 h)"
             },
             {
