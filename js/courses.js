@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-06T10:31:19.159547';
+const scrapeTimestamp = '2026-08-07T08:48:39.573952';
 const coursesData = [
     {
         "library_id": "1",
@@ -701,7 +701,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -722,10 +722,6 @@ const coursesData = [
             {
                 "title": "Club de lectura jove.",
                 "date": "Divendres 16 d'octubre (18:00-19:30 h) | Divendres 13 de novembre (18:00-19:30 h) | Divendres 15 de gener (18:00-19:30 h) | Divendres 19 de febrer (18:00-19:30 h) | Divendres 19 de març (18:00-19:30 h) | Divendres 16 d'abril (18:00-19:30 h) | Divendres 14 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
-                "date": "Dijous 6 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1003,7 +999,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1016,10 +1012,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 21 d'octubre (19:00-20:30 h) | Dimecres 18 de novembre (19:00-20:30 h) | Dimecres 20 de gener (19:00-20:30 h) | Dimecres 17 de febrer (19:00-20:30 h) | Dimecres 17 de març (19:00-20:30 h) | Dimecres 21 d'abril (19:00-20:30 h) | Dimecres 19 de maig (19:00-20:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
-                "date": "Dijous 6 d'agost (18:00-19:00 h)"
             }
         ]
     },
