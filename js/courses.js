@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-07T08:48:39.573952';
+const scrapeTimestamp = '2026-08-08T08:30:49.307830';
 const coursesData = [
     {
         "library_id": "1",
@@ -732,7 +732,7 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -741,10 +741,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
                 "date": "Dijous 27 d'agost (11:30-12:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
-                "date": "Divendres 7 d'agost (11:30-12:30 h)"
             }
         ]
     },
