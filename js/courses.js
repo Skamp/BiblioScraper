@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-10T09:10:12.276998';
+const scrapeTimestamp = '2026-08-11T08:45:24.931623';
 const coursesData = [
     {
         "library_id": "1",
@@ -365,12 +365,8 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
-                "date": "Dilluns 10 d'agost (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura de poesia",
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
