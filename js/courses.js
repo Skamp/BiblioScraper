@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-11T08:45:24.931623';
+const scrapeTimestamp = '2026-08-12T09:04:23.432675';
 const coursesData = [
     {
         "library_id": "1",
@@ -268,7 +268,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -297,6 +297,10 @@ const coursesData = [
             {
                 "title": "El fil de les imatges: taller de fotobrodat",
                 "date": "Dilluns 7 de setembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Llegim-les! Cartes literàries",
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -1075,7 +1079,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1100,10 +1104,6 @@ const coursesData = [
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
                 "date": "Dimecres 26 d'agost (18:00-19:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals geomètriques (de 6 a 8 anys)",
-                "date": "Dimarts 11 d'agost (18:00-19:00 h)"
             }
         ]
     },
