@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-12T09:04:23.432675';
+const scrapeTimestamp = '2026-08-13T09:04:50.608158';
 const coursesData = [
     {
         "library_id": "1",
@@ -562,15 +562,11 @@ const coursesData = [
     {
         "library_id": "17",
         "library_name": "Biblioteca Les Roquetes  Rafa Juncadella",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h) | Dijous 4 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 1 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
-                "date": "Dimecres 12 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
@@ -852,7 +848,7 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
@@ -861,10 +857,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:00-19:30 h) | Dimecres 11 de novembre (18:00-19:30 h) | Dimecres 9 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
-                "date": "Dimecres 12 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
