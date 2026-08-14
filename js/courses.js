@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-13T09:04:50.608158';
+const scrapeTimestamp = '2026-08-14T09:01:06.434676';
 const coursesData = [
     {
         "library_id": "1",
@@ -407,7 +407,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -432,10 +432,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua francesa",
                 "date": "Dijous 1 d'octubre (12:00-13:00 h) | Dijous 5 de novembre (12:00-13:00 h) | Dijous 3 de desembre (12:00-13:00 h) | Dijous 4 de febrer (12:00-13:00 h) | Dijous 4 de març (12:00-13:00 h) | Dijous 1 d'abril (12:00-13:00 h) | Dijous 6 de maig (12:00-13:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Això podria ser... (3-6 anys)",
-                "date": "Dijous 13 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Atrapallibres. Club de lectura infantil",
