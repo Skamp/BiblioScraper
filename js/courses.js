@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-17T08:34:05.249715';
+const scrapeTimestamp = '2026-08-18T08:26:39.096934';
 const coursesData = [
     {
         "library_id": "1",
@@ -623,7 +623,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -648,10 +648,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de lletra gran",
                 "date": "Dimarts 6 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h) | Dimarts 18 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
-                "date": "Dilluns 17 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell superior)",
