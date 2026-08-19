@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-18T08:26:39.096934';
+const scrapeTimestamp = '2026-08-19T08:26:49.996450';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,12 +18,8 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "Un estiu de postal. Postals de la Barcelona del futur. (8 a 12 anys)",
-                "date": "Dimarts 18 d'agost (18:00-19:00 h)"
-            },
             {
                 "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
                 "date": "Dijous 3 de setembre (18:00-19:00 h)"
