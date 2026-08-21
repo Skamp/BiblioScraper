@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-20T08:28:25.055908';
+const scrapeTimestamp = '2026-08-21T08:30:22.067044';
 const coursesData = [
     {
         "library_id": "1",
@@ -1067,7 +1067,7 @@ const coursesData = [
             },
             {
                 "title": "Taller de lectura (6 a 12 anys)",
-                "date": "Dimecres 7 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 20 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
+                "date": "Dimecres 14 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 20 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
             },
             {
                 "title": "Ficció en joc (de 6 a 12 anys)",
