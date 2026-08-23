@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-22T08:19:33.821157';
+const scrapeTimestamp = '2026-08-23T08:20:53.520530';
 const coursesData = [
     {
         "library_id": "1",
