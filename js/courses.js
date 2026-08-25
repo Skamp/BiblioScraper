@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-24T08:38:50.724743';
+const scrapeTimestamp = '2026-08-25T08:32:50.413649';
 const coursesData = [
     {
         "library_id": "1",
@@ -276,7 +276,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura: Una lectura pròpia",
-                "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
+                "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 1 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
@@ -836,7 +836,7 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
@@ -845,10 +845,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:00-19:30 h) | Dimecres 11 de novembre (18:00-19:30 h) | Dimecres 9 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
-                "date": "Dilluns 24 d'agost (18:00-19:00 h)"
             }
         ]
     },
