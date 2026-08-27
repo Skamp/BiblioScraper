@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-26T08:34:05.324861';
+const scrapeTimestamp = '2026-08-27T18:40:57.796973';
 const coursesData = [
     {
         "library_id": "1",
@@ -264,7 +264,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -277,10 +277,6 @@ const coursesData = [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 1 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
-                "date": "Dimecres 26 d'agost (11:30-12:30 h)"
             },
             {
                 "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
@@ -377,7 +373,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 9 d'octubre (10:00-11:30 h) | Divendres 13 de novembre (10:00-11:30 h) | Divendres 11 de desembre (10:00-11:30 h) | Divendres 8 de gener (10:00-11:30 h) | Divendres 12 de febrer (10:00-11:30 h) | Divendres 12 de març (10:00-11:30 h) | Divendres 9 d'abril (10:00-11:30 h) | Divendres 14 de maig (10:00-11:30 h) | Divendres 11 de juny (10:00-11:30 h)"
+                "date": "Divendres 16 d'octubre (10:00-11:30 h) | Divendres 13 de novembre (10:00-11:30 h) | Divendres 11 de desembre (10:00-11:30 h) | Divendres 8 de gener (10:00-11:30 h) | Divendres 12 de febrer (10:00-11:30 h) | Divendres 12 de març (10:00-11:30 h) | Divendres 9 d'abril (10:00-11:30 h) | Divendres 14 de maig (10:00-11:30 h) | Divendres 11 de juny (10:00-11:30 h)"
             },
             {
                 "title": "Club de lectura puntual. Resistir barbàries, construir humanitat",
@@ -619,7 +615,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -648,10 +644,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell superior)",
                 "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
-                "date": "Dimecres 26 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Lletra petita. Sac de rondalles. La bruixeta poruga (+3 anys)",
@@ -1078,8 +1070,8 @@ const coursesData = [
                 "date": "Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
             },
             {
-                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
-                "date": "Dimecres 26 d'agost (18:00-19:00 h)"
+                "title": "Espai Gent gran",
+                "date": "Dilluns 7 de setembre (18:00-19:00 h) | Dilluns 14 de setembre (18:00-19:00 h) | Dilluns 21 de setembre (18:00-19:00 h) | Dilluns 28 de setembre (18:00-19:00 h) | Dilluns 5 d'octubre (18:00-19:00 h) | Dilluns 19 d'octubre (18:00-19:00 h) | Dilluns 26 d'octubre (18:00-19:00 h) | Dilluns 2 de novembre (18:00-19:00 h) | Dilluns 9 de novembre (18:00-19:00 h) | Dilluns 16 de novembre (18:00-19:00 h) | Dilluns 23 de novembre (18:00-19:00 h) | Dilluns 30 de novembre (18:00-19:00 h) | Dilluns 14 de desembre (18:00-19:00 h) | Dilluns 11 de gener (18:00-19:00 h) | Dilluns 18 de gener (18:00-19:00 h) | Dilluns 25 de gener (18:00-19:00 h) | Dilluns 1 de febrer (18:00-19:00 h) | Dilluns 8 de febrer (18:00-19:00 h) | Dilluns 15 de febrer (18:00-19:00 h) | Dilluns 22 de febrer (18:00-19:00 h) | Dilluns 1 de març (18:00-19:00 h) | Dilluns 8 de març (18:00-19:00 h) | Dilluns 15 de març (18:00-19:00 h) | Dilluns 5 d'abril (18:00-19:00 h) | Dilluns 12 d'abril (18:00-19:00 h) | Dilluns 19 d'abril (18:00-19:00 h) | Dilluns 26 d'abril (18:00-19:00 h) | Dilluns 3 de maig (18:00-19:00 h) | Dilluns 10 de maig (18:00-19:00 h) | Dilluns 17 de maig (18:00-19:00 h) | Dilluns 24 de maig (18:00-19:00 h) | Dilluns 31 de maig (18:00-19:00 h) | Dilluns 7 de juny (18:00-19:00 h) | Dilluns 14 de juny (18:00-19:00 h) | Dilluns 28 de juny (18:00-19:00 h)"
             }
         ]
     },
