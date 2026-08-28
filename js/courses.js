@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-27T18:40:57.796973';
+const scrapeTimestamp = '2026-08-28T19:48:59.384411';
 const coursesData = [
     {
         "library_id": "1",
@@ -288,7 +288,7 @@ const coursesData = [
             },
             {
                 "title": "El fil de les imatges: taller de fotobrodat",
-                "date": "Dilluns 7 de setembre (17:30-19:30 h)"
+                "date": "Dimarts 8 de setembre (17:30-19:30 h)"
             },
             {
                 "title": "Llegim-les! Cartes literàries",
@@ -708,15 +708,11 @@ const coursesData = [
     {
         "library_id": "21",
         "library_name": "Biblioteca Ramon d'Alòs-Moner",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 15 de desembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 16 de març (18:30-19:30 h) | Dimarts 20 d'abril (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
-                "date": "Dijous 27 d'agost (11:30-12:30 h)"
             }
         ]
     },
@@ -797,7 +793,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de llengua alemanya",
@@ -810,10 +806,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua italiana",
                 "date": "Dimarts 3 de novembre (18:30-19:30 h) | Dimarts 1 de desembre (18:30-19:30 h) | Dimarts 12 de gener (18:30-19:30 h) | Dimarts 2 de febrer (18:30-19:30 h) | Dimarts 2 de març (18:30-19:30 h) | Dimarts 6 d'abril (18:30-19:30 h) | Dimarts 4 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
-                "date": "Dijous 27 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1032,7 +1024,7 @@ const coursesData = [
     {
         "library_id": "23",
         "library_name": "Biblioteca Xavier Benguerel",
-        "courses_found": 2,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1041,6 +1033,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de cinema i novel·la",
                 "date": "Dimarts 20 d'octubre (18:00-19:30 h) | Dimarts 17 de novembre (18:00-19:30 h) | Dimarts 19 de gener (18:00-19:30 h) | Dimarts 16 de febrer (18:00-19:30 h) | Dimarts 16 de març (18:00-19:30 h) | Dimarts 20 d'abril (18:00-19:30 h) | Dimarts 18 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "Atrapallibres. Club de lectura infantil",
+                "date": "Dimecres 7 d'octubre (17:30-18:30 h) | Dimarts 3 de novembre (17:30-18:30 h) | Dimecres 13 de gener (17:30-18:30 h) | Dimecres 3 de febrer (17:30-18:30 h) | Dimecres 3 de març (17:30-18:30 h) | Dimecres 7 d'abril (17:30-18:30 h)"
             }
         ]
     },
