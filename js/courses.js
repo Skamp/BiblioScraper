@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-28T19:48:59.384411';
+const scrapeTimestamp = '2026-08-29T13:30:54.946056';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,7 +18,7 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
@@ -35,10 +35,6 @@ const coursesData = [
             {
                 "title": "Lectures compartides",
                 "date": "Dimarts 29 de setembre (17:30-18:30 h) | Dimarts 27 d'octubre (17:30-18:30 h) | Dimarts 17 de novembre (17:30-18:30 h) | Dimarts 24 de novembre (17:30-18:30 h) | Dimarts 19 de gener (17:30-18:30 h) | Dimarts 16 de febrer (17:30-18:30 h) | Dimarts 16 de març (17:30-18:30 h) | Dimarts 13 d'abril (17:30-18:30 h) | Dimarts 18 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
-                "date": "Divendres 28 d'agost (18:00-19:00 h)"
             }
         ]
     },
@@ -264,7 +260,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -277,10 +273,6 @@ const coursesData = [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 1 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals brodades (8 a 10 anys)",
-                "date": "Divendres 28 d'agost (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura Música llibres i dones",
