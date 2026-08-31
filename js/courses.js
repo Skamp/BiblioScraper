@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-30T13:27:16.439788';
+const scrapeTimestamp = '2026-08-31T15:43:33.892552';
 const coursesData = [
     {
         "library_id": "1",
@@ -7,7 +7,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Dimarts 13 d'octubre (17:00-18:30 h) | Dimarts 10 de novembre (17:00-18:30 h) | Dimarts 15 de desembre (17:00-18:30 h) | Dimarts 12 de gener (17:00-18:30 h) | Dimarts 9 de febrer (17:00-18:30 h) | Dimarts 9 de març (17:00-18:30 h) | Dimarts 13 d'abril (17:00-18:30 h) | Dimarts 11 de maig (17:00-18:30 h) | Dimarts 8 de juny (17:00-18:30 h)"
+                "date": "Dimarts 13 d'octubre (17:00-18:00 h) | Dimarts 10 de novembre (17:00-18:00 h) | Dimarts 15 de desembre (17:00-18:00 h) | Dimarts 12 de gener (17:00-18:00 h) | Dimarts 9 de febrer (17:00-18:00 h) | Dimarts 9 de març (17:00-18:00 h) | Dimarts 13 d'abril (17:00-18:00 h) | Dimarts 11 de maig (17:00-18:00 h) | Dimarts 8 de juny (17:00-18:00 h)"
             },
             {
                 "title": "Club de lectura. Lletres de Mèxic",
@@ -365,7 +365,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 16 d'octubre (10:00-11:30 h) | Divendres 13 de novembre (10:00-11:30 h) | Divendres 11 de desembre (10:00-11:30 h) | Divendres 8 de gener (10:00-11:30 h) | Divendres 12 de febrer (10:00-11:30 h) | Divendres 12 de març (10:00-11:30 h) | Divendres 9 d'abril (10:00-11:30 h) | Divendres 14 de maig (10:00-11:30 h) | Divendres 11 de juny (10:00-11:30 h)"
+                "date": "Divendres 16 d'octubre (10:00-11:00 h) | Divendres 13 de novembre (10:00-11:00 h) | Divendres 11 de desembre (10:00-11:00 h) | Divendres 8 de gener (10:00-11:00 h) | Divendres 12 de febrer (10:00-11:00 h) | Divendres 12 de març (10:00-11:00 h) | Divendres 9 d'abril (10:00-11:00 h) | Divendres 14 de maig (10:00-11:00 h) | Divendres 11 de juny (10:00-11:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Resistir barbàries, construir humanitat",
@@ -492,7 +492,7 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -505,6 +505,10 @@ const coursesData = [
             {
                 "title": "Obrador. Laboratori de creació i experimentació literària.",
                 "date": "Dijous 15 d'octubre (18:00-19:30 h) | Dijous 29 d'octubre (18:00-19:30 h) | Dijous 12 de novembre (18:00-19:30 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Dimecres 7 d'octubre (18:30-19:30 h) | Dimecres 4 de novembre (18:30-19:30 h) | Dimecres 2 de desembre (18:30-19:30 h) | Dimecres 13 de gener (18:30-19:30 h) | Dimecres 3 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h) | Dimecres 2 de juny (18:30-19:30 h)"
             }
         ]
     },
@@ -673,7 +677,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Dimecres 16 de setembre (18:30-20:00 h) | Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h) | Dimecres 16 de juny (18:30-20:00 h)"
+                "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 16 de desembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h) | Dimecres 16 de juny (18:30-19:30 h)"
             },
             {
                 "title": "Sant Martí, barri a barri. El Poblenou: el Manchester català",
@@ -805,7 +809,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 2 d'octubre (10:00-11:00 h) | Divendres 6 de novembre (10:00-11:00 h) | Divendres 4 de desembre (10:00-11:00 h) | Divendres 15 de gener (10:00-11:00 h) | Divendres 5 de febrer (10:00-11:00 h) | Divendres 5 de març (10:00-11:00 h) | Divendres 2 d'abril (10:00-11:00 h) | Divendres 30 d'abril (10:00-11:00 h) | Divendres 4 de juny (10:00-11:00 h)"
+                "date": "Divendres 2 d'octubre (10:00-11:00 h) | Divendres 6 de novembre (10:00-11:00 h) | Divendres 4 de desembre (10:00-11:00 h) | Divendres 15 de gener (10:00-11:00 h) | Divendres 5 de febrer (10:00-11:00 h) | Divendres 5 de març (10:00-11:00 h) | Divendres 2 d'abril (10:00-11:00 h) | Divendres 7 de maig (10:00-11:00 h) | Divendres 4 de juny (10:00-11:00 h)"
             }
         ]
     },
@@ -874,7 +878,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 9 d'octubre (11:00-12:30 h) | Divendres 13 de novembre (11:00-12:30 h) | Divendres 11 de desembre (11:00-12:30 h) | Divendres 8 de gener (11:00-12:30 h) | Divendres 12 de febrer (11:00-12:30 h) | Divendres 12 de març (11:00-12:30 h) | Divendres 9 d'abril (11:00-12:30 h)"
+                "date": "Divendres 16 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             },
             {
                 "title": "Vivim més anys que mai, però què podem fer perquè aquests anys siguin plens de sentit?",
@@ -970,7 +974,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 9 d'octubre (12:00-13:30 h) | Divendres 13 de novembre (12:00-13:30 h) | Divendres 11 de desembre (12:00-13:30 h) | Divendres 8 de gener (12:00-13:30 h) | Divendres 12 de febrer (12:00-13:30 h) | Divendres 12 de març (12:00-13:30 h) | Divendres 9 d'abril (12:00-13:30 h) | Divendres 14 de maig (12:00-13:30 h) | Divendres 11 de juny (12:00-13:30 h)"
+                "date": "Divendres 16 d'octubre (12:00-13:00 h) | Divendres 13 de novembre (12:00-13:00 h) | Divendres 11 de desembre (12:00-13:00 h) | Divendres 8 de gener (12:00-13:00 h) | Divendres 5 de febrer (12:00-13:00 h) | Divendres 12 de febrer (12:00-13:00 h) | Divendres 12 de març (12:00-13:00 h) | Divendres 9 d'abril (12:00-13:00 h) | Divendres 14 de maig (12:00-13:00 h) | Divendres 11 de juny (12:00-13:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Literatura africana (segona edició)",
@@ -1001,7 +1005,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 16 d'octubre (10:30-12:00 h) | Divendres 20 de novembre (10:30-12:00 h) | Divendres 18 de desembre (10:30-12:00 h) | Divendres 15 de gener (10:30-12:00 h) | Divendres 19 de febrer (10:30-12:00 h) | Divendres 19 de març (10:30-12:00 h) | Divendres 16 d'abril (10:30-12:00 h) | Divendres 21 de maig (10:30-12:00 h) | Divendres 18 de juny (10:30-12:00 h)"
+                "date": "Divendres 16 d'octubre (10:30-11:30 h) | Divendres 20 de novembre (10:30-11:30 h) | Divendres 18 de desembre (10:30-11:30 h) | Divendres 15 de gener (10:30-11:30 h) | Divendres 19 de febrer (10:30-11:30 h) | Divendres 19 de març (10:30-11:30 h) | Divendres 16 d'abril (10:30-11:30 h) | Divendres 21 de maig (10:30-11:30 h) | Divendres 18 de juny (10:30-11:30 h)"
             },
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
