@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-08-31T15:43:33.892552';
+const scrapeTimestamp = '2026-09-01T12:55:29.439510';
 const coursesData = [
     {
         "library_id": "1",
@@ -689,7 +689,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua anglesa",
-                "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
+                "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 11 de gener (18:30-20:00 h) | Dilluns 8 de febrer (18:30-20:00 h) | Dilluns 8 de març (18:30-20:00 h) | Dilluns 12 d'abril (18:30-20:00 h) | Dilluns 10 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura jove.",
