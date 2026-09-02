@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-01T12:55:29.439510';
+const scrapeTimestamp = '2026-09-02T12:26:04.294070';
 const coursesData = [
     {
         "library_id": "1",
@@ -291,7 +291,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -312,10 +312,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Collage postal. (3 a 6 anys)",
-                "date": "Dimarts 1 de setembre (18:00-19:00 h)"
             },
             {
                 "title": "Club de lectura puntual. Llegim Sergio Ramírez",
@@ -881,7 +877,7 @@ const coursesData = [
                 "date": "Divendres 16 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             },
             {
-                "title": "Vivim més anys que mai, però què podem fer perquè aquests anys siguin plens de sentit?",
+                "title": "Envellir amb sentit: com sumar vida als anys",
                 "date": "Dijous 29 d'octubre (18:30-20:00 h)"
             },
             {
