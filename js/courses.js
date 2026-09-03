@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-02T12:26:04.294070';
+const scrapeTimestamp = '2026-09-03T12:25:17.958059';
 const coursesData = [
     {
         "library_id": "1",
@@ -260,7 +260,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -273,6 +273,10 @@ const coursesData = [
             {
                 "title": "Club de lectura: Una lectura pròpia",
                 "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 1 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
+            },
+            {
+                "title": "La Barcelona Proustiana. A la recerca de la ciutat perduda",
+                "date": "Dijous 8 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "Club de lectura Música llibres i dones",
@@ -450,7 +454,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de literatura fantàstica i ciència-ficció",
-                "date": "Dimecres 28 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 16 de desembre (18:30-19:30 h) | Dimecres 27 de gener (18:30-19:30 h) | Dimecres 24 de febrer (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
+                "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 16 de desembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura puntual. Europa en construcció: veus per entendre el present.",
@@ -542,15 +546,11 @@ const coursesData = [
     {
         "library_id": "17",
         "library_name": "Biblioteca Les Roquetes  Rafa Juncadella",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h) | Dijous 4 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 1 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Un estiu de postal. Postals animades. (6 a 8 anys)",
-                "date": "Dimecres 2 de setembre (18:00-19:00 h)"
             }
         ]
     },
@@ -607,7 +607,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mig)",
@@ -644,6 +644,10 @@ const coursesData = [
             {
                 "title": "Obrador. Taller de narració de contes i altres secrets",
                 "date": "Divendres 13 de novembre (18:00-20:00 h) | Divendres 20 de novembre (18:00-20:00 h) | Divendres 27 de novembre (18:00-20:00 h) | Divendres 4 de desembre (18:00-20:00 h)"
+            },
+            {
+                "title": "Lletra petita. Llibres a escena. La Colla supersònica (+4 anys)",
+                "date": "Dimecres 21 d'octubre (17:30-18:30 h)"
             }
         ]
     },
