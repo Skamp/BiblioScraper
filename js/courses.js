@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-03T12:25:17.958059';
+const scrapeTimestamp = '2026-09-04T12:24:44.242018';
 const coursesData = [
     {
         "library_id": "1",
@@ -18,12 +18,8 @@ const coursesData = [
     {
         "library_id": "19",
         "library_name": "Biblioteca Bon Pastor - Josefina Castellví",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Un estiu de postal. Finestres postals. (3 a 6 anys)",
-                "date": "Dijous 3 de setembre (18:00-19:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 16 de febrer (18:30-20:00 h) | Dimarts 16 de març (18:30-20:00 h) | Dimarts 20 d'abril (18:30-20:00 h) | Dimarts 18 de maig (18:30-20:00 h)"
@@ -272,7 +268,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura: Una lectura pròpia",
-                "date": "Dilluns 5 d'octubre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 11 de gener (18:00-19:30 h) | Dilluns 8 de febrer (18:00-19:30 h) | Dilluns 1 de març (18:00-19:30 h) | Dilluns 12 d'abril (18:00-19:30 h) | Dilluns 10 de maig (18:00-19:30 h)"
+                "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 1 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
             },
             {
                 "title": "La Barcelona Proustiana. A la recerca de la ciutat perduda",
@@ -831,7 +827,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 5,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -852,6 +848,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Sarrià en els temps de J.V. Foix",
+                "date": "Dijous 15 d'octubre (18:00-19:30 h)"
             }
         ]
     },
