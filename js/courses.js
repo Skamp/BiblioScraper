@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-07T13:50:41.618329';
+const scrapeTimestamp = '2026-09-08T12:27:40.412433';
 const coursesData = [
     {
         "library_id": "1",
@@ -619,7 +619,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de novel·la històrica",
-                "date": "Dimarts 22 de setembre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dimarts 30 de març (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h)"
+                "date": "Dimarts 29 de setembre (18:30-19:30 h) | Dimarts 27 d'octubre (18:30-19:30 h) | Dimarts 24 de novembre (18:30-19:30 h) | Dimarts 26 de gener (18:30-19:30 h) | Dimarts 23 de febrer (18:30-19:30 h) | Dimarts 23 de març (18:30-19:30 h) | Dimarts 27 d'abril (18:30-19:30 h) | Dimarts 25 de maig (18:30-19:30 h)"
             },
             {
                 "title": "Club de lectura alternatiu",
@@ -1024,7 +1024,7 @@ const coursesData = [
         "courses": [
             {
                 "title": "Club de lectura general.",
-                "date": "Dimarts 13 d'octubre (18:00-19:30 h) | Dimarts 10 de novembre (18:00-19:30 h) | Dimarts 15 de desembre (18:00-19:30 h) | Dimarts 9 de febrer (18:00-19:30 h) | Dimarts 9 de març (18:00-19:30 h) | Dimarts 13 d'abril (18:00-19:30 h) | Dimarts 11 de maig (18:00-19:30 h)"
+                "date": "Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 15 de desembre (18:30-20:00 h) | Dimarts 12 de gener (18:30-20:00 h) | Dimarts 9 de febrer (18:30-20:00 h) | Dimarts 9 de març (18:30-20:00 h) | Dimarts 13 d'abril (18:30-20:00 h) | Dimarts 11 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de cinema i novel·la",
@@ -1039,7 +1039,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1060,10 +1060,6 @@ const coursesData = [
             {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
-            },
-            {
-                "title": "Espai Gent gran",
-                "date": "Dilluns 7 de setembre (18:00-19:00 h) | Dilluns 14 de setembre (18:00-19:00 h) | Dilluns 21 de setembre (18:00-19:00 h) | Dilluns 28 de setembre (18:00-19:00 h) | Dilluns 5 d'octubre (18:00-19:00 h) | Dilluns 19 d'octubre (18:00-19:00 h) | Dilluns 26 d'octubre (18:00-19:00 h) | Dilluns 2 de novembre (18:00-19:00 h) | Dilluns 9 de novembre (18:00-19:00 h) | Dilluns 16 de novembre (18:00-19:00 h) | Dilluns 23 de novembre (18:00-19:00 h) | Dilluns 30 de novembre (18:00-19:00 h) | Dilluns 14 de desembre (18:00-19:00 h) | Dilluns 11 de gener (18:00-19:00 h) | Dilluns 18 de gener (18:00-19:00 h) | Dilluns 25 de gener (18:00-19:00 h) | Dilluns 1 de febrer (18:00-19:00 h) | Dilluns 8 de febrer (18:00-19:00 h) | Dilluns 15 de febrer (18:00-19:00 h) | Dilluns 22 de febrer (18:00-19:00 h) | Dilluns 1 de març (18:00-19:00 h) | Dilluns 8 de març (18:00-19:00 h) | Dilluns 15 de març (18:00-19:00 h) | Dilluns 5 d'abril (18:00-19:00 h) | Dilluns 12 d'abril (18:00-19:00 h) | Dilluns 19 d'abril (18:00-19:00 h) | Dilluns 26 d'abril (18:00-19:00 h) | Dilluns 3 de maig (18:00-19:00 h) | Dilluns 10 de maig (18:00-19:00 h) | Dilluns 17 de maig (18:00-19:00 h) | Dilluns 24 de maig (18:00-19:00 h) | Dilluns 31 de maig (18:00-19:00 h) | Dilluns 7 de juny (18:00-19:00 h) | Dilluns 14 de juny (18:00-19:00 h) | Dilluns 28 de juny (18:00-19:00 h)"
             }
         ]
     },
