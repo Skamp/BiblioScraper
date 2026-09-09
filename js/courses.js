@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-08T12:27:40.412433';
+const scrapeTimestamp = '2026-09-09T12:36:58.206005';
 const coursesData = [
     {
         "library_id": "1",
@@ -256,7 +256,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -277,10 +277,6 @@ const coursesData = [
             {
                 "title": "Club de lectura Música llibres i dones",
                 "date": "Dimarts 13 d'octubre (18:30-20:00 h) | Dimarts 10 de novembre (18:30-20:00 h) | Dimarts 1 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "El fil de les imatges: taller de fotobrodat",
-                "date": "Dimarts 8 de setembre (17:30-19:30 h)"
             },
             {
                 "title": "Llegim-les! Cartes literàries",
@@ -469,7 +465,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -482,6 +478,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Vols crear una novel·la visual des de zero?",
+                "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
             }
         ]
     },
@@ -572,7 +572,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -597,6 +597,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimarts 27 d'octubre (19:00-20:00 h) | Dimarts 24 de novembre (19:00-20:00 h) | Dimarts 26 de gener (19:00-20:00 h) | Dimarts 23 de febrer (19:00-20:00 h) | Dimarts 30 de març (19:00-20:00 h) | Dimarts 27 d'abril (19:00-20:00 h) | Dimarts 25 de maig (19:00-20:00 h)"
+            },
+            {
+                "title": "Taller: Del residu a la creació tèxtil",
+                "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
             }
         ]
     },
