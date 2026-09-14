@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-13T13:00:29.928643';
+const scrapeTimestamp = '2026-09-14T14:36:30.703865';
 const coursesData = [
     {
         "library_id": "1",
@@ -379,7 +379,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -415,11 +415,7 @@ const coursesData = [
             },
             {
                 "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
-                "date": "Dimarts 15 de setembre (17:30-18:30 h)"
-            },
-            {
-                "title": "Taller comencem un hort de tardor",
-                "date": "Dilluns 28 de setembre (18:30-20:00 h)"
+                "date": "Dimecres 11 de novembre (17:30-18:30 h)"
             }
         ]
     },
@@ -568,7 +564,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -597,6 +593,10 @@ const coursesData = [
             {
                 "title": "Taller: Del residu a la creació tèxtil",
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
+            },
+            {
+                "title": "Som investigadores. Computació quàntica. El futur de les dades",
+                "date": "Dilluns 5 d'octubre (17:30-18:30 h)"
             }
         ]
     },
