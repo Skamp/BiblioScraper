@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-15T13:01:47.903890';
+const scrapeTimestamp = '2026-09-16T12:58:53.087877';
 const coursesData = [
     {
         "library_id": "1",
@@ -472,7 +472,7 @@ const coursesData = [
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
             },
             {
-                "title": "Vols crear una novel·la visual des de zero?",
+                "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
             }
         ]
