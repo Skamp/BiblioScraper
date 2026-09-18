@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-17T12:55:34.379683';
+const scrapeTimestamp = '2026-09-18T12:33:29.656028';
 const coursesData = [
     {
         "library_id": "1",
@@ -709,7 +709,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 5,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Sant Martí, barri a barri. El Poblenou: el Manchester català",
@@ -728,8 +728,48 @@ const coursesData = [
                 "date": "Divendres 2 d'octubre (17:30-18:30 h) | Divendres 6 de novembre (17:30-18:30 h) | Divendres 8 de gener (17:30-18:30 h) | Divendres 5 de febrer (17:30-18:30 h) | Divendres 5 de març (17:30-18:30 h) | Divendres 2 d'abril (17:30-18:30 h) | Divendres 7 de maig (17:30-18:30 h)"
             },
             {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dimarts 29 de setembre (17:30-19:30 h)"
+            },
+            {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Dimarts 6 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
+                "date": "Dimarts 13 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
+                "date": "Dimarts 20 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
+                "date": "Dimarts 27 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Dimarts 3 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
+                "date": "Dimarts 10 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Dimarts 17 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
+                "date": "Dimarts 24 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
+                "date": "Dimarts 1 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
+                "date": "Dimarts 15 de desembre (17:30-19:30 h)"
             }
         ]
     },
@@ -747,12 +787,8 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
-            {
-                "title": "Taller de descoberta \" Les invisibles\". Katherine Johnson i el girador de gravetat (5 a 10 anys)",
-                "date": "Dijous 17 de setembre (17:30-19:00 h)"
-            },
             {
                 "title": "Taller de descoberta \"Les invisibles\". Jane Goodall i els ous irrompibles. (5 a 10 anys)",
                 "date": "Dijous 22 d'octubre (17:30-19:00 h)"
