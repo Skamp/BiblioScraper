@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-18T12:33:29.656028';
+const scrapeTimestamp = '2026-09-19T12:11:33.126234';
 const coursesData = [
     {
         "library_id": "1",
@@ -369,7 +369,7 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de poesia",
@@ -386,6 +386,10 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Resistir barbàries, construir humanitat",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 28 d'octubre (18:00-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Obrim per obres: quan la biblioteca tanca i nosaltres continuem dins",
+                "date": "Dilluns 19 d'octubre (18:30-20:30 h) | Dilluns 26 d'octubre (18:30-20:30 h) | Dilluns 2 de novembre (18:30-20:30 h)"
             }
         ]
     },
