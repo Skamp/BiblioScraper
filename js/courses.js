@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-19T12:11:33.126234';
+const scrapeTimestamp = '2026-09-20T12:47:15.677123';
 const coursesData = [
     {
         "library_id": "1",
@@ -106,12 +106,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Itinerari: Casino de la Rabassada.",
-                "date": "Dissabte 19 de setembre (10:00-13:30 h)"
-            },
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
                 "date": "Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 16 de gener (11:00-13:00 h) | Dissabte 13 de febrer (11:00-13:00 h) | Dissabte 13 de març (11:00-13:00 h) | Dissabte 10 d'abril (11:00-13:00 h) | Dissabte 8 de maig (11:00-13:00 h)"
@@ -315,7 +311,7 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
@@ -336,10 +332,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 22 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h) | Dijous 28 de gener (18:30-20:00 h) | Dijous 25 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 22 d'abril (18:30-20:00 h) | Dijous 27 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Llegim Sergio Ramírez",
-                "date": "Dissabte 19 de setembre (13:00-14:00 h)"
             }
         ]
     },
