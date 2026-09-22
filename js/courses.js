@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-21T14:43:57.389110';
+const scrapeTimestamp = '2026-09-22T12:59:13.589468';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,7 +37,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -70,6 +70,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
                 "date": "Dissabte 17 d'octubre (11:00-13:00 h)"
+            },
+            {
+                "title": "Taller de joguines dOrigami (+6 anys)",
+                "date": "Dimarts 3 de novembre (17:30-19:00 h)"
             }
         ]
     },
@@ -608,7 +612,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 8,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -641,6 +645,14 @@ const coursesData = [
             {
                 "title": "Som investigadores. Computació quàntica. El futur de les dades",
                 "date": "Dilluns 5 d'octubre (17:30-18:30 h)"
+            },
+            {
+                "title": "Com serà Barcelona d'aquí a cent anys?",
+                "date": "Divendres 2 d'octubre (18:30-20:00 h)"
+            },
+            {
+                "title": "Què passaria si a la biblioteca hi trobéssim una publicació de ciència-ficció publicada l'any 2126?",
+                "date": "Dimecres 4 de novembre (18:00-19:30 h)"
             }
         ]
     },
@@ -1172,5 +1184,20 @@ const coursesData = [
         "library_name": "Biblioteques de Barcelona",
         "courses_found": 0,
         "courses": []
+    },
+    {
+        "library_id": "48",
+        "library_name": "Cibernàrium Nou Barris",
+        "courses_found": 2,
+        "courses": [
+            {
+                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
+                "date": "Divendres 2 d'octubre (1:00-1:00 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Divendres 9 d'octubre (1:00-1:00 h)"
+            }
+        ]
     }
 ];
