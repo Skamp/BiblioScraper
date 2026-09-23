@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-22T12:59:13.589468';
+const scrapeTimestamp = '2026-09-23T13:10:58.131454';
 const coursesData = [
     {
         "library_id": "1",
@@ -110,7 +110,7 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
@@ -123,13 +123,17 @@ const coursesData = [
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
                 "date": "Dimecres 14 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
+                "date": "Dimecres 7 d'octubre (17:30-19:30 h)"
             }
         ]
     },
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 10,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -170,13 +174,21 @@ const coursesData = [
             {
                 "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
                 "date": "Dimarts 27 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Dimarts 3 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dimarts 10 de novembre (17:30-19:30 h)"
             }
         ]
     },
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -209,6 +221,10 @@ const coursesData = [
             {
                 "title": "Els reptes de ledició independent",
                 "date": "Dilluns 19 d'octubre (18:00-19:30 h) | Dilluns 26 d'octubre (18:00-19:30 h) | Dilluns 2 de novembre (18:00-19:30 h) | Dilluns 9 de novembre (18:00-19:30 h) | Dilluns 16 de novembre (18:00-19:30 h)"
+            },
+            {
+                "title": "Maleïda tardor, maleïts còmics!",
+                "date": "Dimarts 17 de novembre (18:30-20:00 h)"
             }
         ]
     },
@@ -915,7 +931,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Descobrim Thomas Mann: \"Josep i els seus germans\"",
@@ -940,6 +956,14 @@ const coursesData = [
             {
                 "title": "Sarrià en els temps de J.V. Foix",
                 "date": "Dijous 15 d'octubre (18:00-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dimecres 21 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
+                "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
             }
         ]
     },
@@ -1055,7 +1079,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 6,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1080,6 +1104,38 @@ const coursesData = [
             {
                 "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
                 "date": "Dimarts 13 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Dimarts 20 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
+                "date": "Dimarts 27 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
+                "date": "Dimarts 3 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
+                "date": "Dimarts 10 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Dimarts 17 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
+                "date": "Dimarts 24 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
+                "date": "Dimarts 1 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dimarts 15 de desembre (17:30-19:30 h)"
             }
         ]
     },
