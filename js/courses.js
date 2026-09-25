@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-24T13:04:02.241341';
+const scrapeTimestamp = '2026-09-25T13:08:32.038525';
 const coursesData = [
     {
         "library_id": "1",
@@ -133,7 +133,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 12,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -182,6 +182,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
                 "date": "Dimarts 10 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
+                "date": "Dijous 15 d'octubre (17:30-19:00 h) | Dijous 22 d'octubre (17:30-19:00 h) | Dijous 29 d'octubre (17:30-19:00 h)"
             }
         ]
     },
