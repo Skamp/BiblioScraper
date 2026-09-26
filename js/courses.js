@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-25T13:08:32.038525';
+const scrapeTimestamp = '2026-09-26T12:35:58.072742';
 const coursesData = [
     {
         "library_id": "1",
@@ -632,7 +632,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -661,10 +661,6 @@ const coursesData = [
             {
                 "title": "Taller: Del residu a la creació tèxtil",
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Som investigadores. Computació quàntica. El futur de les dades",
-                "date": "Dilluns 5 d'octubre (17:30-18:30 h)"
             },
             {
                 "title": "Com serà Barcelona d'aquí a cent anys?",
