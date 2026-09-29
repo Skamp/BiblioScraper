@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-09-28T16:18:50.151884';
+const scrapeTimestamp = '2026-09-29T14:29:37.713241';
 const coursesData = [
     {
         "library_id": "1",
@@ -819,7 +819,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Taller de descoberta \"Les invisibles\". Jane Goodall i els ous irrompibles. (5 a 10 anys)",
@@ -856,10 +856,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Setmana LGTBIAQ+ amb Cristian Olivé",
                 "date": "Dimecres 30 de setembre (18:00-19:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Setmana LGTBIAQ+ amb Judith Juanhuix",
-                "date": "Dilluns 28 de setembre (18:30-20:00 h)"
             },
             {
                 "title": "Obrador. Taller de relat curt en femení",
@@ -1211,7 +1207,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 5,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1232,6 +1228,46 @@ const coursesData = [
             {
                 "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
                 "date": "Dijous 1 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
+                "date": "Dijous 8 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dijous 15 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
+                "date": "Dijous 22 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
+                "date": "Dijous 29 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
+                "date": "Dijous 5 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
+                "date": "Dijous 12 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Dijous 19 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
+                "date": "Dijous 26 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
+                "date": "Dijous 3 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
+                "date": "Dijous 17 de desembre (17:30-19:30 h)"
             }
         ]
     },
