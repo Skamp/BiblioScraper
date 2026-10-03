@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-02T14:21:28.540911';
+const scrapeTimestamp = '2026-10-03T12:54:24.061502';
 const coursesData = [
     {
         "library_id": "1",
@@ -641,7 +641,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -656,10 +656,6 @@ const coursesData = [
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             },
             {
-                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
-                "date": "Divendres 2 d'octubre (17:30-19:30 h)"
-            },
-            {
                 "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
                 "date": "Divendres 9 d'octubre (17:30-19:30 h)"
             },
@@ -672,7 +668,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
@@ -701,10 +697,6 @@ const coursesData = [
             {
                 "title": "Taller: Del residu a la creació tèxtil",
                 "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Com serà Barcelona d'aquí a cent anys?",
-                "date": "Divendres 2 d'octubre (18:30-20:00 h)"
             },
             {
                 "title": "Què passaria si a la biblioteca hi trobéssim una publicació de ciència-ficció publicada l'any 2126?",
@@ -921,7 +913,7 @@ const coursesData = [
     {
         "library_id": "36",
         "library_name": "Biblioteca Sant Gervasi - Joan Maragall",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de llengua alemanya",
@@ -938,10 +930,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dissabte 17 d'octubre (11:30-12:30 h) | Dissabte 14 de novembre (11:30-12:30 h) | Dissabte 12 de desembre (11:30-12:30 h)"
-            },
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 2 d'octubre (10:00-11:00 h) | Divendres 6 de novembre (10:00-11:00 h) | Divendres 4 de desembre (10:00-11:00 h) | Divendres 15 de gener (10:00-11:00 h) | Divendres 5 de febrer (10:00-11:00 h) | Divendres 5 de març (10:00-11:00 h) | Divendres 2 d'abril (10:00-11:00 h) | Divendres 7 de maig (10:00-11:00 h) | Divendres 4 de juny (10:00-11:00 h)"
             }
         ]
     },
@@ -998,7 +986,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 18,
+        "courses_found": 17,
         "courses": [
             {
                 "title": "Itineraris per Barcelona. Façanes amb història: un viatge per l'arquitectura del segle XX a la Dreta de l'Eixample",
@@ -1039,10 +1027,6 @@ const coursesData = [
             {
                 "title": "Obrador. Autobiografia, memòria i relats personals",
                 "date": "Dimecres 7 d'octubre (11:00-12:30 h) | Dimecres 21 d'octubre (11:00-12:30 h) | Dimecres 4 de novembre (11:00-12:30 h) | Dimecres 18 de novembre (11:00-12:30 h)"
-            },
-            {
-                "title": "Larquitectura del cervell com construïm els nostres records",
-                "date": "Divendres 2 d'octubre (11:00-12:30 h)"
             },
             {
                 "title": "Una finestra a la memòria",
@@ -1308,12 +1292,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
-                "date": "Divendres 2 d'octubre (1:00-1:00 h)"
-            },
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
                 "date": "Divendres 9 d'octubre (1:00-1:00 h)"
