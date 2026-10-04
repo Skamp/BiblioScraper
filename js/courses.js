@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-03T12:54:24.061502';
+const scrapeTimestamp = '2026-10-04T13:35:49.380588';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,15 +41,11 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 18,
+        "courses_found": 17,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
                 "date": "Dissabte 14 de novembre (10:00-13:00 h)"
-            },
-            {
-                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
-                "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -348,7 +344,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -369,25 +365,17 @@ const coursesData = [
             {
                 "title": "Llegim-les! Cartes literàries",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
-                "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
             }
         ]
     },
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura Internacional Barcelona-Medellín",
                 "date": "Dissabte 11 d'abril (18:00-19:30 h) | Dissabte 9 de maig (18:00-19:30 h) | Dissabte 13 de juny (18:00-19:30 h) | Dissabte 11 de juliol (18:00-19:30 h) | Dissabte 19 de setembre (18:00-19:30 h) | Dissabte 17 d'octubre (18:00-19:30 h) | Dissabte 14 de novembre (18:00-19:30 h)"
-            },
-            {
-                "title": "Sant Martí, barri a barri. La Verneda de Sant Martí: dels horts als blocs",
-                "date": "Dissabte 3 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "Club de lectura de literatura llatinoamericana del segle XXI",
@@ -668,15 +656,11 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 8,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. Descobrim els secrets del monestir de Pedralbes.",
                 "date": "Dimarts 6 d'octubre (18:00-20:00 h)"
-            },
-            {
-                "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Del món dels Güells al Barraquisme",
-                "date": "Dissabte 3 d'octubre (10:30-12:30 h)"
             },
             {
                 "title": "Club de lectura general.",
@@ -693,10 +677,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimarts 27 d'octubre (19:00-20:00 h) | Dimarts 24 de novembre (19:00-20:00 h) | Dimarts 26 de gener (19:00-20:00 h) | Dimarts 23 de febrer (19:00-20:00 h) | Dimarts 30 de març (19:00-20:00 h) | Dimarts 27 d'abril (19:00-20:00 h) | Dimarts 25 de maig (19:00-20:00 h)"
-            },
-            {
-                "title": "Taller: Del residu a la creació tèxtil",
-                "date": "Dissabte 3 d'octubre (11:00-12:30 h)"
             },
             {
                 "title": "Què passaria si a la biblioteca hi trobéssim una publicació de ciència-ficció publicada l'any 2126?",
