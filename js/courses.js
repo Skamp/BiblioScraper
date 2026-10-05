@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-04T13:35:49.380588';
+const scrapeTimestamp = '2026-10-05T16:39:48.197598';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,7 +41,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 17,
+        "courses_found": 19,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -110,6 +110,14 @@ const coursesData = [
             {
                 "title": "FM Taller de sargit",
                 "date": "Dissabte 17 d'octubre (10:30-12:30 h)"
+            },
+            {
+                "title": "FM Taller de Brodat infantil de tardor (+6 anys)",
+                "date": "Dissabte 31 d'octubre (11:30-13:00 h)"
+            },
+            {
+                "title": "Narració de contes del bressol a la lluna",
+                "date": "Dissabte 14 de novembre (12:00-13:00 h)"
             }
         ]
     },
@@ -986,7 +994,7 @@ const coursesData = [
             },
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 16 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
+                "date": "Divendres 9 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             },
             {
                 "title": "Envellir amb sentit: com sumar vida als anys",
