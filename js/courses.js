@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-05T16:39:48.197598';
+const scrapeTimestamp = '2026-10-06T14:37:31.172389';
 const coursesData = [
     {
         "library_id": "1",
@@ -352,7 +352,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -373,6 +373,18 @@ const coursesData = [
             {
                 "title": "Llegim-les! Cartes literàries",
                 "date": "Dijous 15 d'octubre (18:30-20:00 h) | Dijous 19 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
+                "date": "Dissabte 17 d'octubre (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dissabte 24 d'octubre (11:00-13:00 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Dissabte 31 d'octubre (11:00-13:00 h)"
             }
         ]
     },
