@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-07T14:57:28.438429';
+const scrapeTimestamp = '2026-10-08T15:06:22.549700';
 const coursesData = [
     {
         "library_id": "1",
@@ -158,7 +158,7 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura Biblionatura. Literatura de natura",
@@ -171,10 +171,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
                 "date": "Dimecres 14 d'octubre (17:30-19:30 h)"
-            },
-            {
-                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
-                "date": "Dimecres 7 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -599,7 +595,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Entorns de la Maternitat: rieres, masies salut i modernisme",
@@ -612,10 +608,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de literatura de viatges",
                 "date": "Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Visita a una biblioteca singular: El Centre Excursionista de Catalunya",
-                "date": "Dimecres 7 d'octubre (19:00-20:30 h)"
             },
             {
                 "title": "Obrador. Història familiar i genealogia. Viatge als teus orígens.",
@@ -970,7 +962,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 16,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -1003,10 +995,6 @@ const coursesData = [
             {
                 "title": "Booklife. Taller de biblioteràpia. Coratge",
                 "date": "Divendres 30 d'octubre (11:00-12:30 h)"
-            },
-            {
-                "title": "Obrador. Autobiografia, memòria i relats personals",
-                "date": "Dimecres 7 d'octubre (11:00-12:30 h) | Dimecres 21 d'octubre (11:00-12:30 h) | Dimecres 4 de novembre (11:00-12:30 h) | Dimecres 18 de novembre (11:00-12:30 h)"
             },
             {
                 "title": "Una finestra a la memòria",
@@ -1199,15 +1187,11 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Dimecres 18 de novembre (17:00-18:00 h) | Dijous 10 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
-            },
-            {
-                "title": "Taller de lectura (6 a 12 anys)",
-                "date": "Dimecres 14 d'octubre (17:00-18:00 h) | Dimecres 4 de novembre (17:00-18:00 h) | Dimecres 2 de desembre (17:00-18:00 h) | Dimecres 20 de gener (17:00-18:00 h) | Dimecres 3 de febrer (17:00-18:00 h) | Dimecres 3 de març (17:00-18:00 h) | Dimecres 7 d'abril (17:00-18:00 h) | Dimecres 5 de maig (17:00-18:00 h)"
             },
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
