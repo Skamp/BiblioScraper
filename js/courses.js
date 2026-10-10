@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-09T14:50:34.348542';
+const scrapeTimestamp = '2026-10-10T14:08:16.630304';
 const coursesData = [
     {
         "library_id": "1",
@@ -609,7 +609,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -622,10 +622,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
-                "date": "Divendres 9 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
@@ -799,7 +795,7 @@ const coursesData = [
     {
         "library_id": "5",
         "library_name": "Biblioteca Sagrada Família-Josep M. Ainaud de Lasa",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Taller de descoberta \"Les invisibles\". Jane Goodall i els ous irrompibles. (5 a 10 anys)",
@@ -832,10 +828,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de ciència",
                 "date": "Dimecres 21 d'octubre (18:30-19:30 h) | Dimecres 18 de novembre (18:30-19:30 h) | Dimecres 20 de gener (18:30-19:30 h) | Dimecres 17 de febrer (18:30-19:30 h) | Dimecres 17 de març (18:30-19:30 h) | Dimecres 21 d'abril (18:30-19:30 h) | Dimecres 19 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Obrador. Taller de relat curt en femení",
-                "date": "Divendres 9 d'octubre (18:30-20:00 h) | Divendres 16 d'octubre (18:30-20:00 h) | Divendres 23 d'octubre (18:30-20:00 h)"
             }
         ]
     },
@@ -1228,12 +1220,7 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 1,
-        "courses": [
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Divendres 9 d'octubre (1:00-1:00 h)"
-            }
-        ]
+        "courses_found": 0,
+        "courses": []
     }
 ];
