@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-10T14:08:16.630304';
+const scrapeTimestamp = '2026-10-11T14:31:55.302155';
 const coursesData = [
     {
         "library_id": "1",
@@ -158,12 +158,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura Biblionatura. Literatura de natura",
-                "date": "Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 16 de gener (11:00-13:00 h) | Dissabte 13 de febrer (11:00-13:00 h) | Dissabte 13 de març (11:00-13:00 h) | Dissabte 10 d'abril (11:00-13:00 h) | Dissabte 8 de maig (11:00-13:00 h)"
-            },
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 31 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
@@ -575,12 +571,8 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Cicle de Conèixer Les Corts. Itinerari per a adults. Entorns de la Maternitat: rieres, masies salut i modernisme",
-                "date": "Dissabte 10 d'octubre (10:30-12:30 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dilluns 5 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 14 de desembre (18:30-20:00 h) | Dilluns 1 de febrer (18:30-20:00 h) | Dilluns 1 de març (18:30-20:00 h) | Dilluns 5 d'abril (18:30-20:00 h) | Dilluns 3 de maig (18:30-20:00 h)"
