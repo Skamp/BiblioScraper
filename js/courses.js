@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-12T17:11:30.038688';
+const scrapeTimestamp = '2026-10-13T15:27:44.146528';
 const coursesData = [
     {
         "library_id": "1",
@@ -1158,10 +1158,6 @@ const coursesData = [
                 "date": "Dimecres 18 de novembre (17:00-18:00 h) | Dijous 10 de desembre (17:00-18:00 h) | Dimecres 13 de gener (17:00-18:00 h) | Dijous 18 de febrer (17:00-18:00 h) | Dimecres 10 de març (17:00-18:00 h) | Dijous 15 d'abril (17:00-18:00 h)"
             },
             {
-                "title": "Club de lectura puntual: Negra i criminal.",
-                "date": "Divendres 9 d'octubre (18:30-20:00 h) | Divendres 13 de novembre (18:30-20:00 h) | Divendres 11 de desembre (18:30-20:00 h)"
-            },
-            {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 9 de setembre (16:00-17:00 h) | Dimecres 16 de setembre (16:00-17:00 h) | Dimecres 23 de setembre (16:00-17:00 h) | Dimecres 30 de setembre (16:00-17:00 h) | Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
             },
@@ -1200,6 +1196,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
                 "date": "Dijous 17 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Club de lectura puntual: Negra i criminal.",
+                "date": "Divendres 23 d'octubre (18:30-20:00 h) | Divendres 13 de novembre (18:30-20:00 h) | Divendres 11 de desembre (18:30-20:00 h)"
             }
         ]
     },
@@ -1212,7 +1212,20 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 0,
-        "courses": []
+        "courses_found": 3,
+        "courses": [
+            {
+                "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
+                "date": "Divendres 16 d'octubre (1:00-1:00 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Divendres 23 d'octubre (1:00-1:00 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Divendres 30 d'octubre (1:00-1:00 h)"
+            }
+        ]
     }
 ];
