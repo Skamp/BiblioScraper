@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-14T13:12:56.914564';
+const scrapeTimestamp = '2026-10-15T12:59:24.203749';
 const coursesData = [
     {
         "library_id": "1",
@@ -158,15 +158,11 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres (8 a 10 anys)",
                 "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 31 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Dimecres 14 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -719,7 +715,7 @@ const coursesData = [
             },
             {
                 "title": "Lletra petita  Llibres a escena. Contes amb corona: Romeu i Julieta (+4 anys)",
-                "date": "Dissabte 14 de novembre (17:30-18:30 h)"
+                "date": "Dissabte 14 de novembre (12:00-13:00 h)"
             }
         ]
     },
@@ -904,12 +900,8 @@ const coursesData = [
     {
         "library_id": "3",
         "library_name": "Biblioteca Sant Pau-Santa Creu",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
-            {
-                "title": "Club de lectura puntual.  T'atreveixes amb 'El castell', de Franz Kafka?",
-                "date": "Dijous 9 de juliol (18:30-20:00 h) | Dijous 17 de setembre (18:30-20:00 h) | Dijous 15 d'octubre (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:00-19:30 h) | Dimecres 11 de novembre (18:00-19:30 h) | Dimecres 9 de desembre (18:00-19:30 h) | Dimecres 10 de febrer (18:00-19:30 h) | Dimecres 10 de març (18:00-19:30 h) | Dimecres 14 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
@@ -997,10 +989,6 @@ const coursesData = [
                 "date": "Dimarts 27 d'octubre (11:00-12:30 h)"
             },
             {
-                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
-                "date": "Dimecres 14 d'octubre (17:30-19:30 h)"
-            },
-            {
                 "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
                 "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
             },
@@ -1015,6 +1003,10 @@ const coursesData = [
             {
                 "title": "Setmana de l'Àlbum. Llibres instantanis (+6 anys).",
                 "date": "Divendres 6 de novembre (17:30-19:00 h)"
+            },
+            {
+                "title": "Club de lectura de llengua catalana (nivell bàsic)",
+                "date": "Divendres 30 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             }
         ]
     },
