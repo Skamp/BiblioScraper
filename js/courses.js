@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-16T12:54:41.339296';
+const scrapeTimestamp = '2026-10-17T11:53:52.882453';
 const coursesData = [
     {
         "library_id": "1",
@@ -729,7 +729,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Sant Martí, barri a barri. El Poblenou: el Manchester català",
@@ -738,10 +738,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura jove.",
-                "date": "Divendres 16 d'octubre (18:00-19:30 h) | Divendres 13 de novembre (18:00-19:30 h) | Divendres 15 de gener (18:00-19:30 h) | Divendres 19 de febrer (18:00-19:30 h) | Divendres 19 de març (18:00-19:30 h) | Divendres 16 d'abril (18:00-19:30 h) | Divendres 14 de maig (18:00-19:30 h)"
             },
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1204,12 +1200,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
-            {
-                "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
-                "date": "Divendres 16 d'octubre (1:00-1:00 h)"
-            },
             {
                 "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
                 "date": "Divendres 23 d'octubre (1:00-1:00 h)"
