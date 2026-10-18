@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-17T11:53:52.882453';
+const scrapeTimestamp = '2026-10-18T12:20:21.054238';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,7 +37,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 20,
+        "courses_found": 18,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -62,10 +62,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
-                "date": "Dissabte 17 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "Taller de joguines dOrigami (+6 anys)",
@@ -102,10 +98,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
                 "date": "Dissabte 19 de desembre (11:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller de sargit",
-                "date": "Dissabte 17 d'octubre (10:30-13:30 h)"
             },
             {
                 "title": "FM Taller de Brodat infantil de tardor (+6 anys)",
@@ -312,7 +304,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura Assaig feminista 2026-2027",
@@ -321,10 +313,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
-                "date": "Dissabte 17 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
@@ -517,7 +505,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -534,10 +522,6 @@ const coursesData = [
             {
                 "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
-                "date": "Dissabte 17 d'octubre (10:00-12:00 h)"
             }
         ]
     },
@@ -729,12 +713,8 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
-            {
-                "title": "Sant Martí, barri a barri. El Poblenou: el Manchester català",
-                "date": "Dissabte 17 d'octubre (10:00-13:00 h)"
-            },
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
