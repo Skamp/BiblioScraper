@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-18T12:20:21.054238';
+const scrapeTimestamp = '2026-10-19T15:11:58.609562';
 const coursesData = [
     {
         "library_id": "1",
@@ -466,7 +466,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura infantil. Còmic debat",
@@ -495,10 +495,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Literatura italiana",
                 "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Repit Repit: formes de la Fuster (+12 anys)",
-                "date": "Diumenge 18 d'octubre (10:00-14:00 h)"
             }
         ]
     },
@@ -600,7 +596,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 6,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -625,6 +621,18 @@ const coursesData = [
             {
                 "title": "Club Maker",
                 "date": "Dimecres 16 de setembre (17:30-19:30 h) | Dimecres 23 de setembre (17:30-19:30 h) | Dimecres 30 de setembre (17:30-19:30 h) | Dimecres 7 d'octubre (17:30-19:30 h) | Dimecres 14 d'octubre (17:30-19:30 h) | Dimecres 21 d'octubre (17:30-19:30 h) | Dimecres 28 d'octubre (17:30-19:30 h) | Dimecres 4 de novembre (17:30-19:30 h) | Dimecres 11 de novembre (17:30-19:30 h) | Dimecres 18 de novembre (17:30-19:30 h) | Dimecres 25 de novembre (17:30-19:30 h) | Dimecres 2 de desembre (17:30-19:30 h) | Dimecres 9 de desembre (17:30-19:30 h) | Dimecres 16 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Poderoses: espai col·lectiu de brodat i lluita",
+                "date": "Dimarts 24 de novembre (18:30-20:30 h)"
+            },
+            {
+                "title": "Jugar amb la ciència-ficció. Joc: IA puzzle espacial (+8 anys)",
+                "date": "Divendres 30 d'octubre (17:30-20:30 h)"
+            },
+            {
+                "title": "Jugar amb la ciència-ficció. Joc: IA puzzle espacial (adults)",
+                "date": "Divendres 30 d'octubre (16:30-16:30 h)"
             }
         ]
     },
@@ -875,7 +883,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. Tres mirades, una llengua: Arderiu, Bonet i Foix.",
@@ -900,6 +908,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "Sarrià en els temps de J.V. Foix",
+                "date": "Dissabte 7 de novembre (11:30-13:00 h)"
             }
         ]
     },
