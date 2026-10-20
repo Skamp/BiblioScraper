@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-19T15:11:58.609562';
+const scrapeTimestamp = '2026-10-20T13:11:04.126284';
 const coursesData = [
     {
         "library_id": "1",
@@ -307,10 +307,6 @@ const coursesData = [
         "courses_found": 8,
         "courses": [
             {
-                "title": "Club de lectura Assaig feminista 2026-2027",
-                "date": "Dimecres 21 d'octubre (18:00-19:30 h) | Dimecres 18 de novembre (18:00-19:30 h) | Dimecres 20 de gener (18:00-19:30 h) | Dimecres 17 de febrer (18:00-19:30 h) | Dimecres 17 de març (18:00-19:30 h) | Dimecres 21 d'abril (18:00-19:30 h) | Dimecres 12 de maig (18:00-19:30 h)"
-            },
-            {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
             },
@@ -337,6 +333,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Dissabte 28 de novembre (11:00-13:00 h)"
+            },
+            {
+                "title": "Poderoses: espai col·lectiu de brodat i lluita (2a edició)",
+                "date": "Dilluns 23 de novembre (18:00-20:00 h)"
             }
         ]
     },
@@ -543,7 +543,7 @@ const coursesData = [
     {
         "library_id": "10",
         "library_name": "Biblioteca Les Corts-Miquel Llongueras",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -552,10 +552,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de literatura de viatges",
                 "date": "Dijous 19 de novembre (18:30-20:00 h) | Dijous 17 de desembre (18:30-20:00 h) | Dijous 21 de gener (18:30-20:00 h) | Dijous 18 de febrer (18:30-20:00 h) | Dijous 18 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 20 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Obrador. Història familiar i genealogia. Viatge als teus orígens.",
-                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 26 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 23 de novembre (18:30-20:00 h)"
             }
         ]
     },
@@ -596,7 +592,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 9,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -613,6 +609,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimarts 27 d'octubre (19:00-20:00 h) | Dimarts 24 de novembre (19:00-20:00 h) | Dimarts 26 de gener (19:00-20:00 h) | Dimarts 23 de febrer (19:00-20:00 h) | Dimarts 30 de març (19:00-20:00 h) | Dimarts 27 d'abril (19:00-20:00 h) | Dimarts 25 de maig (19:00-20:00 h)"
+            },
+            {
+                "title": "Taller d'animació STOP MOTION",
+                "date": "Divendres 27 de novembre (17:30-18:00 h)"
             },
             {
                 "title": "Què passaria si a la biblioteca hi trobéssim una publicació de ciència-ficció publicada l'any 2126?",
@@ -883,7 +883,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 7,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. Tres mirades, una llengua: Arderiu, Bonet i Foix.",
@@ -912,6 +912,14 @@ const coursesData = [
             {
                 "title": "Sarrià en els temps de J.V. Foix",
                 "date": "Dissabte 7 de novembre (11:30-13:00 h)"
+            },
+            {
+                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
+                "date": "Dimecres 18 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Dimecres 25 de novembre (17:30-19:30 h)"
             }
         ]
     },
@@ -966,7 +974,7 @@ const coursesData = [
             },
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Dimecres 11 de novembre (17:30-19:30 h)"
+                "date": "Dimecres 18 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
