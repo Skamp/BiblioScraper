@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-23T12:59:37.860421';
+const scrapeTimestamp = '2026-10-24T12:23:02.740142';
 const coursesData = [
     {
         "library_id": "1",
@@ -593,7 +593,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -606,10 +606,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
-                "date": "Divendres 23 d'octubre (17:30-19:30 h)"
             }
         ]
     },
@@ -1216,12 +1212,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
-                "date": "Divendres 23 d'octubre (1:00-1:00 h)"
-            },
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
                 "date": "Divendres 30 d'octubre (1:00-1:00 h)"
