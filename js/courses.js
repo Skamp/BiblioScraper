@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-24T12:23:02.740142';
+const scrapeTimestamp = '2026-10-25T12:53:21.140804';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,7 +41,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 18,
+        "courses_found": 17,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -70,10 +70,6 @@ const coursesData = [
             {
                 "title": "Taller de joguines dOrigami (+6 anys)",
                 "date": "Dimarts 3 de novembre (17:30-19:00 h)"
-            },
-            {
-                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
-                "date": "Dissabte 24 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
@@ -300,15 +296,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Dissabte 24 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
@@ -505,7 +497,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -522,10 +514,6 @@ const coursesData = [
             {
                 "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
-                "date": "Dissabte 24 d'octubre (10:00-12:00 h)"
             },
             {
                 "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
