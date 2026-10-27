@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-26T14:43:18.590392';
+const scrapeTimestamp = '2026-10-27T13:49:58.064554';
 const coursesData = [
     {
         "library_id": "1",
@@ -220,7 +220,7 @@ const coursesData = [
             },
             {
                 "title": "Passem a lacció: lassaig general",
-                "date": "Divendres 20 de novembre (9:30-11:00 h)"
+                "date": "Divendres 20 de novembre (10:00-12:00 h)"
             },
             {
                 "title": "Els reptes de ledició independent",
@@ -536,7 +536,7 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -549,6 +549,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 7 d'octubre (18:30-19:30 h) | Dimecres 4 de novembre (18:30-19:30 h) | Dimecres 2 de desembre (18:30-19:30 h) | Dimecres 13 de gener (18:30-19:30 h) | Dimecres 3 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h) | Dimecres 2 de juny (18:30-19:30 h)"
+            },
+            {
+                "title": "Taller de creació sonora. Sonoritzar un còmic.",
+                "date": "Dissabte 21 de novembre (11:00-13:00 h)"
             }
         ]
     },
@@ -581,7 +585,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 3,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -594,6 +598,14 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
+                "date": "Divendres 30 d'octubre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
+                "date": "Divendres 6 de novembre (17:30-19:30 h)"
             }
         ]
     },
