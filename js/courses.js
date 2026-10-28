@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-27T13:49:58.064554';
+const scrapeTimestamp = '2026-10-28T14:44:21.649476';
 const coursesData = [
     {
         "library_id": "1",
@@ -737,7 +737,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -758,10 +758,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Divendres 2 d'octubre (17:30-18:30 h) | Divendres 6 de novembre (17:30-18:30 h) | Divendres 8 de gener (17:30-18:30 h) | Divendres 5 de febrer (17:30-18:30 h) | Divendres 5 de març (17:30-18:30 h) | Divendres 2 d'abril (17:30-18:30 h) | Divendres 7 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
-                "date": "Dimarts 27 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
@@ -985,10 +981,6 @@ const coursesData = [
                 "date": "Divendres 27 de novembre (11:00-12:30 h)"
             },
             {
-                "title": "Visita a lArxiu Municipal del Districte de lEixample",
-                "date": "Dimarts 27 d'octubre (11:00-12:30 h)"
-            },
-            {
                 "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
                 "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
             },
@@ -1007,6 +999,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 30 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
+            },
+            {
+                "title": "Lletra petita. Llibres a escena. El cargol i lherba de poniol",
+                "date": "Dijous 17 de desembre (17:30-18:30 h)"
             }
         ]
     },
@@ -1047,7 +1043,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1060,10 +1056,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 21 d'octubre (19:00-20:30 h) | Dimecres 18 de novembre (19:00-20:30 h) | Dimecres 20 de gener (19:00-20:30 h) | Dimecres 17 de febrer (19:00-20:30 h) | Dimecres 17 de març (19:00-20:30 h) | Dimecres 21 d'abril (19:00-20:30 h) | Dimecres 19 de maig (19:00-20:30 h)"
-            },
-            {
-                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
-                "date": "Dimarts 27 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
