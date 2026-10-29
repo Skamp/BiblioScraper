@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-28T14:44:21.649476';
+const scrapeTimestamp = '2026-10-29T14:51:03.037035';
 const coursesData = [
     {
         "library_id": "1",
@@ -150,13 +150,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 1,
-        "courses": [
-            {
-                "title": "Atreveix-te amb els llibres (8 a 10 anys)",
-                "date": "Dimecres 28 d'octubre (18:00-19:00 h) | Dimecres 25 de novembre (18:00-19:00 h) | Dimecres 27 de gener (18:00-19:00 h) | Dimecres 24 de febrer (18:00-19:00 h) | Dimecres 31 de març (18:00-19:00 h) | Dimecres 28 d'abril (18:00-19:00 h) | Dimecres 26 de maig (18:00-19:00 h)"
-            }
-        ]
+        "courses_found": 0,
+        "courses": []
     },
     {
         "library_id": "13",
@@ -196,7 +191,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -213,10 +208,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura Llegim el Museu",
-                "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Passem a lacció: lassaig general",
@@ -899,7 +890,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. Tres mirades, una llengua: Arderiu, Bonet i Foix.",
@@ -916,10 +907,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "Sarrià en els temps de J.V. Foix",
@@ -942,7 +929,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 15,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -979,10 +966,6 @@ const coursesData = [
             {
                 "title": "Una finestra a la memòria",
                 "date": "Divendres 27 de novembre (11:00-12:30 h)"
-            },
-            {
-                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
-                "date": "Dimecres 28 d'octubre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
