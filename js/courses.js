@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-29T14:51:03.037035';
+const scrapeTimestamp = '2026-10-30T14:44:11.473620';
 const coursesData = [
     {
         "library_id": "1",
@@ -650,7 +650,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mitjà)",
@@ -691,10 +691,6 @@ const coursesData = [
             {
                 "title": "Llibres a escena. Sac de Rondalles. Un concert de pel.lícula (+4 anys)",
                 "date": "Dimecres 25 de novembre (17:30-18:30 h)"
-            },
-            {
-                "title": "Lletra petita. El racó dels pares. Sessió de música en família (1 a 3 anys)",
-                "date": "Dijous 29 d'octubre (11:00-12:00 h)"
             },
             {
                 "title": "Lletra petita. El racó dels pares. Sessió de música en família (1 a 3 anys)",
@@ -929,7 +925,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -946,10 +942,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 9 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
-            },
-            {
-                "title": "Envellir amb sentit: com sumar vida als anys",
-                "date": "Dijous 29 d'octubre (18:30-20:00 h)"
             },
             {
                 "title": "Tintin i el seu creador Hergé",
@@ -1145,10 +1137,6 @@ const coursesData = [
                 "date": "Dimecres 9 de setembre (16:00-17:00 h) | Dimecres 16 de setembre (16:00-17:00 h) | Dimecres 23 de setembre (16:00-17:00 h) | Dimecres 30 de setembre (16:00-17:00 h) | Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
             },
             {
-                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
-                "date": "Dijous 29 d'octubre (17:30-19:30 h)"
-            },
-            {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Dijous 5 de novembre (17:30-19:30 h)"
             },
@@ -1175,6 +1163,10 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Divendres 23 d'octubre (18:30-20:00 h) | Divendres 13 de novembre (18:30-20:00 h) | Divendres 11 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Relats Brodats",
+                "date": "Dilluns 9 de novembre (16:00-16:00 h)"
             }
         ]
     },
@@ -1187,7 +1179,7 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
@@ -1216,6 +1208,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
                 "date": "Divendres 11 de desembre (1:00-1:00 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Divendres 18 de desembre (1:00-1:00 h)"
             }
         ]
     }
