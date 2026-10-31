@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-30T14:44:11.473620';
+const scrapeTimestamp = '2026-10-31T14:07:31.339320';
 const coursesData = [
     {
         "library_id": "1",
@@ -576,7 +576,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -591,10 +591,6 @@ const coursesData = [
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             },
             {
-                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
-                "date": "Divendres 30 d'octubre (17:30-19:30 h)"
-            },
-            {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
                 "date": "Divendres 6 de novembre (17:30-19:30 h)"
             }
@@ -603,7 +599,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 10,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -636,14 +632,6 @@ const coursesData = [
             {
                 "title": "Poderoses: espai col·lectiu de brodat i lluita",
                 "date": "Dimarts 24 de novembre (18:30-20:30 h)"
-            },
-            {
-                "title": "Jugar amb la ciència-ficció. Joc: IA puzzle espacial (+8 anys)",
-                "date": "Divendres 30 d'octubre (17:30-20:30 h)"
-            },
-            {
-                "title": "Jugar amb la ciència-ficció. Joc: IA puzzle espacial (adults)",
-                "date": "Divendres 30 d'octubre (16:30-16:30 h)"
             }
         ]
     },
@@ -925,7 +913,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 13,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -952,10 +940,6 @@ const coursesData = [
                 "date": "Divendres 20 de novembre (11:00-12:30 h)"
             },
             {
-                "title": "Booklife. Taller de biblioteràpia. Coratge",
-                "date": "Divendres 30 d'octubre (11:00-12:30 h)"
-            },
-            {
                 "title": "Una finestra a la memòria",
                 "date": "Divendres 27 de novembre (11:00-12:30 h)"
             },
@@ -970,10 +954,6 @@ const coursesData = [
             {
                 "title": "Setmana de l'Àlbum 2026. Llibres instantanis (+6 anys).",
                 "date": "Divendres 6 de novembre (17:30-19:00 h)"
-            },
-            {
-                "title": "Club de lectura de llengua catalana (nivell bàsic)",
-                "date": "Divendres 30 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             },
             {
                 "title": "Lletra petita. Llibres a escena. El cargol i lherba de poniol",
@@ -1179,12 +1159,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
-            {
-                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Divendres 30 d'octubre (1:00-1:00 h)"
-            },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Divendres 6 de novembre (1:00-1:00 h)"
