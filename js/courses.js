@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-10-31T14:07:31.339320';
+const scrapeTimestamp = '2026-11-01T14:38:54.607188';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,7 +41,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 17,
+        "courses_found": 15,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -72,10 +72,6 @@ const coursesData = [
                 "date": "Dimarts 3 de novembre (17:30-19:00 h)"
             },
             {
-                "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
-                "date": "Dissabte 31 d'octubre (11:00-13:00 h)"
-            },
-            {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
                 "date": "Dissabte 7 de novembre (11:00-13:00 h)"
             },
@@ -98,10 +94,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
                 "date": "Dissabte 19 de desembre (11:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller de Brodat infantil de tardor (+6 anys)",
-                "date": "Dissabte 31 d'octubre (11:30-13:00 h)"
             },
             {
                 "title": "Narració de contes del bressol a la lluna",
@@ -287,15 +279,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Dissabte 31 d'octubre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
