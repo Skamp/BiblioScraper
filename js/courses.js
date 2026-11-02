@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-01T14:38:54.607188';
+const scrapeTimestamp = '2026-11-02T17:37:42.585704';
 const coursesData = [
     {
         "library_id": "1",
@@ -148,7 +148,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -177,6 +177,10 @@ const coursesData = [
             {
                 "title": "Setmana de l'Àlbum 2026. La festa d'en Grill: una col·lecció de grills (De 4 a 8 anys).",
                 "date": "Dilluns 9 de novembre (17:30-19:00 h)"
+            },
+            {
+                "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
+                "date": "Dijous 5 de novembre (17:30-19:00 h) | Dijous 12 de novembre (17:30-19:00 h) | Dijous 19 de novembre (17:30-19:00 h)"
             }
         ]
     },
@@ -364,7 +368,7 @@ const coursesData = [
     {
         "library_id": "14",
         "library_name": "Biblioteca Guinardó-Mercè Rodoreda",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura de poesia",
@@ -381,10 +385,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Resistir barbàries, construir humanitat",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 28 d'octubre (18:00-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Obrim per obres: quan la biblioteca tanca i nosaltres continuem dins",
-                "date": "Dilluns 19 d'octubre (18:30-20:30 h) | Dilluns 26 d'octubre (18:30-20:30 h) | Dilluns 2 de novembre (18:30-20:30 h)"
             }
         ]
     },
