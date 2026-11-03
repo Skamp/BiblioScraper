@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-02T17:37:42.585704';
+const scrapeTimestamp = '2026-11-03T15:40:12.884443';
 const coursesData = [
     {
         "library_id": "1",
@@ -142,8 +142,29 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 0,
-        "courses": []
+        "courses_found": 5,
+        "courses": [
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Dimecres 4 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
+                "date": "Dimecres 11 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
+                "date": "Dimecres 18 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
+                "date": "Dimecres 2 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
+                "date": "Dimecres 9 de desembre (17:30-19:30 h)"
+            }
+        ]
     },
     {
         "library_id": "13",
@@ -564,7 +585,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 4,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -581,6 +602,18 @@ const coursesData = [
             {
                 "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
                 "date": "Divendres 6 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
+                "date": "Divendres 13 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
+                "date": "Divendres 20 de novembre (17:30-19:30 h)"
+            },
+            {
+                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
+                "date": "Divendres 27 de novembre (17:30-19:30 h)"
             }
         ]
     },
@@ -1071,7 +1104,7 @@ const coursesData = [
     {
         "library_id": "23",
         "library_name": "Biblioteca Xavier Benguerel",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -1088,13 +1121,17 @@ const coursesData = [
             {
                 "title": "Taller Catalunya Abstracta: Tires còmiques amb Zoòtrop (+ 7 anys).",
                 "date": "Dijous 26 de novembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Sant Martí, barri a barri. La Vila Olímpica: quan Barcelona es va trobar amb la mar",
+                "date": "Dissabte 28 de novembre (10:00-12:00 h)"
             }
         ]
     },
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1103,6 +1140,10 @@ const coursesData = [
             {
                 "title": "Club de lectura fàcil en castellà",
                 "date": "Dimecres 9 de setembre (16:00-17:00 h) | Dimecres 16 de setembre (16:00-17:00 h) | Dimecres 23 de setembre (16:00-17:00 h) | Dimecres 30 de setembre (16:00-17:00 h) | Dimecres 7 d'octubre (16:00-17:00 h) | Dimecres 14 d'octubre (16:00-17:00 h) | Dimecres 21 d'octubre (16:00-17:00 h) | Dimecres 28 d'octubre (16:00-17:00 h) | Dimecres 4 de novembre (16:00-17:00 h) | Dimecres 11 de novembre (16:00-17:00 h) | Dimecres 18 de novembre (16:00-17:00 h) | Dimecres 25 de novembre (16:00-17:00 h) | Dimecres 2 de desembre (16:00-17:00 h) | Dimecres 9 de desembre (16:00-17:00 h) | Dimecres 16 de desembre (16:00-17:00 h) | Dimecres 23 de desembre (16:00-17:00 h) | Dimecres 30 de desembre (16:00-17:00 h) | Dimecres 13 de gener (16:00-17:00 h) | Dimecres 20 de gener (16:00-17:00 h) | Dimecres 27 de gener (16:00-17:00 h) | Dimecres 3 de febrer (16:00-17:00 h) | Dimecres 10 de febrer (16:00-17:00 h) | Dimecres 17 de febrer (16:00-17:00 h) | Dimecres 24 de febrer (16:00-17:00 h) | Dimecres 3 de març (16:00-17:00 h) | Dimecres 10 de març (16:00-17:00 h) | Dimecres 17 de març (16:00-17:00 h) | Dimecres 24 de març (16:00-17:00 h) | Dimecres 31 de març (16:00-17:00 h) | Dimecres 7 d'abril (16:00-17:00 h) | Dimecres 14 d'abril (16:00-17:00 h) | Dimecres 21 d'abril (16:00-17:00 h) | Dimecres 28 d'abril (16:00-17:00 h) | Dimecres 5 de maig (16:00-17:00 h) | Dimecres 12 de maig (16:00-17:00 h) | Dimecres 19 de maig (16:00-17:00 h) | Dimecres 26 de maig (16:00-17:00 h) | Dimecres 2 de juny (16:00-17:00 h) | Dimecres 9 de juny (16:00-17:00 h) | Dimecres 16 de juny (16:00-17:00 h)"
+            },
+            {
+                "title": "Espai Gent gran",
+                "date": "Dilluns 7 de setembre (18:00-19:00 h) | Dilluns 14 de setembre (18:00-19:00 h) | Dilluns 21 de setembre (18:00-19:00 h) | Dilluns 28 de setembre (18:00-19:00 h) | Dilluns 5 d'octubre (18:00-19:00 h) | Dilluns 19 d'octubre (18:00-19:00 h) | Dilluns 26 d'octubre (18:00-19:00 h) | Dilluns 2 de novembre (18:00-19:00 h) | Dilluns 9 de novembre (18:00-19:00 h) | Dilluns 16 de novembre (18:00-19:00 h) | Dilluns 23 de novembre (18:00-19:00 h) | Dilluns 30 de novembre (18:00-19:00 h) | Dilluns 14 de desembre (18:00-19:00 h) | Dilluns 11 de gener (18:00-19:00 h) | Dilluns 18 de gener (18:00-19:00 h) | Dilluns 25 de gener (18:00-19:00 h) | Dilluns 1 de febrer (18:00-19:00 h) | Dilluns 8 de febrer (18:00-19:00 h) | Dilluns 15 de febrer (18:00-19:00 h) | Dilluns 22 de febrer (18:00-19:00 h) | Dilluns 1 de març (18:00-19:00 h) | Dilluns 8 de març (18:00-19:00 h) | Dilluns 15 de març (18:00-19:00 h) | Dilluns 5 d'abril (18:00-19:00 h) | Dilluns 12 d'abril (18:00-19:00 h) | Dilluns 19 d'abril (18:00-19:00 h) | Dilluns 26 d'abril (18:00-19:00 h) | Dilluns 3 de maig (18:00-19:00 h) | Dilluns 10 de maig (18:00-19:00 h) | Dilluns 17 de maig (18:00-19:00 h) | Dilluns 24 de maig (18:00-19:00 h) | Dilluns 31 de maig (18:00-19:00 h) | Dilluns 7 de juny (18:00-19:00 h) | Dilluns 14 de juny (18:00-19:00 h) | Dilluns 28 de juny (18:00-19:00 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
