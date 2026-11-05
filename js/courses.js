@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-04T15:53:33.972587';
+const scrapeTimestamp = '2026-11-05T15:58:45.828895';
 const coursesData = [
     {
         "library_id": "1",
@@ -138,12 +138,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Dimecres 4 de novembre (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
                 "date": "Dimecres 11 de novembre (17:30-19:30 h)"
@@ -640,7 +636,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -661,10 +657,6 @@ const coursesData = [
             {
                 "title": "Taller Catalunya Abstracta:animació STOP MOTION (De 8 a 12 anys).",
                 "date": "Divendres 27 de novembre (17:30-19:00 h)"
-            },
-            {
-                "title": "Què passaria si a la biblioteca hi trobéssim una publicació de ciència-ficció publicada l'any 2126?",
-                "date": "Dimecres 4 de novembre (18:00-19:30 h)"
             },
             {
                 "title": "Club Maker",
@@ -1001,15 +993,11 @@ const coursesData = [
     {
         "library_id": "33",
         "library_name": "Biblioteca Trinitat Vella - J. Barbero",
-        "courses_found": 2,
+        "courses_found": 1,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 7 d'octubre (18:30-20:00 h) | Dimecres 4 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 3 de febrer (18:30-20:00 h) | Dimecres 3 de març (18:30-20:00 h) | Dimecres 7 d'abril (18:30-20:00 h) | Dimecres 5 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Atreveix-te amb els llibres. Club de lectura infantil",
-                "date": "Dimecres 4 de novembre (17:30-18:30 h) | Dimecres 9 de desembre (17:30-18:30 h) | Dimecres 13 de gener (17:30-18:30 h) | Dimecres 3 de febrer (17:30-18:30 h) | Dimecres 3 de març (17:30-18:30 h) | Dimecres 7 d'abril (17:30-18:30 h) | Dimecres 12 de maig (17:30-18:30 h)"
             }
         ]
     },
@@ -1136,7 +1124,7 @@ const coursesData = [
             },
             {
                 "title": "Sant Martí, barri a barri. La Vila Olímpica: quan Barcelona es va trobar amb la mar",
-                "date": "Dissabte 28 de novembre (10:00-12:00 h)"
+                "date": "Dissabte 28 de novembre (10:00-13:00 h)"
             }
         ]
     },
