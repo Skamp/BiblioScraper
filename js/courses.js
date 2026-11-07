@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-06T15:31:03.301483';
+const scrapeTimestamp = '2026-11-07T14:33:04.039513';
 const coursesData = [
     {
         "library_id": "1",
@@ -593,7 +593,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -606,10 +606,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Divendres 6 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
@@ -938,7 +934,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 11,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. Música i literatura",
@@ -957,10 +953,6 @@ const coursesData = [
                 "date": "Divendres 9 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
             },
             {
-                "title": "Tintin i el seu creador Hergé",
-                "date": "Divendres 6 de novembre (11:00-12:30 h)"
-            },
-            {
                 "title": "Booklife. Taller de biblioteràpia. Desamor",
                 "date": "Divendres 20 de novembre (11:00-12:30 h)"
             },
@@ -975,10 +967,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
                 "date": "Dimecres 25 de novembre (17:30-19:30 h)"
-            },
-            {
-                "title": "Setmana de l'Àlbum 2026. Llibres instantanis (+6 anys).",
-                "date": "Divendres 6 de novembre (17:30-19:00 h)"
             },
             {
                 "title": "Lletra petita. Llibres a escena. El cargol i lherba de poniol",
@@ -1180,12 +1168,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
-            {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Divendres 6 de novembre (17:00-19:00 h)"
-            },
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
                 "date": "Divendres 13 de novembre (17:00-19:00 h)"
