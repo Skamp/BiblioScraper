@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-07T14:33:04.039513';
+const scrapeTimestamp = '2026-11-08T14:40:35.552836';
 const coursesData = [
     {
         "library_id": "1",
@@ -41,7 +41,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -66,10 +66,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Dissabte 7 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -312,15 +308,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
-                "date": "Dissabte 7 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
@@ -505,7 +497,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -522,10 +514,6 @@ const coursesData = [
             {
                 "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
-                "date": "Dissabte 7 de novembre (10:00-12:00 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -895,7 +883,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. Tres mirades, una llengua: Arderiu, Bonet i Foix.",
@@ -912,10 +900,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Sarrià en els temps de J.V. Foix",
-                "date": "Dissabte 7 de novembre (11:30-13:00 h)"
             },
             {
                 "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
