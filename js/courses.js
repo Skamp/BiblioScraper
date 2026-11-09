@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-08T14:40:35.552836';
+const scrapeTimestamp = '2026-11-09T18:03:22.884064';
 const coursesData = [
     {
         "library_id": "1",
@@ -620,7 +620,7 @@ const coursesData = [
     {
         "library_id": "43",
         "library_name": "Biblioteca Montserrat Abelló",
-        "courses_found": 7,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -640,7 +640,7 @@ const coursesData = [
             },
             {
                 "title": "Taller Catalunya Abstracta:animació STOP MOTION (De 8 a 12 anys).",
-                "date": "Divendres 27 de novembre (17:30-19:00 h)"
+                "date": "Dijous 3 de desembre (17:30-19:00 h)"
             },
             {
                 "title": "Club Maker",
@@ -649,6 +649,14 @@ const coursesData = [
             {
                 "title": "Poderoses: espai col·lectiu de brodat i lluita",
                 "date": "Dimarts 24 de novembre (18:30-20:30 h)"
+            },
+            {
+                "title": "Jugar amb la ciència ficció. Sessió 2 : el joc \"Neotopia\" (+8 anys)",
+                "date": "Divendres 4 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Jugar amb la ciència ficció. Sessió 3: el joc CloudAge (+10 anys)",
+                "date": "Divendres 18 de desembre (17:30-19:30 h)"
             }
         ]
     },
@@ -1088,7 +1096,7 @@ const coursesData = [
             },
             {
                 "title": "Taller Catalunya Abstracta: Tires còmiques amb Zoòtrop (+ 7 anys).",
-                "date": "Dijous 26 de novembre (18:30-20:00 h)"
+                "date": "Dijous 26 de novembre (17:30-19:00 h)"
             },
             {
                 "title": "Sant Martí, barri a barri. La Vila Olímpica: quan Barcelona es va trobar amb la mar",
