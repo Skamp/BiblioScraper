@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-09T18:03:22.884064';
+const scrapeTimestamp = '2026-11-10T15:58:38.742293';
 const coursesData = [
     {
         "library_id": "1",
@@ -157,7 +157,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -178,10 +178,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
                 "date": "Dimarts 10 de novembre (17:30-19:30 h)"
-            },
-            {
-                "title": "Setmana de l'Àlbum 2026. La festa d'en Grill: una col·lecció de grills (De 4 a 8 anys).",
-                "date": "Dilluns 9 de novembre (17:30-19:00 h)"
             },
             {
                 "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
@@ -427,11 +423,15 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 7,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 23 de desembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 24 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura Llegir en comunitat",
+                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 16 de novembre (18:30-20:00 h) | Dilluns 18 de gener (18:30-20:00 h) | Dilluns 15 de febrer (18:30-20:00 h) | Dilluns 15 de març (18:30-20:00 h) | Dilluns 19 d'abril (18:30-20:00 h) | Dilluns 17 de maig (18:30-20:00 h)"
             },
             {
                 "title": "Club de lectura de còmic",
@@ -830,7 +830,7 @@ const coursesData = [
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -843,10 +843,6 @@ const coursesData = [
             {
                 "title": "Club puntual Teatre Lliure - L'Herència.",
                 "date": "Diumenge 22 de novembre (16:00-20:30 h) | Dilluns 30 de novembre (18:30-20:30 h)"
-            },
-            {
-                "title": "Setmana de l'Àlbum 2026. Mini arquitectes (+5 anys).",
-                "date": "Dilluns 9 de novembre (18:00-19:30 h)"
             }
         ]
     },
@@ -1107,7 +1103,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 10,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
@@ -1144,10 +1140,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual: Negra i criminal.",
                 "date": "Divendres 23 d'octubre (18:30-20:00 h) | Divendres 13 de novembre (18:30-20:00 h) | Divendres 11 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Relats Brodats",
-                "date": "Dilluns 9 de novembre (16:00-16:00 h)"
             }
         ]
     },
