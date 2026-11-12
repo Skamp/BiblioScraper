@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-11T15:44:19.471023';
+const scrapeTimestamp = '2026-11-12T16:28:53.714398';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,7 +37,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 13,
+        "courses_found": 14,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -90,6 +90,10 @@ const coursesData = [
             {
                 "title": "FM Taller familiar de ceràmica de creació de testos (+6 anys)",
                 "date": "Divendres 13 de novembre (17:30-19:00 h)"
+            },
+            {
+                "title": "FM Taller de costura bàsica, creació d'una bossa de mà",
+                "date": "Dijous 10 de desembre (16:30-19:30 h) | Divendres 11 de desembre (16:30-19:30 h) | Dilluns 14 de desembre (16:30-19:30 h) | Dimarts 15 de desembre (16:30-19:30 h)"
             }
         ]
     },
@@ -130,12 +134,8 @@ const coursesData = [
     {
         "library_id": "40",
         "library_name": "Biblioteca Collserola - Josep Miracle",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
-                "date": "Dimecres 11 de novembre (17:30-19:30 h)"
-            },
             {
                 "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
                 "date": "Dimecres 18 de novembre (17:30-19:30 h)"
@@ -153,7 +153,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 10,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -194,6 +194,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
                 "date": "Divendres 18 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Literatura en Trànsit. Itineraris literaris als parcs.  Passeig pel Turó del Carmel",
+                "date": "Diumenge 13 de desembre (11:00-12:30 h)"
             }
         ]
     },
@@ -262,7 +266,7 @@ const coursesData = [
     {
         "library_id": "4",
         "library_name": "Biblioteca Fort Pienc  Ana María Moix",
-        "courses_found": 4,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. Literatura i arquitectura",
@@ -279,6 +283,10 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 16 d'octubre (10:30-11:30 h) | Divendres 20 de novembre (10:30-11:30 h) | Divendres 18 de desembre (10:30-11:30 h) | Divendres 15 de gener (10:30-11:30 h) | Divendres 19 de febrer (10:30-11:30 h) | Divendres 19 de març (10:30-11:30 h) | Divendres 16 d'abril (10:30-11:30 h) | Divendres 21 de maig (10:30-11:30 h) | Divendres 18 de juny (10:30-11:30 h)"
+            },
+            {
+                "title": "PANOT DE NADAL AMB ARQUICOSTURA",
+                "date": "Dijous 26 de novembre (10:00-13:00 h)"
             }
         ]
     },
@@ -415,7 +423,7 @@ const coursesData = [
     {
         "library_id": "20",
         "library_name": "Biblioteca Ignasi Iglésias-Can Fabra",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -444,10 +452,6 @@ const coursesData = [
             {
                 "title": "Club de lectura protagonista jove.",
                 "date": "Dimarts 13 d'octubre (18:30-19:30 h) | Dimarts 17 de novembre (18:30-19:30 h) | Dimarts 19 de gener (18:30-19:30 h) | Dimarts 16 de febrer (18:30-19:30 h) | Dimarts 13 d'abril (18:30-19:30 h)"
-            },
-            {
-                "title": "Tallers Premis Junceda 2025. Retrat emmirallat. (6 a 10 anys)",
-                "date": "Dimecres 11 de novembre (17:30-18:30 h)"
             }
         ]
     },
@@ -573,7 +577,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 8,
+        "courses_found": 9,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -606,6 +610,10 @@ const coursesData = [
             {
                 "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
                 "date": "Divendres 11 de desembre (17:30-19:30 h)"
+            },
+            {
+                "title": "Literatura en Trànsit. Itineraris literaris als parcs.  Passeig per la Vall dHebron / la Clota",
+                "date": "Dissabte 12 de desembre (11:00-12:30 h)"
             }
         ]
     },
@@ -655,7 +663,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 11,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mitjà)",
@@ -700,6 +708,14 @@ const coursesData = [
             {
                 "title": "Lletra petita  Llibres a escena. Contes amb corona: Romeu i Julieta (+4 anys)",
                 "date": "Dissabte 14 de novembre (12:00-13:00 h)"
+            },
+            {
+                "title": "Lletra Petita  Tallers de Descoberta - Fem un guarniment nadalenc (4 a 9 anys)",
+                "date": "Divendres 18 de desembre (17:30-19:00 h)"
+            },
+            {
+                "title": "Lletra petita  Sac de Rondalles - La Filomena busca el Tió (6 mesos a 3 anys)",
+                "date": "Dimecres 9 de desembre (17:30-18:30 h)"
             }
         ]
     },
