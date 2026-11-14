@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-13T15:49:46.352671';
+const scrapeTimestamp = '2026-11-14T14:41:09.466240';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,7 +37,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 14,
+        "courses_found": 13,
         "courses": [
             {
                 "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
@@ -86,10 +86,6 @@ const coursesData = [
             {
                 "title": "Narració de contes del bressol a la lluna",
                 "date": "Dissabte 14 de novembre (12:00-13:00 h)"
-            },
-            {
-                "title": "FM Taller familiar de ceràmica de creació de testos (+6 anys)",
-                "date": "Divendres 13 de novembre (17:30-19:00 h)"
             },
             {
                 "title": "FM Taller de costura bàsica, creació d'una bossa de mà",
@@ -335,12 +331,8 @@ const coursesData = [
     {
         "library_id": "46",
         "library_name": "Biblioteca Gabriel García Márquez",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "Club de lectura Internacional Barcelona-Medellín",
-                "date": "Dissabte 11 d'abril (18:00-19:30 h) | Dissabte 9 de maig (18:00-19:30 h) | Dissabte 13 de juny (18:00-19:30 h) | Dissabte 11 de juliol (18:00-19:30 h) | Dissabte 19 de setembre (18:00-19:30 h) | Dissabte 17 d'octubre (18:00-19:30 h) | Dissabte 14 de novembre (18:00-19:30 h)"
-            },
             {
                 "title": "Club de lectura de literatura llatinoamericana del segle XXI",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 11 de març (18:30-20:00 h) | Dijous 8 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
@@ -573,7 +565,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -586,10 +578,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Exploradors del cel, crea la teva constel·lació! (6 a 8 anys)",
-                "date": "Divendres 13 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -659,7 +647,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 13,
+        "courses_found": 12,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mitjà)",
@@ -688,10 +676,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell superior)",
                 "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Obrador. Taller de narració de contes i altres secrets",
-                "date": "Divendres 13 de novembre (18:00-20:00 h) | Divendres 20 de novembre (18:00-20:00 h) | Divendres 27 de novembre (18:00-20:00 h) | Divendres 4 de desembre (18:00-20:00 h)"
             },
             {
                 "title": "Llibres a escena. Sac de Rondalles. Un concert de pel.lícula (+4 anys)",
@@ -1136,12 +1120,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
-            {
-                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
-                "date": "Divendres 13 de novembre (17:00-19:00 h)"
-            },
             {
                 "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
                 "date": "Divendres 20 de novembre (17:00-19:00 h)"
