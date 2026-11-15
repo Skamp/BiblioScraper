@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-14T14:41:09.466240';
+const scrapeTimestamp = '2026-11-15T15:09:34.329743';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,12 +37,8 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 13,
+        "courses_found": 10,
         "courses": [
-            {
-                "title": "Sant Martí barri a barri. Fet al Camp de lArpa.",
-                "date": "Dissabte 14 de novembre (10:00-13:00 h)"
-            },
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 28 d'octubre (18:30-19:30 h) | Dimecres 25 de novembre (18:30-19:30 h) | Dimecres 27 de gener (18:30-19:30 h) | Dimecres 24 de febrer (18:30-19:30 h) | Dimecres 31 de març (18:30-19:30 h) | Dimecres 28 d'abril (18:30-19:30 h) | Dimecres 26 de maig (18:30-19:30 h)"
@@ -64,10 +60,6 @@ const coursesData = [
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
             },
             {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Dissabte 14 de novembre (11:00-13:00 h)"
-            },
-            {
                 "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
                 "date": "Dissabte 21 de novembre (11:00-13:00 h)"
             },
@@ -82,10 +74,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
                 "date": "Dissabte 19 de desembre (11:00-13:00 h)"
-            },
-            {
-                "title": "Narració de contes del bressol a la lluna",
-                "date": "Dissabte 14 de novembre (12:00-13:00 h)"
             },
             {
                 "title": "FM Taller de costura bàsica, creació d'una bossa de mà",
@@ -296,15 +284,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
-                "date": "Dissabte 14 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
@@ -481,7 +465,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -498,10 +482,6 @@ const coursesData = [
             {
                 "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
-            },
-            {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Dissabte 14 de novembre (10:00-12:00 h)"
             },
             {
                 "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
@@ -647,7 +627,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mitjà)",
@@ -684,10 +664,6 @@ const coursesData = [
             {
                 "title": "Lletra petita. El racó dels pares. Sessió de música en família (1 a 3 anys)",
                 "date": "Dimecres 2 de desembre (11:00-12:00 h)"
-            },
-            {
-                "title": "Lletra petita  Llibres a escena. Contes amb corona: Romeu i Julieta (+4 anys)",
-                "date": "Dissabte 14 de novembre (12:00-13:00 h)"
             },
             {
                 "title": "Lletra Petita  Tallers de Descoberta - Fem un guarniment nadalenc (4 a 9 anys)",
@@ -952,7 +928,7 @@ const coursesData = [
     {
         "library_id": "31",
         "library_name": "Biblioteca Vallcarca i els Penitents",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -961,10 +937,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 28 d'octubre (18:30-20:00 h) | Dimecres 25 de novembre (18:30-20:00 h) | Dimecres 27 de gener (18:30-20:00 h) | Dimecres 24 de febrer (18:30-20:00 h) | Dimecres 31 de març (18:30-20:00 h) | Dimecres 28 d'abril (18:30-20:00 h) | Dimecres 26 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura Teatre Lliure. Júlia  15 anys més tard.",
-                "date": "Dissabte 14 de novembre (17:00-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h)"
             }
         ]
     },
