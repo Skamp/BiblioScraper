@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-15T15:09:34.329743';
+const scrapeTimestamp = '2026-11-16T17:43:25.737705';
 const coursesData = [
     {
         "library_id": "1",
@@ -184,7 +184,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -205,10 +205,6 @@ const coursesData = [
             {
                 "title": "Passem a lacció: lassaig general",
                 "date": "Divendres 20 de novembre (10:00-12:00 h)"
-            },
-            {
-                "title": "Els reptes de ledició independent",
-                "date": "Dilluns 19 d'octubre (18:30-20:00 h) | Dilluns 26 d'octubre (18:30-20:00 h) | Dilluns 2 de novembre (18:30-20:00 h) | Dilluns 9 de novembre (18:30-20:00 h) | Dilluns 16 de novembre (18:30-20:00 h)"
             },
             {
                 "title": "Maleïda tardor, maleïts còmics!",
