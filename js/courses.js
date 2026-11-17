@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-16T17:43:25.737705';
+const scrapeTimestamp = '2026-11-17T17:15:36.988199';
 const coursesData = [
     {
         "library_id": "1",
@@ -870,12 +870,8 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
-            {
-                "title": "Club de lectura puntual. Música i literatura",
-                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dimarts 17 de novembre (18:30-20:00 h)"
-            },
             {
                 "title": "Club de lectura de novel·la històrica",
                 "date": "Dimecres 14 d'octubre (11:00-12:30 h) | Dimecres 11 de novembre (11:00-12:30 h) | Dimecres 9 de desembre (11:00-12:30 h) | Dimecres 13 de gener (11:00-12:30 h) | Dimecres 10 de febrer (11:00-12:30 h) | Dimecres 10 de març (11:00-12:30 h) | Dimecres 14 d'abril (11:00-12:30 h)"
