@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-17T17:15:36.988199';
+const scrapeTimestamp = '2026-11-18T16:51:18.360299';
 const coursesData = [
     {
         "library_id": "1",
@@ -133,7 +133,7 @@ const coursesData = [
     {
         "library_id": "13",
         "library_name": "Biblioteca El Carmel-Juan Marsé",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de novel·la barcelonina",
@@ -154,10 +154,6 @@ const coursesData = [
             {
                 "title": "Espai Steam. Descobreix la impressió 3D (9-14 anys)",
                 "date": "Dijous 5 de novembre (17:30-19:00 h) | Dijous 12 de novembre (17:30-19:00 h) | Dijous 19 de novembre (17:30-19:00 h)"
-            },
-            {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Dimarts 17 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
@@ -184,7 +180,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -205,10 +201,6 @@ const coursesData = [
             {
                 "title": "Passem a lacció: lassaig general",
                 "date": "Divendres 20 de novembre (10:00-12:00 h)"
-            },
-            {
-                "title": "Maleïda tardor, maleïts còmics!",
-                "date": "Dimarts 17 de novembre (18:30-20:00 h)"
             }
         ]
     },
@@ -693,7 +685,7 @@ const coursesData = [
     {
         "library_id": "24",
         "library_name": "Biblioteca Poblenou-Manuel Arranz",
-        "courses_found": 9,
+        "courses_found": 8,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
@@ -714,10 +706,6 @@ const coursesData = [
             {
                 "title": "Atreveix-te amb els llibres. Club de lectura infantil",
                 "date": "Divendres 2 d'octubre (17:30-18:30 h) | Divendres 6 de novembre (17:30-18:30 h) | Divendres 8 de gener (17:30-18:30 h) | Divendres 5 de febrer (17:30-18:30 h) | Divendres 5 de març (17:30-18:30 h) | Divendres 2 d'abril (17:30-18:30 h) | Divendres 7 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
-                "date": "Dimarts 17 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
@@ -935,7 +923,7 @@ const coursesData = [
     {
         "library_id": "9",
         "library_name": "Biblioteca Vapor Vell",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -948,10 +936,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua anglesa",
                 "date": "Dimecres 21 d'octubre (19:00-20:30 h) | Dimecres 18 de novembre (19:00-20:30 h) | Dimecres 20 de gener (19:00-20:30 h) | Dimecres 17 de febrer (19:00-20:30 h) | Dimecres 17 de març (19:00-20:30 h) | Dimecres 21 d'abril (19:00-20:30 h) | Dimecres 19 de maig (19:00-20:30 h)"
-            },
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Dimarts 17 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
