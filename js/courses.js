@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-19T16:58:25.264069';
+const scrapeTimestamp = '2026-11-20T16:32:19.368527';
 const coursesData = [
     {
         "library_id": "1",
@@ -1015,7 +1015,7 @@ const coursesData = [
     {
         "library_id": "26",
         "library_name": "Biblioteca Zona Nord - Mària Sánchez",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura fàcil en castellà",
@@ -1024,10 +1024,6 @@ const coursesData = [
             {
                 "title": "Espai Gent gran",
                 "date": "Dilluns 7 de setembre (18:00-19:00 h) | Dilluns 14 de setembre (18:00-19:00 h) | Dilluns 21 de setembre (18:00-19:00 h) | Dilluns 28 de setembre (18:00-19:00 h) | Dilluns 5 d'octubre (18:00-19:00 h) | Dilluns 19 d'octubre (18:00-19:00 h) | Dilluns 26 d'octubre (18:00-19:00 h) | Dilluns 2 de novembre (18:00-19:00 h) | Dilluns 9 de novembre (18:00-19:00 h) | Dilluns 16 de novembre (18:00-19:00 h) | Dilluns 23 de novembre (18:00-19:00 h) | Dilluns 30 de novembre (18:00-19:00 h) | Dilluns 14 de desembre (18:00-19:00 h) | Dilluns 11 de gener (18:00-19:00 h) | Dilluns 18 de gener (18:00-19:00 h) | Dilluns 25 de gener (18:00-19:00 h) | Dilluns 1 de febrer (18:00-19:00 h) | Dilluns 8 de febrer (18:00-19:00 h) | Dilluns 15 de febrer (18:00-19:00 h) | Dilluns 22 de febrer (18:00-19:00 h) | Dilluns 1 de març (18:00-19:00 h) | Dilluns 8 de març (18:00-19:00 h) | Dilluns 15 de març (18:00-19:00 h) | Dilluns 5 d'abril (18:00-19:00 h) | Dilluns 12 d'abril (18:00-19:00 h) | Dilluns 19 d'abril (18:00-19:00 h) | Dilluns 26 d'abril (18:00-19:00 h) | Dilluns 3 de maig (18:00-19:00 h) | Dilluns 10 de maig (18:00-19:00 h) | Dilluns 17 de maig (18:00-19:00 h) | Dilluns 24 de maig (18:00-19:00 h) | Dilluns 31 de maig (18:00-19:00 h) | Dilluns 7 de juny (18:00-19:00 h) | Dilluns 14 de juny (18:00-19:00 h) | Dilluns 28 de juny (18:00-19:00 h)"
-            },
-            {
-                "title": "EstàsOn - Les científiques canvien el món! (9 a 12 anys)",
-                "date": "Dijous 19 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Laventura del mag Martí (6 a 8 anys)",
