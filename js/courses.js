@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-20T16:32:19.368527';
+const scrapeTimestamp = '2026-11-21T15:50:29.524010';
 const coursesData = [
     {
         "library_id": "1",
@@ -180,7 +180,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -197,10 +197,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Passem a lacció: lassaig general",
-                "date": "Divendres 20 de novembre (10:00-12:00 h)"
             }
         ]
     },
@@ -533,7 +529,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 8,
+        "courses_found": 7,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -546,10 +542,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
-                "date": "Divendres 20 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
@@ -854,7 +846,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -867,10 +859,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 9 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
-            },
-            {
-                "title": "Booklife. Taller de biblioteràpia. Desamor",
-                "date": "Divendres 20 de novembre (11:00-12:30 h)"
             },
             {
                 "title": "Una finestra a la memòria",
@@ -1052,12 +1040,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
-            {
-                "title": "EstàsOn - Descobrim la taula periòdica (9 a 12 anys)",
-                "date": "Divendres 20 de novembre (17:00-19:00 h)"
-            },
             {
                 "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
                 "date": "Divendres 27 de novembre (17:00-19:00 h)"
