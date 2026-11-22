@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-21T15:50:29.524010';
+const scrapeTimestamp = '2026-11-22T15:49:36.604261';
 const coursesData = [
     {
         "library_id": "1",
@@ -37,7 +37,7 @@ const coursesData = [
     {
         "library_id": "34",
         "library_name": "Biblioteca Camp de l'Arpa - Caterina Albert",
-        "courses_found": 12,
+        "courses_found": 11,
         "courses": [
             {
                 "title": "Club de lectura de llengua anglesa",
@@ -58,10 +58,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de Còmic infantil (9-12 anys)",
                 "date": "Dilluns 19 d'octubre (17:30-18:30 h) | Dilluns 16 de novembre (17:30-18:30 h) | Dilluns 18 de gener (17:30-18:30 h) | Dilluns 15 de febrer (17:30-18:30 h) | Dilluns 15 de març (17:30-18:30 h) | Dilluns 19 d'abril (17:30-18:30 h) | Dilluns 17 de maig (17:30-18:30 h)"
-            },
-            {
-                "title": "EstàsOn - Investigadores del mar! (6 a 8 anys)",
-                "date": "Dissabte 21 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
@@ -180,15 +176,11 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "Sant Martí barri a barri. Fet al Clot",
-                "date": "Dissabte 21 de novembre (10:00-13:00 h)"
             },
             {
                 "title": "Club de lectura llegir el teatre",
@@ -268,15 +260,11 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
                 "date": "Dijous 1 d'octubre (18:30-20:00 h) | Dijous 5 de novembre (18:30-20:00 h) | Dijous 3 de desembre (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
-                "date": "Dissabte 21 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
@@ -449,7 +437,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -468,10 +456,6 @@ const coursesData = [
                 "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
             },
             {
-                "title": "EstàsOn - Pintant la Història amb ciència  (6 a 8 anys)",
-                "date": "Dissabte 21 de novembre (10:00-12:00 h)"
-            },
-            {
                 "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
                 "date": "Dissabte 28 de novembre (10:00-12:00 h)"
             }
@@ -480,7 +464,7 @@ const coursesData = [
     {
         "library_id": "25",
         "library_name": "Biblioteca La Sagrera-Marina Clotet",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
             {
                 "title": "Club de lectura general.",
@@ -493,10 +477,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Dimecres 7 d'octubre (18:30-19:30 h) | Dimecres 4 de novembre (18:30-19:30 h) | Dimecres 2 de desembre (18:30-19:30 h) | Dimecres 13 de gener (18:30-19:30 h) | Dimecres 3 de febrer (18:30-19:30 h) | Dimecres 3 de març (18:30-19:30 h) | Dimecres 7 d'abril (18:30-19:30 h) | Dimecres 5 de maig (18:30-19:30 h) | Dimecres 2 de juny (18:30-19:30 h)"
-            },
-            {
-                "title": "Taller de creació sonora. Sonoritzar un còmic.",
-                "date": "Dissabte 21 de novembre (11:00-13:00 h)"
             }
         ]
     },
