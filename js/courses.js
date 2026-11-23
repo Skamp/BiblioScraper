@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-22T15:49:36.604261';
+const scrapeTimestamp = '2026-11-23T19:42:15.125128';
 const coursesData = [
     {
         "library_id": "1",
@@ -738,7 +738,7 @@ const coursesData = [
     {
         "library_id": "6",
         "library_name": "Biblioteca Sant Antoni-Joan Oliver",
-        "courses_found": 3,
+        "courses_found": 2,
         "courses": [
             {
                 "title": "Club de lectura de novel·la negra",
@@ -747,10 +747,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimarts 27 d'octubre (18:30-20:00 h) | Dimarts 24 de novembre (18:30-20:00 h) | Dimarts 26 de gener (18:30-20:00 h) | Dimarts 23 de febrer (18:30-20:00 h) | Dimarts 30 de març (18:30-20:00 h) | Dimarts 27 d'abril (18:30-20:00 h) | Dimarts 25 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Club puntual Teatre Lliure - L'Herència.",
-                "date": "Diumenge 22 de novembre (16:00-20:30 h) | Dilluns 30 de novembre (18:30-20:30 h)"
             }
         ]
     },
