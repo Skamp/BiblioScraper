@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-23T19:42:15.125128';
+const scrapeTimestamp = '2026-11-24T19:15:24.840338';
 const coursesData = [
     {
         "library_id": "1",
@@ -176,7 +176,7 @@ const coursesData = [
     {
         "library_id": "35",
         "library_name": "Biblioteca El Clot - Josep Benet",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. El dol i l'elaboració de la pèrdua.",
@@ -189,6 +189,10 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura puntual. Petites editorials, grans projectes (2026-27)",
+                "date": "Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
             }
         ]
     },
@@ -260,7 +264,7 @@ const coursesData = [
     {
         "library_id": "2",
         "library_name": "Biblioteca Francesca Bonnemaison",
-        "courses_found": 5,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. Terror en femení.",
@@ -269,10 +273,6 @@ const coursesData = [
             {
                 "title": "EstàsOn - Dins lunivers explorant estrelles i galàxies! (9 a 12 anys)",
                 "date": "Dissabte 28 de novembre (11:00-13:00 h)"
-            },
-            {
-                "title": "Taller de brodat 25N",
-                "date": "Dilluns 23 de novembre (18:00-20:00 h)"
             },
             {
                 "title": "Taller de collage brodat 25N",
@@ -638,7 +638,7 @@ const coursesData = [
     {
         "library_id": "8",
         "library_name": "Biblioteca Poble-sec Francesc Boix",
-        "courses_found": 3,
+        "courses_found": 4,
         "courses": [
             {
                 "title": "Club de lectura puntual. Veus del Mediterrani, de la costa catalana a Grècia",
@@ -651,6 +651,10 @@ const coursesData = [
             {
                 "title": "Club de lectura feminista: Atrapades en si mateixes",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h)"
+            },
+            {
+                "title": "Club de lectura Teatre Lliure. Drama romàntic",
+                "date": "Dissabte 13 de febrer (17:00-19:00 h) | Dimarts 2 de març (18:30-20:00 h)"
             }
         ]
     },
