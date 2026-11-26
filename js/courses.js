@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-25T18:19:04.532336';
+const scrapeTimestamp = '2026-11-26T18:03:51.621637';
 const coursesData = [
     {
         "library_id": "1",
@@ -398,7 +398,7 @@ const coursesData = [
     {
         "library_id": "11",
         "library_name": "Biblioteca Jaume Fuster",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura infantil. Còmic debat",
@@ -423,10 +423,6 @@ const coursesData = [
             {
                 "title": "Club de lectura puntual. Lectures de Japó i Corea",
                 "date": "Dijous 8 d'abril (18:30-20:00 h) | Dijous 6 de maig (18:30-20:00 h) | Dijous 3 de juny (18:30-20:00 h)"
-            },
-            {
-                "title": "Club de lectura puntual. Literatura italiana",
-                "date": "Dimarts 20 d'octubre (18:30-20:00 h) | Dijous 26 de novembre (18:30-20:00 h)"
             }
         ]
     },
@@ -587,7 +583,7 @@ const coursesData = [
     {
         "library_id": "18",
         "library_name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
-        "courses_found": 11,
+        "courses_found": 10,
         "courses": [
             {
                 "title": "Club de lectura de llengua catalana (nivell mitjà)",
@@ -616,10 +612,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell superior)",
                 "date": "Dilluns 5 d'octubre (18:30-19:30 h) | Dilluns 9 de novembre (18:30-19:30 h) | Dilluns 11 de gener (18:30-19:30 h) | Dilluns 8 de febrer (18:30-19:30 h) | Dilluns 8 de març (18:30-19:30 h) | Dilluns 12 d'abril (18:30-19:30 h) | Dilluns 10 de maig (18:30-19:30 h)"
-            },
-            {
-                "title": "Llibres a escena. Sac de Rondalles. Un concert de pel.lícula (+4 anys)",
-                "date": "Dimecres 25 de novembre (17:30-18:30 h)"
             },
             {
                 "title": "Lletra petita. El racó dels pares. Sessió de música en família (1 a 3 anys)",
@@ -791,7 +783,7 @@ const coursesData = [
     {
         "library_id": "47",
         "library_name": "Biblioteca Sarrià  J. V. Foix",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. Tres mirades, una llengua: Arderiu, Bonet i Foix.",
@@ -808,10 +800,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dijous 8 d'octubre (18:30-20:00 h) | Dijous 12 de novembre (18:30-20:00 h) | Dijous 10 de desembre (18:30-20:00 h) | Dijous 11 de febrer (18:30-20:00 h) | Dijous 4 de març (18:30-20:00 h) | Dijous 15 d'abril (18:30-20:00 h) | Dijous 13 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
-                "date": "Dimecres 25 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
@@ -841,12 +829,12 @@ const coursesData = [
                 "date": "Divendres 27 de novembre (11:00-12:30 h)"
             },
             {
-                "title": "EstàsOn - Experimentem amb l'aerodinàmica (6 a 8 anys)",
-                "date": "Dimecres 25 de novembre (17:30-19:30 h)"
-            },
-            {
                 "title": "Lletra petita. Llibres a escena. El cargol i lherba de poniol",
                 "date": "Dijous 17 de desembre (17:30-18:30 h)"
+            },
+            {
+                "title": "Vine i llegeix amb mi, a la biblioteca em trobaràs! (de 6 a 12 anys)",
+                "date": "Dilluns 18 de gener (17:00-18:00 h) | Dilluns 25 de gener (17:00-18:00 h) | Dilluns 1 de febrer (17:00-18:00 h) | Dilluns 8 de febrer (17:00-18:00 h) | Dilluns 15 de febrer (17:00-18:00 h) | Dilluns 22 de febrer (17:00-18:00 h) | Dilluns 1 de març (17:00-18:00 h) | Dilluns 8 de març (17:00-18:00 h) | Dilluns 15 de març (17:00-18:00 h) | Dilluns 5 d'abril (17:00-18:00 h) | Dilluns 12 d'abril (17:00-18:00 h) | Dilluns 19 d'abril (17:00-18:00 h) | Dilluns 26 d'abril (17:00-18:00 h) | Dilluns 3 de maig (17:00-18:00 h) | Dilluns 10 de maig (17:00-18:00 h) | Dilluns 24 de maig (17:00-18:00 h) | Dilluns 31 de maig (17:00-18:00 h)"
             }
         ]
     },
