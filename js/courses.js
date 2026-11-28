@@ -1,4 +1,4 @@
-const scrapeTimestamp = '2026-11-27T17:45:39.285481';
+const scrapeTimestamp = '2026-11-28T16:31:25.039110';
 const coursesData = [
     {
         "library_id": "1",
@@ -421,7 +421,7 @@ const coursesData = [
     {
         "library_id": "42",
         "library_name": "Biblioteca Joan Miró",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura puntual. T'atreveixes amb Proust? (3a part)",
@@ -434,10 +434,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 21 d'octubre (18:30-20:00 h) | Dimecres 18 de novembre (18:30-20:00 h) | Dimecres 16 de desembre (18:30-20:00 h) | Dimecres 20 de gener (18:30-20:00 h) | Dimecres 17 de febrer (18:30-20:00 h) | Dimecres 17 de març (18:30-20:00 h) | Dimecres 21 d'abril (18:30-20:00 h) | Dimecres 19 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "Vols crear una novel·la visual des de zero? (+16 anys)",
-                "date": "Dissabte 26 de setembre (11:00-13:00 h) | Dissabte 3 d'octubre (11:00-13:00 h) | Dissabte 10 d'octubre (11:00-13:00 h) | Dissabte 17 d'octubre (11:00-13:00 h) | Dissabte 24 d'octubre (11:00-13:00 h) | Dissabte 31 d'octubre (11:00-13:00 h) | Dissabte 7 de novembre (11:00-13:00 h) | Dissabte 14 de novembre (11:00-13:00 h) | Dissabte 21 de novembre (11:00-13:00 h) | Dissabte 28 de novembre (11:00-13:00 h)"
             },
             {
                 "title": "EstàsOn - Descobrim les propietats dels material (9 a 12 anys)",
@@ -501,7 +497,7 @@ const coursesData = [
     {
         "library_id": "37",
         "library_name": "Biblioteca Montbau-Albert Pérez Baró",
-        "courses_found": 7,
+        "courses_found": 6,
         "courses": [
             {
                 "title": "Club de lectura puntual. 25 anys de Booket",
@@ -514,10 +510,6 @@ const coursesData = [
             {
                 "title": "Club de lectura general.",
                 "date": "Dimecres 14 d'octubre (18:30-20:00 h) | Dimecres 11 de novembre (18:30-20:00 h) | Dimecres 13 de gener (18:30-20:00 h) | Dimecres 10 de febrer (18:30-20:00 h) | Dimecres 10 de març (18:30-20:00 h) | Dimecres 14 d'abril (18:30-20:00 h) | Dimecres 12 de maig (18:30-20:00 h)"
-            },
-            {
-                "title": "EstàsOn - Desafiant la física (6 a 8 anys)",
-                "date": "Divendres 27 de novembre (17:30-19:30 h)"
             },
             {
                 "title": "EstàsOn - Simetria i reflexió, experimentem amb miralls! (9 a 12 anys)",
@@ -802,7 +794,7 @@ const coursesData = [
     {
         "library_id": "41",
         "library_name": "Biblioteca Sofia Barat",
-        "courses_found": 6,
+        "courses_found": 5,
         "courses": [
             {
                 "title": "Club de lectura de novel·la històrica",
@@ -815,10 +807,6 @@ const coursesData = [
             {
                 "title": "Club de lectura de llengua catalana (nivell bàsic)",
                 "date": "Divendres 9 d'octubre (11:00-12:00 h) | Divendres 13 de novembre (11:00-12:00 h) | Divendres 11 de desembre (11:00-12:00 h) | Divendres 8 de gener (11:00-12:00 h) | Divendres 12 de febrer (11:00-12:00 h) | Divendres 12 de març (11:00-12:00 h) | Divendres 9 d'abril (11:00-12:00 h) | Divendres 14 de maig (11:00-12:00 h) | Divendres 11 de juny (11:00-12:00 h)"
-            },
-            {
-                "title": "Una finestra a la memòria",
-                "date": "Divendres 27 de novembre (11:00-12:30 h)"
             },
             {
                 "title": "Lletra petita. Llibres a escena. El cargol i lherba de poniol",
@@ -996,12 +984,8 @@ const coursesData = [
     {
         "library_id": "48",
         "library_name": "Cibernàrium Nou Barris",
-        "courses_found": 4,
+        "courses_found": 3,
         "courses": [
-            {
-                "title": "EstàsOn - La música: de lona a loïda (6 a 8 anys)",
-                "date": "Divendres 27 de novembre (17:00-19:00 h)"
-            },
             {
                 "title": "EstàsOn - STEAM fantàstic (9 a 12 anys)",
                 "date": "Divendres 4 de desembre (17:00-19:00 h)"
